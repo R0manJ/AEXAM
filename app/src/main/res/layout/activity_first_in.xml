@@ -5,28 +5,38 @@
     android:padding="15dp"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <View
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="2"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="A+试题练习"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
         android:hint="Username here..."
+        android:background="@drawable/et_back"
         android:id="@+id/et_usrname"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal">
+        android:padding="15dp"
+        android:orientation="vertical">
         <Button
-            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bu_login"
+            android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:layout_weight="1"
             android:id="@+id/bu_login"/>
 
     </LinearLayout>
@@ -34,5 +44,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/producter"
+        android:gravity="center"/>
 
 </LinearLayout>

@@ -62,19 +62,26 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="horizontal">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="这题有问题"
+            android:id="@+id/bu_question"
+            android:background="@drawable/bu_question"/>
         <View
-            android:layout_weight="1"
-            android:layout_width="0dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
-            android:background="@color/correctNormal"
-            android:id="@+id/v_correct"/>
-        <View
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:background="@color/incorrectNormal"
-            android:id="@+id/v_incorrect"/>
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="添加到错题集"
+            android:id="@+id/bu_check"
+            android:background="@drawable/bu_check"/>
     </LinearLayout>
 
     </LinearLayout>

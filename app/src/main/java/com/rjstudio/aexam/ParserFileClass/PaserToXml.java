@@ -157,7 +157,7 @@ public class PaserToXml {
         //这个函数用于解析xml并保存对象
         try
         {
-            int recordeNumber = 0;
+            int recordeNumber = 1;
 
             String TAG  = "XML解析";
             File xmlFile = new File(context.getCacheDir()+"\\data\\OutputXml.xml");
@@ -176,7 +176,6 @@ public class PaserToXml {
             {
                 String nodeName = xmlPullPaser.getName();
                 // Log.d(TAG, "解析的节点:"+nodeName);
-                recordeNumber ++;
                 String SubjectContent = "x";
                 String A = "xx";
                 String B = null;
@@ -192,6 +191,7 @@ public class PaserToXml {
                         if ("subject".equals(nodeName))
                         {
                             subject = new Subject();
+                            subject.setSubjectNumber(recordeNumber++);
                         }
                         else if ("Title".equals(nodeName)) {
                             SubjectContent = xmlPullPaser.nextText();

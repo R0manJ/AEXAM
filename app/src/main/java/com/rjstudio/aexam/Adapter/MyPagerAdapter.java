@@ -2,7 +2,9 @@ package com.rjstudio.aexam.Adapter;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.annotation.IdRes;
 import android.support.v4.view.PagerAdapter;
@@ -36,13 +38,24 @@ public class MyPagerAdapter extends PagerAdapter {
         private List viewList;
         private SQLiteDatabase db;
         private String usrName;
+        private String isCorrect;
+        private SharedPreferences sp;
+        private SharedPreferences.Editor spe;
+        private RadioButton rb_1;
+        private RadioButton rb_2;
+        private RadioButton rb_3;
+        private RadioButton rb_4;
 
-        public MyPagerAdapter(List<Subject> dataList, Context context, SQLiteDatabase db,String usrname) {
+
+    public MyPagerAdapter(List<Subject> dataList, Context context, SQLiteDatabase db,String usrname) {
             this.dataList = dataList;
             this.context = context;
             this.db = db;
             this.usrName = usrname;
+            sp = context.getSharedPreferences("usrData",Context.MODE_PRIVATE);
+            spe = sp.edit();
             viewList = initializationView(dataList);
+
 
         }
 
@@ -50,60 +63,91 @@ public class MyPagerAdapter extends PagerAdapter {
         {
             List<View> mViewList =  new ArrayList<View>();
             View view =  null;
+
             for (int i = 0; i < dataList.size() ; i++)
             {
+                isCorrect = null;
                 view =  LayoutInflater.from(context).inflate(R.layout.vp_item_layout,null);
                 TextView tv_title = (TextView) view.findViewById(R.id.tv_subject);
                 RadioGroup rg_item = (RadioGroup)view.findViewById(R.id.rg_itemAnswer);
-                RadioButton rb_1 = (RadioButton)view.findViewById(R.id.rb_1);
-                RadioButton rb_2 = (RadioButton)view.findViewById(R.id.rb_2);
-                RadioButton rb_3 = (RadioButton)view.findViewById(R.id.rb_3);
-                RadioButton rb_4 = (RadioButton)view.findViewById(R.id.rb_4);
-                final View v_correct = (View)view.findViewById(R.id.v_correct);
-                final View v_incorrect = (View)view.findViewById(R.id.v_incorrect);
+                rb_1 = (RadioButton)view.findViewById(R.id.rb_1);
+                rb_2 = (RadioButton)view.findViewById(R.id.rb_2);
+                rb_3 = (RadioButton)view.findViewById(R.id.rb_3);
+                rb_4 = (RadioButton)view.findViewById(R.id.rb_4);
+
+
+
+                //如果之前存有数据,这一段逻辑时这样的
+                //读取之前的数据
+                String uAnswer = sp.getString(i+"-usrAnswer","");
+                switch (uAnswer)
+                {
+                    case "A":
+                        rb_1.setChecked(true);
+                        break;
+                    case "B":
+                        rb_2.setChecked(true);
+                        break;
+                    case "C":
+                        rb_3.setChecked(true);
+                        break;
+                    case "D":
+                        rb_4.setChecked(true);
+                        break;
+
+                }
+
+
                 final TextView tv_answer = (TextView)view.findViewById(R.id.tv_answer);
 
+
+
                 final Subject subject = dataList.get(i);
-                tv_title.setText(subject.getSubjectContent());
+                tv_title.setText(subject.getSubjectNumber()+"-"+subject.getSubjectContent());
+
+
                 rg_item.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                     @Override
                     public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
-                        String isCorrect = null;
+
+
                         switch (checkedId)
                         {
                             case R.id.rb_1:
                                 isCorrect = "A";
-//                                Toast.makeText(context, "A", Toast.LENGTH_SHORT).show();
                                 break;
                             case R.id.rb_2:
                                 isCorrect = "B";
-//                                Toast.makeText(context, "B", Toast.LENGTH_SHORT).show();
                                 break;
                             case R.id.rb_3:
                                 isCorrect = "C";
-//                                Toast.makeText(context, "C", Toast.LENGTH_SHORT).show();
                                 break;
                             case R.id.rb_4:
                                 isCorrect = "D";
-//                                Toast.makeText(context, "D", Toast.LENGTH_SHORT).show();
                                 break;
 
                         }
+
+                        spe.putString((subject.getSubjectNumber()-1)+"-"+"titleNumber",subject.getSubjectNumber()+"");
+                        spe.putString((subject.getSubjectNumber()-1)+"-"+"usrAnswer",isCorrect);
+
                         String content[] = subject.getAnswer().split("：");
                         String correctAnswer = content[1];
                         Log.d(TAG, "onCheckedChanged: +____+"+correctAnswer+"-"+isCorrect+"-"+correctAnswer);
                         if (isCorrect.equals(correctAnswer))
                         {
-                            Toast.makeText(context, "恭喜你,答对了", Toast.LENGTH_SHORT).show();
-                            v_correct.setBackgroundColor(context.getResources().getColor(R.color.correct));
+                            Toast.makeText(context, "(≧▽≦) 贼6,答对了", Toast.LENGTH_SHORT).show();
                             isCorrect = "1";
                         }
                         else
                         {
-                            Toast.makeText(context, "答错!", Toast.LENGTH_SHORT).show();
-                            v_incorrect.setBackgroundColor(context.getResources().getColor(R.color.incorrect));
+                            Toast.makeText(context, "辣鸡 ಥ_ಥ", Toast.LENGTH_SHORT).show();
                             isCorrect = "0";
                         }
+                        spe.putString((subject.getSubjectNumber()-1)+"-"+"isCorrect",isCorrect);
+                        spe.commit();
+
+
                         AlphaAnimation an = new AlphaAnimation(0f,1f);
                         an.setDuration(1000);
                         tv_answer.setAnimation(an);
@@ -141,6 +185,11 @@ public class MyPagerAdapter extends PagerAdapter {
         }
 
         @Override
+        public int getItemPosition(Object object) {
+            return super.getItemPosition(object);
+        }
+
+    @Override
         public Object instantiateItem(ViewGroup container, int position) {
             //  container.addView((View)viewList.get(position));
             // return viewList.get(position);
@@ -170,7 +219,6 @@ public class MyPagerAdapter extends PagerAdapter {
 
         @Override
         public void destroyItem(ViewGroup container, int position, Object object) {
-            //super.destroyItem(container, position, object);
             container.removeView((View)viewList.get(position));
         }
 
