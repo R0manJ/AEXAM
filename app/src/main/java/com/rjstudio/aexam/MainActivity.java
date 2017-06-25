@@ -1,135 +1,184 @@
 package com.rjstudio.aexam;
 
+import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 
+import com.rjstudio.aexam.Adapter.MyPagerAdapter;
 import com.rjstudio.aexam.ParserFileClass.PaserToXml;
+import com.rjstudio.aexam.ParserFileClass.Subject;
+import com.rjstudio.aexam.UsrInfo.UsrDBOpenHelper;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    private Intent intent;
+    private String usrName;
+    private SQLiteDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        try
-        {
-            paserToXml(getAssets().open("a.txt"));
 
-        }catch (Exception e)
-        {
 
-        }
+        initialization();
+
 
     }
 
-    //xml编码
-    public void paserToXml  (InputStream in)
-    {
-        String TAG = "paserToXml";
-        InputStreamReader isr = new InputStreamReader(in);
-        BufferedReader br = new BufferedReader(isr);
-        String content;
 
-        //输出文件部分
-        BufferedWriter bw;
-        File outputFile = new File(getCacheDir()+"\\data\\OutputXml.xml");
+
+    String TAG = "Error";
+    //初始化布局
+    //一个ViewPager
+    List<Subject> subjectList;
+    public void initialization()
+    {
+        intent = getIntent();
+        usrName = intent.getStringExtra("UsrName");
+        UsrDBOpenHelper dbOpenHelper = new UsrDBOpenHelper(this,usrName+"DB",null,1);
+        db = dbOpenHelper.getWritableDatabase();
+        ViewPager vp_content = (ViewPager)findViewById(R.id.vp_content);
+
+        //读取文件并解析文件
         try
         {
-            outputFile.createNewFile();
-            OutputStream op = new FileOutputStream(outputFile);
-            OutputStreamWriter osw = new OutputStreamWriter(op);
-            bw = new BufferedWriter(osw);
-
-            //读取文件部分
-            try {
-                
-                while ((content = br.readLine()) != null) {
-
-                    //Log.d(TAG, content);
-                    
-                    if (content.indexOf("、") != -1)
-                    {
-                        String split[] = content.split("、");
-                        split[0] = "<subject><Number>"+split[0]+"</Number>";
-                        bw.write(split[0]);
-                        split[1] =  "<Title>"+split[1]+"</Title>";
-                        bw.write(split[1]);
-                        Log.d(TAG, split[0]+"--"+split[1]);
-                    }
-                    
-                    if (content.split("RJ").length > 1)
-                    {
-                        String splitContent[] = content.split("RJ");
-                        if (splitContent[0].equals("A "))
-                        {
-                            splitContent[0] = "<item_A>"+splitContent[0]+"</item_A>";
-                            splitContent[1] = "<item_A_Content>"+splitContent[1]+"<i/tem_A_Content>";
-                            //Log.d(TAG, splitContent[0]);
-                        }
-                        else if (splitContent[0].equals("B "))
-                        {
-                            splitContent[0] = "<item_B>"+splitContent[0]+"</item_B>";
-                            splitContent[1] = "<item_B_Content>"+splitContent[1]+"<i/tem_B_Content>";
-                            //Log.d(TAG, splitContent[0]);
-                        }
-                        else if (splitContent[0].equals("C "))
-                        {
-                            splitContent[0] = "<item_C>"+splitContent[0]+"</item_C>";
-                            splitContent[1] = "<item_C_Content>"+splitContent[1]+"<i/tem_C_Content>";
-                            //Log.d(TAG, splitContent[0]);
-                        }
-                        else if (splitContent[0].equals("D "))
-                        {
-                            splitContent[0] = "<item_D>"+splitContent[0]+"</item_D>";
-                            splitContent[1] = "<item_D_Content>"+splitContent[1]+"<i/tem_D_Content>";
-                            //Log.d(TAG, splitContent[0]);
-                        }
-                        bw.write(splitContent[0]);
-                        bw.write(splitContent[1]);
-                        bw.newLine();
-                        Log.d(TAG, splitContent[0]+"-"+splitContent[1]);
-                    }
-
-                    if (content.split("答案").length > 1 )
-                    {
-                        String splitReasult[] ;
-                        splitReasult = content.split("答案");
-                        splitReasult[1] = "<answer>"+splitReasult[1]+"</answer></subject>";
-                        Log.d(TAG, "paserToXml: "+splitReasult[1]);
-                        bw.write(splitReasult[1]);
-                        bw.newLine();
-                    }
-                }
-                //写入完毕
-                //关闭输出流/输出流
-                bw.close();
-                br.close();
-            }
-            catch (Exception e)
-            {
-                Log.d(TAG, "读取失败");
-            }
+            PaserToXml px = new PaserToXml(getAssets().open("a.txt"),this);
+            subjectList = px.CreateAndSaveObject();
         }
         catch (Exception e)
         {
-            Log.d(TAG, "创建文件失败");
+            Log.d(TAG, "Can not open file.");
         }
+
+        MyPagerAdapter myPagerAdapter = new MyPagerAdapter(subjectList,this,db,usrName);
+        vp_content.setAdapter(myPagerAdapter);
+
 
 
     }
 
-    public void CreateAndSaveObject(File xmlFile)
+    //设置ViewPager适配器
+
+
+    public class MyFPagerAdapter extends FragmentPagerAdapter
     {
-        //这个函数用于解析xml并保存
+        @Override
+        public int getCount() {
+            return Integer.MAX_VALUE;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return super.getItemId(position);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public Object instantiateItem(ViewGroup container, int position) {
+            FragmentActivity fm = new FragmentActivity();
+            return fm;
+        }
+
+        public MyFPagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+    }
+
+
+    public class MyAdapter extends BaseAdapter{
+
+        private List<Subject> dataList;
+
+        public MyAdapter(List<Subject> dataList) {
+            this.dataList = dataList;
+        }
+
+        @Override
+        public int getCount() {
+            return Integer.MAX_VALUE;
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return position;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+           ViewHoler viewHolder ;
+            if (convertView == null)
+            {
+                convertView =  LayoutInflater.from(getApplicationContext()).inflate(R.layout.vp_item_layout,null);
+
+                TextView tv_title = (TextView) convertView.findViewById(R.id.tv_subject);
+                RadioGroup rg_item = (RadioGroup)convertView.findViewById(R.id.rg_itemAnswer);
+                RadioButton rb_1 = (RadioButton)convertView.findViewById(R.id.rb_1);
+                RadioButton rb_2 = (RadioButton)convertView.findViewById(R.id.rb_2);
+                RadioButton rb_3 = (RadioButton)convertView.findViewById(R.id.rb_3);
+                RadioButton rb_4 = (RadioButton)convertView.findViewById(R.id.rb_4);
+                TextView tv_answer = (TextView)convertView.findViewById(R.id.tv_answer);
+                viewHolder = new ViewHoler(tv_title,rg_item,rb_1,rb_2,rb_3,rb_4,tv_answer);
+                convertView.setTag(viewHolder);
+
+            }
+            else
+            {
+                viewHolder = (ViewHoler)convertView.getTag();
+            }
+
+            Subject subject = dataList.get(position);
+            viewHolder.tv_title.setText(subject.getSubjectContent());
+          //  viewHolder.rg_item.setOnCheckedChangeListener();
+            viewHolder.rb_1.setText(subject.getA());
+            viewHolder.rb_2.setText(subject.getB());
+            viewHolder.rb_3.setText(subject.getC());
+            viewHolder.rb_4.setText(subject.getD());
+            viewHolder.tv_answer.setText(subject.getAnswer());
+            return convertView;
+        }
+
+        class ViewHoler{
+            private TextView tv_title;
+            private RadioGroup rg_item;
+            private RadioButton rb_1;
+            private RadioButton rb_2;
+            private RadioButton rb_3;
+            private RadioButton rb_4;
+            private TextView tv_answer;
+
+            public ViewHoler(TextView tv,RadioGroup rg,RadioButton r1,RadioButton r2,RadioButton r3,RadioButton r4,TextView tva) {
+                tv_title = tv;
+                rg_item = rg;
+                rb_1 = r1;
+                rb_2 = r2;
+                rb_3 = r3;
+                rb_4 = r4;
+                tv_answer = tva;
+            }
+        }
     }
 }

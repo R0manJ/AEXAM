@@ -1,3541 +1,3541 @@
 <Documents>
 1、对CAT5e电缆线，使用下列那一种连接器？
-A RJ BNC
-B RJ SC
-C RJ RJ-11
-D RJ RJ-45
+A rJBNC
+B rJSC
+C rJRJ-11
+D rJRJ-45
 参考答案：D
 
 2、一台笔记本电脑在启动时，除了在某一斜角度可以看到一些影子外，整个屏幕都是黑色。调整亮度和对比度都无法解决问题。下列那一种是最有可能的原因？
-A RJ VGA显卡设备驱动错误
-B RJ 背光或变压器损坏
-C RJ ACPI电源管理设置出现错误
-D RJ CPU或VGA卡损坏
+A rJVGA显卡设备驱动错误
+B rJ背光或变压器损坏
+C rJACPI电源管理设置出现错误
+D rJCPU或VGA卡损坏
 参考答案：B
 
 3、从USB端口，退出一个已插入的硬设备，常常应该执行以下哪项操作？
-A RJ 添加或删除程序向导
-B RJ 单击鼠标右键并删除
-C RJ 直接拔出设备
-D RJ 删除硬件向导
+A rJ添加或删除程序向导
+B rJ单击鼠标右键并删除
+C rJ直接拔出设备
+D rJ删除硬件向导
 参考答案：D
 
 4、当一台笔记本电脑连接外部显示器时，连接电缆是正确插入，但没有图像显示。一名技术员首先应该检查的是？
-A RJ 在BIOS中，外部显示器被使能。
-B RJ 视频驱动被正确配置
-C RJ 外部显示器连接显示键被按下
-D RJ Windows没有被启动设置在VGA方式
+A rJ在BIOS中，外部显示器被使能。
+B rJ视频驱动被正确配置
+C rJ外部显示器连接显示键被按下
+D rJWindows没有被启动设置在VGA方式
 参考答案：C
 
 5、下列那一个是典型的存储固件？
-A RJ RAM
-B RJ CPU
-C RJ 硬盘
-D RJ ROM
+A rJRAM
+B rJCPU
+C rJ硬盘
+D rJROM
 参考答案：D
 
 6、为了保持存储的数据，下列那一个需要电源供给？
-A RJ ROM
-B RJ RAM
-C RJ 硬盘
-D RJ 软盘
+A rJROM
+B rJRAM
+C rJ硬盘
+D rJ软盘
 参考答案：B
 
 7、哪一个PC元件常常使用PGA、SEC和SEP封装形式？
-A RJ 网络适配器
-B RJ 主板
-C RJ 内存
-D RJ 处理器
+A rJ网络适配器
+B rJ主板
+C rJ内存
+D rJ处理器
 参考答案：D
 
 8、AGP是什么意思？
-A RJ 图像高级端口
-B RJ 异步游戏端口
-C RJ 图像加速端口
-D RJ 图像高级打印机
+A rJ图像高级端口
+B rJ异步游戏端口
+C rJ图像加速端口
+D rJ图像高级打印机
 参考答案：C
 
 9、在升级BIOS之前，最重要的要完成的步骤是什么？
-A RJ 关闭UBS（不间断电源）
-B RJ 对当前所有设置进行记录
-C RJ 拔去连接器
-D RJ 谢BIOS升级文件到软盘
+A rJ关闭UBS（不间断电源）
+B rJ对当前所有设置进行记录
+C rJ拔去连接器
+D rJ谢BIOS升级文件到软盘
 参考答案：B
 
 10、当对CPU安置一个散热风扇时，两者之间应该添加什么？
-A RJ 散热油脂
-B RJ 橡胶粘合剂
-C RJ 塑料板
-D RJ 塑料板
+A rJ散热油脂
+B rJ橡胶粘合剂
+C rJ塑料板
+D rJ塑料板
 参考答案：A
 
 11、需要多少DDR SDRAM DIMM必须被安装在奔腾4系统中才能创建一个"存储体"（bank）？
-A RJ 1 DIMM
-B RJ 2 DIMMs
-C RJ 4 DIMMs
-D RJ 奔腾4系统主板不支持DDR SDRAM
+A rJ1 DIMM
+B rJ2 DIMMs
+C rJ4 DIMMs
+D rJ奔腾4系统主板不支持DDR SDRAM
 参考答案：A
  
 12、下列那一个是通常用在10Base LAN（局域网）8芯的连接器？
-A RJ RJ-45
-B RJ RJ-11
-C RJ DB-9
-D RJ DB-25
+A rJRJ-45
+B rJRJ-11
+C rJDB-9
+D rJDB-25
 参考答案：A
  
 13、下列那一个标准正常传输速率到100Mbps，并且支持打63个设备？
-A RJ USB1.1
-B RJ USB2.0
-C RJ IEEE 1394
-D RJ 高端 SCSI2
+A rJUSB1.1
+B rJUSB2.0
+C rJIEEE 1394
+D rJ高端 SCSI2
 参考答案：C
  
 14、下列那一个I/O口，传输速率可设从一个时钟周期一位数据到115.2Kbps？
-A RJ 串口
-B RJ 并口
-C RJ USB口
-D RJ PS/2口
+A rJ串口
+B rJ并口
+C rJUSB口
+D rJPS/2口
 参考答案：A
  
 15、"火线"被定义那一个IEEE标准？
-A RJ 802.11b
-B RJ 807.2
-C RJ 1394
-D RJ 1284
+A rJ802.11b
+B rJ807.2
+C rJ1394
+D rJ1284
 参考答案：C
  
 16、在主总线上面已经安装了两个EIDE硬盘，在副总线上面已经安装了一个DVD光驱和一个CD刻录机？
-A RJ 用户需用一个有4个接口的cable线
-B RJ 因为主板只有2条总线，所以用户需要安装一个额外的控制卡
-C RJ 把所有设备转换为SCSI接口
-D RJ 去除这两个硬盘，在主总线上面安装一个新的硬盘
+A rJ用户需用一个有4个接口的cable线
+B rJ因为主板只有2条总线，所以用户需要安装一个额外的控制卡
+C rJ把所有设备转换为SCSI接口
+D rJ去除这两个硬盘，在主总线上面安装一个新的硬盘
 参考答案：B
  
 17、一个A+认证工程师要在一个控制器上面安装三个SCSI设备，那么将会出现什么结果？
-A RJ 停用第一个设备
-B RJ 停用最后一个设备
-C RJ 停用每个设备
-D RJ 不需要停用任何设备
+A rJ停用第一个设备
+B rJ停用最后一个设备
+C rJ停用每个设备
+D rJ不需要停用任何设备
 参考答案：B
  
 18、不包括适配器本身，Ultra2 Wide SCSI 总线能够安装多少个设备？
-A RJ 7
-B RJ 15
-C RJ 16
-D RJ 128
+A rJ7
+B rJ15
+C rJ16
+D rJ128
 参考答案：B
  
 19、Ultra 3 SCSI总线的最大传输数率是多大？
-A RJ 40Mbps
-B RJ 80Mbps
-C RJ 160Mbps
-D RJ 320Mbps
+A rJ40Mbps
+B rJ80Mbps
+C rJ160Mbps
+D rJ320Mbps
 参考答案：C
  
 20、一个工程师要在一台电脑主机上面安装两个显示器。没有另外的PCI和AGP接口了，他该怎么做？
-A RJ 加一个VGA卡
-B RJ  两个显示器不能安装到一个电脑主机上面
-C RJ 换一个有两个接口的视频卡
-D RJ 把第二个显示器插在第一个显示器上面
+A rJ加一个VGA卡
+B rJ 两个显示器不能安装到一个电脑主机上面
+C rJ换一个有两个接口的视频卡
+D rJ把第二个显示器插在第一个显示器上面
 参考答案：C
  
 21、一个工程师换了一个软驱，当系统启动的时候，工程师发现软驱的灯是亮的，但是系统不能读软驱中的数据，那么最有可能出什么问题？
-A RJ 驱动器坏了
-B RJ 电源没有连接好
-C RJ 驱动控制器坏了
-D RJ 数据线连接错误
+A rJ驱动器坏了
+B rJ电源没有连接好
+C rJ驱动控制器坏了
+D rJ数据线连接错误
 参考答案：D
  
 22、一个硬盘在BIOS里面显示是Primary slave ，原来是Primary Master，那么主要的原因可能是什么？
-A RJ 插在硬盘上面的线错了
-B RJ 硬盘上面的跳线没有设置对
-C RJ 硬盘插在错误的接口
-D RJ 硬盘坏了
+A rJ插在硬盘上面的线错了
+B rJ硬盘上面的跳线没有设置对
+C rJ硬盘插在错误的接口
+D rJ硬盘坏了
 参考答案：B
  
 23、一个用户抱怨鼠标运动急促而且很不稳定，那么很可能是什么原因造成的？
-A RJ 装了错误的鼠标驱动
-B RJ 鼠标坏了
-C RJ 一个程序占用了所有的系统资源
-D RJ 电源坏了
+A rJ装了错误的鼠标驱动
+B rJ鼠标坏了
+C rJ一个程序占用了所有的系统资源
+D rJ电源坏了
 参考答案：B
  
 24、在POST的时候，"201"错误是什么意义？
-A RJ CPU 错误
-B RJ 内存错误
-C RJ 视频问题
-D RJ 软驱错误
+A rJCPU 错误
+B rJ内存错误
+C rJ视频问题
+D rJ软驱错误
 参考答案：B
  
 25、一个用户抱怨没有网络连接，NIC（网络接口卡）测试没有问题，NIC显示没有指示灯亮，下面哪种工具可以确认网线或者接口是否是好的？
-A RJ 反射计
-B RJ 数字万用表
-C RJ 网线测量仪
-D RJ 示波器
+A rJ反射计
+B rJ数字万用表
+C rJ网线测量仪
+D rJ示波器
 参考答案：C
  
 26、用户报告说，当从网上下载一个程序后，电脑不能启动到windows，下面哪一个是最有可能造成这个的原因？
-A RJ modem错误
-B RJ 网络连接开着
-C RJ 文件有病毒
-D RJ 软件和系统不兼容
+A rJmodem错误
+B rJ网络连接开着
+C rJ文件有病毒
+D rJ软件和系统不兼容
 参考答案：D
  
 27、如何清洁CD-ROM 碟面？
-A RJ 圆形的擦磁盘
-B RJ 擦磁盘从中心到边缘
-C RJ 蘸一些清洁器擦，再等它干
-D RJ 在CD的属性菜单里面选择清洁模式
+A rJ圆形的擦磁盘
+B rJ擦磁盘从中心到边缘
+C rJ蘸一些清洁器擦，再等它干
+D rJ在CD的属性菜单里面选择清洁模式
 参考答案：B
  
 28、下面哪个设备不需要插入UPS电源？
-A RJ 显示器
-B RJ 激光打印机
-C RJ 喷墨打印机
-D RJ 外置modem
+A rJ显示器
+B rJ激光打印机
+C rJ喷墨打印机
+D rJ外置modem
 参考答案：B
  
 29、报废CRT显示器是一个棘手的问题，因为显示器中含有大量的哪种金属？
-A RJ 铅
-B RJ 铜
-C RJ 锡
-D RJ 铝
+A rJ铅
+B rJ铜
+C rJ锡
+D rJ铝
 参考答案：A
  
 30、有多少个pin连接到RIMM模块？
-A RJ 144
-B RJ 168
-C RJ 184
-D RJ 256
+A rJ144
+B rJ168
+C rJ184
+D rJ256
 参考答案：C
  
 31、在每个memory bank 需要几个168针的DIMM？
-A RJ 1
-B RJ 2
-C RJ 4
-D RJ 8
+A rJ1
+B rJ2
+C rJ4
+D rJ8
 参考答案：A
  
 32、在每个bank，需要装多少个RIMM模块？
-A RJ 4
-B RJ 3
-C RJ 2
-D RJ 1
+A rJ4
+B rJ3
+C rJ2
+D rJ1
 参考答案：C
  
 33、ATX电源能够提供多少电压？
-A RJ 1.2 伏
-B RJ 3.3 伏
-C RJ 5.7伏
-D RJ 7.3伏
+A rJ1.2 伏
+B rJ3.3 伏
+C rJ5.7伏
+D rJ7.3伏
 参考答案：B
  
 34、Slot A插槽的微处理器是？
-A RJ AMD K6
-B RJ Intel Pentium
-C RJ AMD Athlon
-D RJ Intel Pentium 3
+A rJAMD K6
+B rJIntel Pentium
+C rJAMD Athlon
+D rJIntel Pentium 3
 参考答案：C
  
 35、Windows 9x系统未能成功检测到新添加的设备，应该首先检查？
-A RJ 设备管理器分配的DMA号
-B RJ 控制面板中的PnP设置
-C RJ BIOS中有关 PnP的CMOS设置
-D RJ CMOS中有关PnP的BIOS设置
+A rJ设备管理器分配的DMA号
+B rJ控制面板中的PnP设置
+C rJBIOS中有关 PnP的CMOS设置
+D rJCMOS中有关PnP的BIOS设置
 参考答案：D
  
 36、以下哪种喷墨技术在喷墨时使用微电阻来加热？
-A RJ 热泡技术
-B RJ 静电
-C RJ 固态墨水
-D RJ 热升华
+A rJ热泡技术
+B rJ静电
+C rJ固态墨水
+D rJ热升华
 参考答案：A
  
 37、在打印过程中遇到了一个问题，打印纸从激光打印机出来后，纸上的颜色很容易被擦除掉，请问技师应该检查激光打印机的什么部件来解决问题？
-A RJ 硒鼓
-B RJ 定影单元
-C RJ 激光组件
-D RJ 传送带
+A rJ硒鼓
+B rJ定影单元
+C rJ激光组件
+D rJ传送带
 参考答案：B
  
 38、在激光打印机打印过程中，打印纸通过定影单元加热时，会出现以下什么固有的现象？
-A RJ 打印纸粘连
-B RJ 打印机卷曲
-C RJ 打印纸收缩
-D RJ 打印机起皱
+A rJ打印纸粘连
+B rJ打印机卷曲
+C rJ打印纸收缩
+D rJ打印机起皱
 参考答案：B
  
 39、为什么墨盒的使用规则要求人不得吸入碳粉？
-A RJ 因为它有毒
-B RJ 因为它有致癌物质
-C RJ 因为它是光敏的
-D RJ 因为它可能会引起上呼吸道不适
+A rJ因为它有毒
+B rJ因为它有致癌物质
+C rJ因为它是光敏的
+D rJ因为它可能会引起上呼吸道不适
 参考答案：D
  
 40、什么网络协议允许网络管理者在计算机启动时自动分配IP地址和其他信息？
-A RJ ARP
-B RJ BGP（边界网关协议）
-C RJ DHCP
-D RJ DNS
+A rJARP
+B rJBGP（边界网关协议）
+C rJDHCP
+D rJDNS
 参考答案：C
  
 41、以下哪一个地址包含在NIC（网卡）中？
-A RJ IP
-B RJ IPX
-C RJ NetBIOS
-D RJ MAC
+A rJIP
+B rJIPX
+C rJNetBIOS
+D rJMAC
 参考答案：D
  
 42、两台采用802.11b NIC（网卡）的计算机可以在_____状态下，不需要HUB来实现连接。？
-A RJ 红外
-B RJ WiFi
-C RJ 点对点
-D RJ 无线
+A rJ红外
+B rJWiFi
+C rJ点对点
+D rJ无线
 参考答案：C
  
 43、在无线技术中，WAP是什么意思？
-A RJ 无线接入点
-B RJ 无线应用端口
-C RJ 无线关联点
-D RJ 无线认证点
+A rJ无线接入点
+B rJ无线应用端口
+C rJ无线关联点
+D rJ无线认证点
 参考答案：A
  
 45、认下哪一个命令可用来显示当前文件夹的内容？
-A RJ XCOPY
-B RJ ATTRIB
-C RJ FORMAT
-D RJ DIR
+A rJXCOPY
+B rJATTRIB
+C rJFORMAT
+D rJDIR
 参考答案：D
  
 46、运行Windows XP的计算机有三个主分区，一个扩展分区。现在要增加一个分区，以下哪一类分区可使用磁盘管理工具来添加？
-A RJ 主分区
-B RJ 增强分区
-C RJ 扩展分区
-D RJ 逻辑分区
+A rJ主分区
+B rJ增强分区
+C rJ扩展分区
+D rJ逻辑分区
 参考答案：D
  
 47、在Windows XP中，以下哪一个方法可用于检查和增加虚拟存储器的数量？
-A RJ 开始 > 控制面板 > 系统　> 高级 > 性能设置 > 高级
-B RJ 开始 > 设置 > 任务栏和开始菜单
-C RJ 开始 > 我的网络位置 > 属性 > 本地域 > 本地连接 > 属性
-D RJ 开始 > 程序 > 附件　> 系统工具 > 磁盘整理
+A rJ开始 > 控制面板 > 系统　> 高级 > 性能设置 > 高级
+B rJ开始 > 设置 > 任务栏和开始菜单
+C rJ开始 > 我的网络位置 > 属性 > 本地域 > 本地连接 > 属性
+D rJ开始 > 程序 > 附件　> 系统工具 > 磁盘整理
 参考答案：A
  
 48、安装Windows 2000/XP的计算机在启动过程中，提示出错信息：NTLDR 丢失了，请按任意键重启。请问以下哪一项措施应该首先实施？
-A RJ 启动运行安装程序来重新安装Windows
-B RJ 通过启动CD运行恢复控制台，输入命令FIXMBR
-C RJ 通过启动CD运行恢复控制台，修改boot.ini中的配置
-D RJ 启动运行安装程序来删除Windows所在的分区
+A rJ启动运行安装程序来重新安装Windows
+B rJ通过启动CD运行恢复控制台，输入命令FIXMBR
+C rJ通过启动CD运行恢复控制台，修改boot.ini中的配置
+D rJ启动运行安装程序来删除Windows所在的分区
 参考答案：B
  
 49、在Windows XP中，以下哪一个命令会在恢复控制台使用来修复启动扇区？
-A RJ FORMAT
-B RJ FIXBOOT
-C RJ FIXMBR
-D RJ ATTRIB
+A rJFORMAT
+B rJFIXBOOT
+C rJFIXMBR
+D rJATTRIB
 参考答案：B
  
 50、以下RAID组提供了容错功能，除了:？
-A RJ RAID 0
-B RJ RAID 1
-C RJ RAID 5
-D RJ RAID 1 + 0
+A rJRAID 0
+B rJRAID 1
+C rJRAID 5
+D rJRAID 1 + 0
 参考答案：A
  
 51、对AMD Athlon CPU，对应插入下列那一个插口？
-A RJ Slot1
-B RJ SlotA
-C RJ Socket7
-D RJ Socket8
+A rJSlot1
+B rJSlotA
+C rJSocket7
+D rJSocket8
 参考答案：B
  
 52、从理论上讲，下列那一种连接最快？
-A RJ IrDA
-B RJ CAT5e电缆上，全双向以太网
-C RJ 单模态光纤
-D RJ 无线Wireless
+A rJIrDA
+B rJCAT5e电缆上，全双向以太网
+C rJ单模态光纤
+D rJ无线Wireless
 参考答案：D
  
 53、控制面板上的安全中心监控下列哪一组？
-A RJ 自动升级；防病毒；防木马
-B RJ 防火墙；自动升级；防病毒
-C RJ 防火墙；防病毒；注册表备份
-D RJ 注册表备份；Windows升级；防病毒
+A rJ自动升级；防病毒；防木马
+B rJ防火墙；自动升级；防病毒
+C rJ防火墙；防病毒；注册表备份
+D rJ注册表备份；Windows升级；防病毒
 参考答案：B
  
 54、一位不是专门处理收银工作的技术员被指派临时收银，有几位顾客在排队，突然一位顾客走上来要求提前立即先买单，技术员应该怎样做？
-A RJ 向其他顾客转动眼神，意识自己十分无奈，然后先处理这位着急的顾客
-B RJ 向这位顾客说明，自己十分愿意帮助他，但是必须按先后次序买单
-C RJ 向其他排队的顾客道歉，首先帮助这位顾客，然后再处理其他顾客
-D RJ 忽略这位顾客，继续按排队顺序处理顾客
+A rJ向其他顾客转动眼神，意识自己十分无奈，然后先处理这位着急的顾客
+B rJ向这位顾客说明，自己十分愿意帮助他，但是必须按先后次序买单
+C rJ向其他排队的顾客道歉，首先帮助这位顾客，然后再处理其他顾客
+D rJ忽略这位顾客，继续按排队顺序处理顾客
 参考答案：B
  
 55、在一个IDE硬件存储设备上，下列那一个是最小存储访问单元？
-A RJ trackj
-B RJ sector
-C RJ partition
-D RJ cylinder
+A rJtrackj
+B rJsector
+C rJpartition
+D rJcylinder
 参考答案：B
  
 56、什么原因造成IDE硬盘损害？
-A RJ 把IDE cable 连接到软驱上
-B RJ  连接IDE cable 错误
-C RJ 用一个Y 分离器分别是5v和12v电压
-D RJ 连接一个坏的电源，它12v电压的线上面只能输出5v电压
+A rJ把IDE cable 连接到软驱上
+B rJ 连接IDE cable 错误
+C rJ用一个Y 分离器分别是5v和12v电压
+D rJ连接一个坏的电源，它12v电压的线上面只能输出5v电压
 参考答案：C
  
 57、连接的内部CD-ROM 的SCSI2连接头有多收针？
-A RJ 25
-B RJ 30
-C RJ 50
-D RJ 68
+A rJ25
+B rJ30
+C rJ50
+D rJ68
 参考答案：C
  
 58、下列那一个物理组件包含计算机的基本电路和元件？
-A RJ 子板
-B RJ 逻辑板
-C RJ 背板
-D RJ 母板（主板）
+A rJ子板
+B rJ逻辑板
+C rJ背板
+D rJ母板（主板）
 参考答案：D
  
 59、当在选择品牌和型号的设备升级一台PC时，A+认证技术要求考虑什么？
-A RJ 显示器的反应速率
-B RJ 现有组件的兼容性
-C RJ 电源提供的线性电压设置值
-D RJ 如何处置被替换的部件
+A rJ显示器的反应速率
+B rJ现有组件的兼容性
+C rJ电源提供的线性电压设置值
+D rJ如何处置被替换的部件
 参考答案：B
  
 60、下列那一项是最容易升级系统性能的方法？
-A RJ 添加/升级内存
-B RJ 添加/升级BIOS
-C RJ 添加/升级主板
-D RJ 添加/升级操作系统
+A rJ添加/升级内存
+B rJ添加/升级BIOS
+C rJ添加/升级主板
+D rJ添加/升级操作系统
 参考答案：A
  
 61、用户现有一台电脑，具有4G硬盘。他想升级到20G硬盘，但安装新硬盘后，只识别到8G.是什么引起了这个错误？
-A RJ 计算机只能识别4G硬盘
-B RJ 计算机的BIOS设定了限制
-C RJ 对旧硬盘讲，新硬盘需设定为从设备
-D RJ 新硬盘有缺陷
+A rJ计算机只能识别4G硬盘
+B rJ计算机的BIOS设定了限制
+C rJ对旧硬盘讲，新硬盘需设定为从设备
+D rJ新硬盘有缺陷
 参考答案：B
  
 62、一个A+的工程师正在一个服务器上装两个新的SCSI硬盘，当服务器启动的时候发现一个错误，两个硬盘不能被正确的识别。那么最可能出现什么问题？
-A RJ 电脑的BIOS要设置成从SCSI设备启动
-B RJ SCSI线坏了
-C RJ 其中的一个硬盘坏了
-D RJ SCSI ID 设置错误
+A rJ电脑的BIOS要设置成从SCSI设备启动
+B rJSCSI线坏了
+C rJ其中的一个硬盘坏了
+D rJSCSI ID 设置错误
 参考答案：D
  
 63、在完成硬盘低级格式化后，一个进行哪一步？
-A RJ 从DOS中格式化设备
-B RJ 硬盘分区
-C RJ 向硬盘写全零
-D RJ 硬盘标示列表
+A rJ从DOS中格式化设备
+B rJ硬盘分区
+C rJ向硬盘写全零
+D rJ硬盘标示列表
 参考答案：B
  
 64、对一台运行Win98的标准PC，键盘用那个IRQ？
-A RJ IRQ0
-B RJ IRQ1
-C RJ IRQ2
-D RJ IRQ4
+A rJIRQ0
+B rJIRQ1
+C rJIRQ2
+D rJIRQ4
 参考答案：B
  
 65、一个有缺陷的CD-ROM被安装在电脑中，用户投诉说他不再能够听到CD音乐，CD——ROM通过音频线连接到声卡，但能够听到所有Windows产生的声音。引起这个问题最有可能是什么？
-A RJ 从CD-ROM到声卡的音频线没有插上或没有连接好
-B RJ 实时方式CD-ROM驱动没有安装
-C RJ CD-ROM被设置成Slave
-D RJ 声卡驱动不能正确工作
+A rJ从CD-ROM到声卡的音频线没有插上或没有连接好
+B rJ实时方式CD-ROM驱动没有安装
+C rJCD-ROM被设置成Slave
+D rJ声卡驱动不能正确工作
 参考答案：A
  
 66、对COM1，默认的IRQ是多少？
-A RJ 2
-B RJ 3
-C RJ 4
-D RJ 5
+A rJ2
+B rJ3
+C rJ4
+D rJ5
 参考答案：C
  
 67、一位用户为自己的笔记本电脑购买一个多功能PCMCIA卡。这个卡大约一厘米厚，需要2型PCMCIA插槽或更高的，他的笔记本有单一的2型插槽，但卡无法插入。这个问题是什么引起的？
-A RJ 老式奔腾类笔记本仅仅支持单一功能PCMCIA卡
-B RJ 这个卡需要卡总线插槽
-C RJ 这个卡需要一个双重2型插槽或者一个单一3型插槽
-D RJ 这个卡需要一个64位2型插槽
+A rJ老式奔腾类笔记本仅仅支持单一功能PCMCIA卡
+B rJ这个卡需要卡总线插槽
+C rJ这个卡需要一个双重2型插槽或者一个单一3型插槽
+D rJ这个卡需要一个64位2型插槽
 参考答案：C
  
 68、当安装使用一个外部的串口Modem时，Modem连接到PC使用那一种端口型号？
-A RJ 公型，DB-9
-B RJ 母型，DB-9
-C RJ 母型，DB-25
-D RJ 母型，RJ-11
+A rJ公型，DB-9
+B rJ母型，DB-9
+C rJ母型，DB-25
+D rJ母型，RJ-11
 参考答案：A
  
 69、一条标准的IDE电缆有多少脚？
-A RJ 25
-B RJ 36
-C RJ 40
-D RJ 80
+A rJ25
+B rJ36
+C rJ40
+D rJ80
 参考答案：C
  
 70、下面哪个设备将有线信号转换成无线信号，以允许无线设备能够连接到传统的网络中？
-A RJ 中心点
-B RJ airbox
-C RJ 频率适配器
-D RJ access point 
+A rJ中心点
+B rJairbox
+C rJ频率适配器
+D rJaccess point 
 参考答案：D
 
 71、以下哪一种线缆可用于需要高带宽、安全、长距离及可抵抗EMI（电磁干扰）的应用场合？
-A RJ RG-59
-B RJ 细缆
-C RJ CAT6
-D RJ 光缆
+A rJRG-59
+B rJ细缆
+C rJCAT6
+D rJ光缆
 参考答案：D
  
 72、一个客户要工程师安装了一个DVD刻录机，安装好后能够正常工作，三个星期后，客户反映刻录机不能刻录了，工程师去了解到这个DVD刻录机还可以读CD和DVD，这个时候工程师第一步应该怎么检测这个刻录机？
-A RJ 检测IDE线
-B RJ 先要对刻录机格式化
-C RJ 检查刻录盘的格式
-D RJ 重装刻录软件
+A rJ检测IDE线
+B rJ先要对刻录机格式化
+C rJ检查刻录盘的格式
+D rJ重装刻录软件
 参考答案：C
  
 73、一个工程师在同一个ATA上面，安装两个IDE硬盘，第一个硬盘跳线设置为Master，BIOS检测到它，第二个硬盘跳线设置为Slave，但是BIOS不能检测到它，那么下一步该如何解决这个问题？
-A RJ 换第一个硬盘
-B RJ 换第二个硬盘
-C RJ 把CD-ROM设置为Slave
-D RJ 设置第二个硬盘为Master
+A rJ换第一个硬盘
+B rJ换第二个硬盘
+C rJ把CD-ROM设置为Slave
+D rJ设置第二个硬盘为Master
 参考答案：D
  
 74、从新布置了无线IrDA（红外数据连接）打印机，一个用户报告说，他的笔记本不能连接到打印机打印文件了，那么最有可能出现什么问题？
-A RJ 打印机离笔记本的距离超过了一米。
-B RJ 打印机驱动坏了
-C RJ 笔记本需要重启
-D RJ 打印机需要重新设置
+A rJ打印机离笔记本的距离超过了一米。
+B rJ打印机驱动坏了
+C rJ笔记本需要重启
+D rJ打印机需要重新设置
 参考答案：A
 
 75、一个工程师重启电脑，电脑上面显示键盘没有连接，但是键盘是连接在电脑上面，重启后仍然发现这个问题，那么这个工程师应该如何做？
-A RJ 拆开电脑，检测硬盘是否连接好
-B RJ 重新找新的接口插键盘
-C RJ 重启BIOS，检查启动顺序
-D RJ 换一个主板
+A rJ拆开电脑，检测硬盘是否连接好
+B rJ重新找新的接口插键盘
+C rJ重启BIOS，检查启动顺序
+D rJ换一个主板
 参考答案：B
  
 76、当系统出现问题的时候，第一步也是最重要的一步是什么？
-A RJ 备份系统数据
-B RJ 收集所有问题的信息
-C RJ 重启系统，看是否能够修复这些问题
-D RJ 检查系统错误日志和事件日志
+A rJ备份系统数据
+B rJ收集所有问题的信息
+C rJ重启系统，看是否能够修复这些问题
+D rJ检查系统错误日志和事件日志
 参考答案：B
 
 77、对于普通的电脑，在POST过程完了以后，有一声短暂的蜂鸣声出现，说明什么？
-A RJ 系统主板错误
-B RJ 内存错误
-C RJ 显卡错误
-D RJ 没有错误
+A rJ系统主板错误
+B rJ内存错误
+C rJ显卡错误
+D rJ没有错误
 参考答案：D
  
 78、一个工程师有一个jumpered modem，这个modem能够连接到COM1和COM2接口。下？
-A RJ 在CMOS里面把第二个串口关掉
-B RJ 释放掉软驱控制器的IRQ
-C RJ 手工设置COM1，把它对应IRQ5
-D RJ 确认第二个和第三个USB设备不会和modem的IRQ冲突
+A rJ在CMOS里面把第二个串口关掉
+B rJ释放掉软驱控制器的IRQ
+C rJ手工设置COM1，把它对应IRQ5
+D rJ确认第二个和第三个USB设备不会和modem的IRQ冲突
 参考答案：A
  
 79、哪一个无线网络架构可实现通过一个HUB来连接许多终端设备？
-A RJ 点到多点
-B RJ 点到点
-C RJ 蜂窝
-D RJ 网状
+A rJ点到多点
+B rJ点到点
+C rJ蜂窝
+D rJ网状
 参考答案：A
  
 80、一台新的PC上来连接鼠标的DIN 6接口的用什么颜色表示的？
-A RJ 红
-B RJ 蓝
-C RJ 绿
-D RJ 紫
+A rJ红
+B rJ蓝
+C rJ绿
+D rJ紫
 参考答案：C 
  
 81、在一台主通道上面有一个硬盘和一个CD-ROM的个人电脑上面，再安装一个新的CD-RW，但是这个CD-RW不能被识别出来。那么最有可能造成这个的原因是什么？
-A RJ CD-RW可能坏了
-B RJ 把CD-RW设置为Primary Master
-C RJ 有IRQ冲突
-D RJ 检测第二通道是否为自动监测状态
+A rJCD-RW可能坏了
+B rJ把CD-RW设置为Primary Master
+C rJ有IRQ冲突
+D rJ检测第二通道是否为自动监测状态
 参考答案：D
 
 82、技师在CMOS设置中可以完成？
-A RJ 设置日期和时间
-B RJ 为Windows程序选择颜色
-C RJ 为硬盘分区
-D RJ 设定网络协议
+A rJ设置日期和时间
+B rJ为Windows程序选择颜色
+C rJ为硬盘分区
+D rJ设定网络协议
 参考答案：A
  
 83、IEEE 1284标准与以下什么接口有关？
-A RJ 防火墙
-B RJ USB
-C RJ 并口
-D RJ 串口
+A rJ防火墙
+B rJUSB
+C rJ并口
+D rJ串口
 参考答案：D
  
 84、激光打印中采用以下哪种方法在打印纸上成像？
-A RJ 热
-B RJ 激光烧录
-C RJ 电子成像
-D RJ 静电
+A rJ热
+B rJ激光烧录
+C rJ电子成像
+D rJ静电
 参考答案：D
  
 85、用户投诉喷墨打印机工作不正常（只用了不到一周）。他们通过电话描述说，有白色横线穿过打印出的文本和图像中。请问最有可能引起这个问题的原因是？
-A RJ 喷墨打印机用的是激光打印纸
-B RJ 并行接口线松了
-C RJ 喷墨打印机驱动程序需要重装
-D RJ 喷墨打印机的喷嘴脏了或被阻塞
+A rJ喷墨打印机用的是激光打印纸
+B rJ并行接口线松了
+C rJ喷墨打印机驱动程序需要重装
+D rJ喷墨打印机的喷嘴脏了或被阻塞
 参考答案：D
  
 86、有一个软驱通过数据线连接到连接器上面，如果连接线的第10根至16根扭曲，那么会造成什么结果？
-A RJ 把软驱作为A 盘
-B RJ 把软驱作为B盘
-C RJ 软驱不能工作
-D RJ BIOS把1.2MB的软驱识别为5.15的软驱
+A rJ把软驱作为A 盘
+B rJ把软驱作为B盘
+C rJ软驱不能工作
+D rJBIOS把1.2MB的软驱识别为5.15的软驱
 参考答案：C
  
 87、电脑启动的时候出现一个"Checksum"错误，最可能的原因是什么？
-A RJ 电源坏了
-B RJ BIOS 需要升级
-C RJ CMOS 电池快用完了
-D RJ 硬盘类型定义错误
+A rJ电源坏了
+B rJBIOS 需要升级
+C rJCMOS 电池快用完了
+D rJ硬盘类型定义错误
 参考答案：C
  
 88、在以态网中使用的15芯连接器是什么？
-A RJ BNC
-B RJ STP
-C RJ AUI
-D RJ RG-58
+A rJBNC
+B rJSTP
+C rJAUI
+D rJRG-58
 参考答案：C
  
 89、制造商在NIC（网卡）上是如何设定MAC地址的？
-A RJ 硬件编码
-B RJ 可配置
-C RJ 通过软件
-D RJ 使用跳线器
+A rJ硬件编码
+B rJ可配置
+C rJ通过软件
+D rJ使用跳线器
 参考答案：A
  
 90、ADSL是什么意思？
-A RJ 家庭数字信号长度
-B RJ 非对称数字用户线
-C RJ 异步数字信号线
-D RJ 非缩写
+A rJ家庭数字信号长度
+B rJ非对称数字用户线
+C rJ异步数字信号线
+D rJ非缩写
 参考答案：B
  
 91、在同一条传输介质（电缆）中可同时传输多个信道的数据，这一数据传输方式称为？
-A RJ 有些电视
-B RJ 基带
-C RJ 电话线
-D RJ 宽带
+A rJ有些电视
+B rJ基带
+C rJ电话线
+D rJ宽带
 参考答案：D
 
 92、PCI插槽在什么地方？
-A RJ 主板
-B RJ 处理器/CPU
-C RJ 电源
-D RJ 硬件外设
+A rJ主板
+B rJ处理器/CPU
+C rJ电源
+D rJ硬件外设
 参考答案：A
  
 93、在Windows 2000/XP下，可用以下哪一个命令来显示NIC（网卡）的网络配置信息，诸如IP地址、子网掩码及网关等？
-A RJ IPCONFIG
-B RJ WINIPCFG
-C RJ TRACERT
-D RJ MSCONFIG
+A rJIPCONFIG
+B rJWINIPCFG
+C rJTRACERT
+D rJMSCONFIG
 参考答案：A
 
 94、用户喜欢安装使用网络打印机，技师应该如何做？
-A RJ 通过控制面板安装打印机
-B RJ 通知用户他们需要购买一台独立的打印机
-C RJ 通知用户网络打印机不能共享
-D RJ 通过设备管理器安装打印机
+A rJ通过控制面板安装打印机
+B rJ通知用户他们需要购买一台独立的打印机
+C rJ通知用户网络打印机不能共享
+D rJ通过设备管理器安装打印机
 参考答案：A
  
 95、用户购买了一个无线路由器用于家庭网络，用户首先应该做以下什么工作？
 A断开所有无线连接
-B RJ 在路由器上安装防火墙
-C RJ 分配一个静态IP地址给路由器
-D RJ 改变缺省的管理员名称和密码
+B rJ在路由器上安装防火墙
+C rJ分配一个静态IP地址给路由器
+D rJ改变缺省的管理员名称和密码
 参考答案：D
  
 96、安装完一个新硬盘驱动器后，技师应该：？
-A RJ 开启计算机，进入设备管理器并安装新硬件
-B RJ 检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
-C RJ 开启计算机，并只连接硬盘驱动器到IDE总线
-D RJ 进入安全模式安装新硬件
+A rJ开启计算机，进入设备管理器并安装新硬件
+B rJ检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
+C rJ开启计算机，并只连接硬盘驱动器到IDE总线
+D rJ进入安全模式安装新硬件
 参考答案：B
 
 99、公司邮件服务器上的一款非关键软件升级时需要邮件服务器重启，应该采取以下什么措施？
-A RJ 在工作时段以后规划需要完成的服务，并在服务器重启后检查所有的邮件服务
-B RJ 通过Email通知员工，邮件服务器拟维护，然后升级软件并重启
-C RJ 在工作日开始时安装升级软件并重启
-D RJ 在公司总裁吃午饭时安装升级软件并重启
+A rJ在工作时段以后规划需要完成的服务，并在服务器重启后检查所有的邮件服务
+B rJ通过Email通知员工，邮件服务器拟维护，然后升级软件并重启
+C rJ在工作日开始时安装升级软件并重启
+D rJ在公司总裁吃午饭时安装升级软件并重启
 参考答案：A
  
 100、在检查公司邮件日志时，技师发现公司某职员将全部销售资料发送给了竞争者，技师应该采取什么措施？
-A RJ 通知技师的管理者，并按照公司相关制度处理
-B RJ 在公司职员大会上宣布资料不允许发送给竞争者
-C RJ 私下通知该职员，并建议他应该小心
-D RJ 给竞争者发一封邮件并要求其销毁所有拷贝的数据
+A rJ通知技师的管理者，并按照公司相关制度处理
+B rJ在公司职员大会上宣布资料不允许发送给竞争者
+C rJ私下通知该职员，并建议他应该小心
+D rJ给竞争者发一封邮件并要求其销毁所有拷贝的数据
 参考答案：A 
  
 101、在更换主板后，需要做的事情是？
-A RJ 配置BIOS
-B RJ 运行安装工具
-C RJ 即插即用
-D RJ 刷新BIOS芯片
+A rJ配置BIOS
+B rJ运行安装工具
+C rJ即插即用
+D rJ刷新BIOS芯片
 参考答案：A
  
 102、技术人员必须在一个SCSI控制卡上使能INT31H，只有这样才能使用下列那个设备？
-A RJ 扫描仪
-B RJ Bernoulli
-C RJ 磁带设备
-D RJ 可启动的CD-ROM
+A rJ扫描仪
+B rJBernoulli
+C rJ磁带设备
+D rJ可启动的CD-ROM
 参考答案：D
 
 103、一位技术员插入RAM内存条。显而易见，在他插内存条时，没有佩戴防静电手带。插入后，内存条不工作。下列那一项最有可能导致这个错误？
-A RJ 在插入内存时，由于技术员没有佩戴防静电手带，呆滞内存遭受毁灭性静电冲击
-B RJ 开能是内存条随即的以损坏，一个有经验的技术员不需要带防静电手带
-C RJ 内存需要在计算机重新设置
-D RJ 内存需要在BIOS中添加
+A rJ在插入内存时，由于技术员没有佩戴防静电手带，呆滞内存遭受毁灭性静电冲击
+B rJ开能是内存条随即的以损坏，一个有经验的技术员不需要带防静电手带
+C rJ内存需要在计算机重新设置
+D rJ内存需要在BIOS中添加
 参考答案：A
  
 104、一个MSDS（材料物质安全数据单）可以解释为？
-A RJ 无风险安装一个计算机组件
-B RJ 例如化学试剂之类物质正确处理方法
-C RJ 防火，灭火
-D RJ 计算机主板扩张操的正确移除和操作
+A rJ无风险安装一个计算机组件
+B rJ例如化学试剂之类物质正确处理方法
+C rJ防火，灭火
+D rJ计算机主板扩张操的正确移除和操作
 参考答案：B
  
 105、下面哪一个是ESD（静电放电）最主要的原因？
-A RJ 拔个人电脑
-B RJ 连接好地线
-C RJ 开电源
-D RJ 成双的安装这个模块
+A rJ拔个人电脑
+B rJ连接好地线
+C rJ开电源
+D rJ成双的安装这个模块
 参考答案：B
 
 106、10Base5采用什么类型的电缆？
-A RJ 50欧姆RG-8
-B RJ 75欧姆RG-8
-C RJ 50欧姆RG-58
-D RJ 75欧姆RG-58
+A rJ50欧姆RG-8
+B rJ75欧姆RG-8
+C rJ50欧姆RG-58
+D rJ75欧姆RG-58
 参考答案：A
  
 107、以下什么协议使用可变长度的名字定义每一个工作站？
-A RJ IP
-B RJ IPX
-C RJ NetBIOS
-D RJ AppleTalk
+A rJIP
+B rJIPX
+C rJNetBIOS
+D rJAppleTalk
 参考答案：C
  
 108、一位顾客拥有这样一台电脑：WinXP；128MB内存；2.4GHz CPU；80G硬盘和一台使用USB口的扫描仪。这位顾客投诉说在扫描图像时似乎需要太长的时间。下列那一项最有可能改善提高？
-A RJ 添加内存
-B RJ 更换硬盘
-C RJ 升级BIOS
-D RJ 更换电源
+A rJ添加内存
+B rJ更换硬盘
+C rJ升级BIOS
+D rJ更换电源
 参考答案：A
  
 109、当奔腾3 PC升级到奔腾 4时，需要下列哪项？
-A RJ 一个新主板
-B RJ 奔腾3 PC到奔腾 4的Socket转换器
-C RJ 奔腾3 PC到奔腾 4的Slot转换器
-D RJ 仅换CPU
+A rJ一个新主板
+B rJ奔腾3 PC到奔腾 4的Socket转换器
+C rJ奔腾3 PC到奔腾 4的Slot转换器
+D rJ仅换CPU
 参考答案：A
  
 110、在添加多个设备到一台电脑后，用户发现系统总是出现随意关机。下列那一项设备是最有可能导致这个错误？
-A RJ 内存
-B RJ CPU
-C RJ 硬盘
-D RJ 电源
+A rJ内存
+B rJCPU
+C rJ硬盘
+D rJ电源
 参考答案：D
  
 111、如果一名用户告诉一位以获取A+认证的技术员，他想给他的奔腾2系统添加一个120G的品牌硬盘，最有可能引起什么问题？
-A RJ Windows不支持这样大的硬盘
-B RJ 主板上的板上IDE控制器不支持这样的容量
-C RJ 奔腾2的电源不能够提供设备所需要的功率
-D RJ CPU没有足够快的速度去读它
+A rJWindows不支持这样大的硬盘
+B rJ主板上的板上IDE控制器不支持这样的容量
+C rJ奔腾2的电源不能够提供设备所需要的功率
+D rJCPU没有足够快的速度去读它
 参考答案：B
  
 112、一个新的IDE硬盘被安装，并且以将跳线设置好，对新硬盘说下一步要做什么？
-A RJ 格式化硬盘
-B RJ 安装操作系统
-C RJ 硬盘分区
-D RJ 运行磁盘检测工具
+A rJ格式化硬盘
+B rJ安装操作系统
+C rJ硬盘分区
+D rJ运行磁盘检测工具
 参考答案：C
  
 113、一个新显卡被插入系统中，系统原先使用主板上集成的视频控制器，对板上视频控制器应该作什么？
-A RJ 应该在Windows控制面板中关闭
-B RJ 应该在BIOS中关闭
-C RJ 应该焊接硬移除
-D RJ 应该使用新显卡的跳线器关闭
+A rJ应该在Windows控制面板中关闭
+B rJ应该在BIOS中关闭
+C rJ应该焊接硬移除
+D rJ应该使用新显卡的跳线器关闭
 参考答案：B
  
 114、那一个设备允许一台laptop/notebook笔记本电脑十分容易的连接断开外部显示器；键盘；鼠标和其他外设？
-A RJ 扩展卡
-B RJ 端口复制器
-C RJ 光纤通道
-D RJ 键盘插座
+A rJ扩展卡
+B rJ端口复制器
+C rJ光纤通道
+D rJ键盘插座
 参考答案：B
  
 115、一位用户有一台具有2型PCMCIA插槽的笔记本电脑，他想升级内存，然后，所有可用的PCMCIA卡都是1型的，对这些可用的卡下面请那个叙述正确？
-A RJ 这些卡可以工作，因为他兼容
-B RJ 这些卡可用工作，但是需要一个转换器，已识配2型PCMCIA插槽
-C RJ 这些卡不能工作，因为1型卡和2型卡完全不相符
-D RJ 这些卡不能工作，因为，PCMCIA是为外设扩展，不支持存储器PCMCIA卡
+A rJ这些卡可以工作，因为他兼容
+B rJ这些卡可用工作，但是需要一个转换器，已识配2型PCMCIA插槽
+C rJ这些卡不能工作，因为1型卡和2型卡完全不相符
+D rJ这些卡不能工作，因为，PCMCIA是为外设扩展，不支持存储器PCMCIA卡
 参考答案：A
  
 116、大部分PC和笔记本背后的公型，DB-9连接器是被定义为那一个I/O接口？
-A RJ 并口
-B RJ 打印口
-C RJ USB口
-D RJ 串口
+A rJ并口
+B rJ打印口
+C rJUSB口
+D rJ串口
 参考答案：D
  
 117、PC技术员需要鉴别一块具有母型RJ-45 连接口的PCI卡，这是什么卡？
-A RJ 一个串口卡
-B RJ 一个NIC（网卡）
-C RJ 一个 Token Ring 转换卡
-D RJ 一个ISDN拨号连接卡
+A rJ一个串口卡
+B rJ一个NIC（网卡）
+C rJ一个 Token Ring 转换卡
+D rJ一个ISDN拨号连接卡
 参考答案：B
  
 118、正常情况下，并口线的最大长度是多少？
-A RJ 3 feet (1米)
-B RJ 10feet (3米)
-C RJ 315feet (4.5米)
-D RJ 20feet (6米)
+A rJ3 feet (1米)
+B rJ10feet (3米)
+C rJ315feet (4.5米)
+D rJ20feet (6米)
 参考答案：C
  
 119、磁盘阵列规范1（RAID 1），最少需要几个驱动器？
-A RJ 1
-B RJ 2
-C RJ 3
-D RJ 4
+A rJ1
+B rJ2
+C rJ3
+D rJ4
 参考答案：C
  
 120、如何称呼组成硬盘盘片的基本单位？
-A RJ 扇区
-B RJ 柱面
-C RJ 磁轨
-D RJ 磁头
+A rJ扇区
+B rJ柱面
+C rJ磁轨
+D rJ磁头
 参考答案：A
  
 121、当安装多个USn设备时，技术员发现所有设备都使用相同的IRQ口。如何解决这个问题？
-A RJ 对每个USB设备分配虚拟端口
-B RJ 用最新的驱动设计USB、控制器，如何重启电脑
-C RJ 按日期版本，用更多的USB设备替换现有的
-D RJ 没有问题。USB设备就是被设计分享使用同一IRQ
+A rJ对每个USB设备分配虚拟端口
+B rJ用最新的驱动设计USB、控制器，如何重启电脑
+C rJ按日期版本，用更多的USB设备替换现有的
+D rJ没有问题。USB设备就是被设计分享使用同一IRQ
 参考答案：D
  
 122、在Win98总体下安装一个Modem后，出现与COM2的一个IRQ冲突。如果配置使用COM3，这个Modem或许可以正取工作。对COM3，适合使用的I/O口和IRQ是多少？
-A RJ 2E8-2Efh；IRQ3
-B RJ 3E8-3Efh；IRQ4
-C RJ 2f8-2ffh；IRQ3
-D RJ 3f8-3ffh；IRQ4
+A rJ2E8-2Efh；IRQ3
+B rJ3E8-3Efh；IRQ4
+C rJ2f8-2ffh；IRQ3
+D rJ3f8-3ffh；IRQ4
 参考答案：B
  
 123、视频分辨率为800*600的视频模式是什么？
-A RJ EGA模式
-B RJ VGA模式
-C RJ CGA模式
-D RJ SVGA模式
+A rJEGA模式
+B rJVGA模式
+C rJCGA模式
+D rJSVGA模式
 参考答案：D
  
 124、下面哪个测试能够检测到本地modem的输入和输出？
-A RJ 数据奇偶性
-B RJ 模拟回路
-C RJ 本地数字回路
-D RJ 远程数字回路
+A rJ数据奇偶性
+B rJ模拟回路
+C rJ本地数字回路
+D rJ远程数字回路
 参考答案：B
  
 125、一个顾客打电话来报告说，他的电脑自动关机和重启，那么可能什么原因造成的？
-A RJ BIOS 被设置成了自动重启每天。
-B RJ 外置SCSI CD-RW 使用太多了电力
-C RJ CMOS被设置为周期性的
-D RJ 系统的电源不足
+A rJBIOS 被设置成了自动重启每天。
+B rJ外置SCSI CD-RW 使用太多了电力
+C rJCMOS被设置为周期性的
+D rJ系统的电源不足
 参考答案：D
  
 126、当客户的打印机不能打印的时候，你问客户第一个问题是什么？
-A RJ 是否看到打印机的面板上面的灯亮着
-B RJ 打印机是否正确的连接到电脑上面
-C RJ 打印机是否没有墨水了
-D RJ 打印机软件是否安装好了
+A rJ是否看到打印机的面板上面的灯亮着
+B rJ打印机是否正确的连接到电脑上面
+C rJ打印机是否没有墨水了
+D rJ打印机软件是否安装好了
 参考答案：A
  
 127、从中断9到中断15是几级叠加中断？
-A RJ 1
-B RJ 2
-C RJ 3
-D RJ 4
+A rJ1
+B rJ2
+C rJ3
+D rJ4
 参考答案：B
  
 128、下面哪一个和发现问题解决问题不是一个阶段？
-A RJ 确认修理
-B RJ 确认问题
-C RJ 记录修理的结果
-D RJ 简单的问题
+A rJ确认修理
+B rJ确认问题
+C rJ记录修理的结果
+D rJ简单的问题
 参考答案：D
  
 129、下列那一种RAM，为CPU Caching使用？
-A RJ SDRAM
-B RJ SRAM
-C RJ RDRAM
-D RJ DDR SDRAM
+A rJSDRAM
+B rJSRAM
+C rJRDRAM
+D rJDDR SDRAM
 参考答案：B
 
 130、如果一个顾客抱怨应用程序在屏幕上面显示界面太小以至于很难看清楚，工程师该如何设置视频？
-A RJ 降低屏幕的像素个数
-B RJ 增加硬件的图形处理速度
-C RJ 增加显示器的水平分辨率
-D RJ 降低显示器的垂直分辨率
+A rJ降低屏幕的像素个数
+B rJ增加硬件的图形处理速度
+C rJ增加显示器的水平分辨率
+D rJ降低显示器的垂直分辨率
 参考答案：A
  
 131、一个客户报告说他的电脑屏幕中显示的应用程序丢失线条，细节和其他的图形，那么设置如何该，能够解决这个问题？
-A RJ 降低硬件图形加速度
-B RJ 增加硬件图形加速度
-C RJ 增加显示器的水平频率
-D RJ 降低显示器的垂直频率
+A rJ降低硬件图形加速度
+B rJ增加硬件图形加速度
+C rJ增加显示器的水平频率
+D rJ降低显示器的垂直频率
 参考答案：A
  
 132、下面哪个办法能够安全的清洁LCD电脑显示器？
-A RJ 把洗玻璃的清洁剂喷到软布上面，然后轻轻的擦拭屏幕
-B RJ 用干净的水喷到软布上，然后轻轻的擦拭屏幕
-C RJ 用一个反静电的吸尘器不接触屏幕
-D RJ  用压缩空气来吹屏幕
+A rJ把洗玻璃的清洁剂喷到软布上面，然后轻轻的擦拭屏幕
+B rJ用干净的水喷到软布上，然后轻轻的擦拭屏幕
+C rJ用一个反静电的吸尘器不接触屏幕
+D rJ 用压缩空气来吹屏幕
 参考答案：B
  
 133、怎么消灭计算机的火灾？
-A RJ 消防队
-B RJ A级灭火器
-C RJ C级灭火器
-D RJ 银色的泡沫水状灭火器
+A rJ消防队
+B rJA级灭火器
+C rJC级灭火器
+D rJ银色的泡沫水状灭火器
 参考答案：C
  
 134、如果一名客户讲他的显示器出现许多颗粒纹理等，为解决这个问题，你首先要求客户回答下面那一个问题？
-A RJ 客户使用什么型号的显卡？
-B RJ 客户使用什么操作系统？
-C RJ 客户购买计算机的总价格
-D RJ 客户显卡分辨率设置多少？
+A rJ客户使用什么型号的显卡？
+B rJ客户使用什么操作系统？
+C rJ客户购买计算机的总价格
+D rJ客户显卡分辨率设置多少？
 参考答案：D
  
 135、为了保持存储的数据，下列那一个需要电源供给？
-A RJ ROM
-B RJ RAM
-C RJ 硬盘
-D RJ 软盘
+A rJROM
+B rJRAM
+C rJ硬盘
+D rJ软盘
 参考答案：B
  
 136、下面哪个传输协议是以脉冲模式并以33.3Mbps的速度？
-A RJ ATAPI
-B RJ Ultra DMA
-C RJ EIDE
-D RJ IDE
+A rJATAPI
+B rJUltra DMA
+C rJEIDE
+D rJIDE
 参考答案：B
  
 137、电脑启动的时候，报告一个奇偶错误，那么最可能什么原因造成的？
-A RJ 主板问题
-B RJ 内存芯片错误
-C RJ CPU问题
-D RJ 硬盘问题
+A rJ主板问题
+B rJ内存芯片错误
+C rJCPU问题
+D rJ硬盘问题
 参考答案：B
  
 138、用户报告说Email不能使用，但没有其他人报告该问题，邮件服务器也没有执行其他工作。以下哪一项是技师应该有的正常反应？
-A RJ 你一定是做错什么了，你可以请人指导你如何使用Email
-B RJ 你能够将你看到的出错信息做更详细的描述吗？
-C RJ 你尝试重启你的系统了吗？
-D RJ Email系统出问题了，30分钟以后再试
+A rJ你一定是做错什么了，你可以请人指导你如何使用Email
+B rJ你能够将你看到的出错信息做更详细的描述吗？
+C rJ你尝试重启你的系统了吗？
+D rJEmail系统出问题了，30分钟以后再试
 参考答案：B
  
 139、构建一个50台计算机组成的1000BaseT网络，采用以下什么类型的电缆？
-A RJ CAT6
-B RJ 粗缆
-C RJ RG62
-D RJ CAT3
+A rJCAT6
+B rJ粗缆
+C rJRG62
+D rJCAT3
 参考答案：A
  
 140、以下哪一种线缆在每一对电缆周围安装有金属屏蔽箔，同时在一组线缆周围装有金属屏蔽箔，并使用RJ-45连接器？
-A RJ 光缆
-B RJ 同轴电缆
-C RJ STP
-D RJ UTP
+A rJ光缆
+B rJ同轴电缆
+C rJSTP
+D rJUTP
 参考答案：C
  
 141、哪一种线缆最可能使用RJ-45连接器来将计算机接入网络？
-A RJ 10Base2
-B RJ 10Base5
-C RJ 10BaseT
-D RJ 10BaseFL
+A rJ10Base2
+B rJ10Base5
+C rJ10BaseT
+D rJ10BaseFL
 参考答案：C
  
 142、在不使用跳线器和PnP配置ISA NICs（网卡）时，采用什么方法来设置IRQ？
-A RJ DMA
-B RJ CMOS
-C RJ 操作系统
-D RJ 配置软件
+A rJDMA
+B rJCMOS
+C rJ操作系统
+D rJ配置软件
 参考答案：D
 
 143、电脑的CD-ROM里面放了一张CD唱片，但是喇叭里面没有音乐的声音，工程师确定了喇叭是开着的，也确定电脑可以放出声音，CD-ROM的灯也是亮着的。那么这时工程师应该检测什么？
-A RJ 检测连接CD-ROM和声卡的连线
-B RJ CD-ROM和主板的数据线
-C RJ 声卡是否插对了主板的插槽
-D RJ 放CD音乐的程序是否设置正确
+A rJ检测连接CD-ROM和声卡的连线
+B rJCD-ROM和主板的数据线
+C rJ声卡是否插对了主板的插槽
+D rJ放CD音乐的程序是否设置正确
 参考答案：A
  
 144、基于V.92协议的家用模拟调制解调器的理论速率是多少？
-A RJ 56Kbps
-B RJ 128Kbps
-C RJ 384Kbps
-D RJ 512Kbps
+A rJ56Kbps
+B rJ128Kbps
+C rJ384Kbps
+D rJ512Kbps
 参考答案：A
  
 145、CAT5　UTP的最大分组长度为？
-A RJ 82英尺（25米）
-B RJ 164英尺（50米）
-C RJ 328英尺（100米）
-D RJ 656英尺（200米）
+A rJ82英尺（25米）
+B rJ164英尺（50米）
+C rJ328英尺（100米）
+D rJ656英尺（200米）
 参考答案：C
  
 146、一台新的奔腾4PC总是启动后在不提示任何警告情况下自动关机，那一项是引起错误的原因？
-A RJ 键盘故障
-B RJ CPU风扇没有连接
-C RJ 内存不够
-D RJ 无显卡
+A rJ键盘故障
+B rJCPU风扇没有连接
+C rJ内存不够
+D rJ无显卡
 参考答案：B
  
 147、USB设备与串口或PS/2口设备的区别是什么？
-A RJ 所有USB单设备使用相同的设备驱动程序
-B RJ USB单设备不能热插拔
-C RJ 在WinXP下，PS/2和串口设备不工作
-D RJ USB单设备可以热插拔
+A rJ所有USB单设备使用相同的设备驱动程序
+B rJUSB单设备不能热插拔
+C rJ在WinXP下，PS/2和串口设备不工作
+D rJUSB单设备可以热插拔
 参考答案：D
  
 148、安装完 XP SP2后，技师发现有一个设备没有正常工作。在设备管理器中，设备前面有一个红色的X，技师应该？
-A RJ 退回到安装SP2前的Windows XP
-B RJ 使用设备管理器升级驱动程序
-C RJ 重新安装SP2
-D RJ 从计算机中去除该设备
+A rJ退回到安装SP2前的Windows XP
+B rJ使用设备管理器升级驱动程序
+C rJ重新安装SP2
+D rJ从计算机中去除该设备
 参考答案：B
  
 149、以下哪一种叙述描述了在Windows网络中访问远程资源的路径？
-A RJ IPX地址
-B RJ 统一资源定位符(URL)
-C RJ 网址
-D RJ 统一命名协议(UNC)
+A rJIPX地址
+B rJ统一资源定位符(URL)
+C rJ网址
+D rJ统一命名协议(UNC)
 参考答案：D
  
 150、具有以太网接口的一台激光打印机，常规使用以下那一种连接器接口？
-A RJ RJ-11
-B RJ 并口
-C RJ USB
-D RJ RJ-45
+A rJRJ-11
+B rJ并口
+C rJUSB
+D rJRJ-45
 参考答案：D
 
 153、对于有效的与顾客交流，以下哪项是最重要的？
-A RJ 写有效的EMAIL总结
-B RJ 正常谈话
-C RJ 积极的倾听
-D RJ 凭直觉解决问题
+A rJ写有效的EMAIL总结
+B rJ正常谈话
+C rJ积极的倾听
+D rJ凭直觉解决问题
 参考答案：C
  
 154、一台激光打印机打印出全黑的纸张，下列哪一个是最有可能的原因？
-A RJ 冠状电缆超负载
-B RJ 硒鼓识别单元出现故障
-C RJ 硒鼓输出口被污染
-D RJ 取纸滚棒引起纸张覆盖了过多的墨粉
+A rJ冠状电缆超负载
+B rJ硒鼓识别单元出现故障
+C rJ硒鼓输出口被污染
+D rJ取纸滚棒引起纸张覆盖了过多的墨粉
 参考答案：B
  
 155、在多功能一体机使用时，所有扫描纸张都出现一个污点，下列那一项是解决这个问题的第一步？
-A RJ 清洁激光透镜
-B RJ 清洁成像硒鼓
-C RJ 清洁扫描曝光玻璃板
-D RJ 更换打印头
+A rJ清洁激光透镜
+B rJ清洁成像硒鼓
+C rJ清洁扫描曝光玻璃板
+D rJ更换打印头
 参考答案：C
  
 156、一位不太熟悉设置程序的新技术员，将一位用户的新电脑设置错误。在改正设置后，下列那一项是他要采取的行动？
-A RJ 向周围的其他技术员抱怨顾客
-B RJ 问其他技术员，是否技术员要学习这些设置
-C RJ 对问题保持沉默，希望它不要再出现
-D RJ 向上级管理报告，自己不得不从事其他技术工作
+A rJ向周围的其他技术员抱怨顾客
+B rJ问其他技术员，是否技术员要学习这些设置
+C rJ对问题保持沉默，希望它不要再出现
+D rJ向上级管理报告，自己不得不从事其他技术工作
 参考答案：B
 
 158、APG 4X 插槽是多少主频？
-A RJ 33MHz
-B RJ 66MHz
-C RJ 256MHz
-D RJ 266MHz
+A rJ33MHz
+B rJ66MHz
+C rJ256MHz
+D rJ266MHz
 参考答案：D
  
 159、下列那一个可执行文件用于改变某一个硬件设备的驱动参数？
-A RJ DEFARG.EXE
-B RJ REGEDIT.EXE
-C RJ SCANDISK.EXE
-D RJ TASKMAN.EXE
+A rJDEFARG.EXE
+B rJREGEDIT.EXE
+C rJSCANDISK.EXE
+D rJTASKMAN.EXE
 参考答案：A
  
 160、一台PC的电源风扇不转，一位A认证工程师应该作什么处理？
-A RJ 更换电源
-B RJ 更换电源风扇
-C RJ 更换螺钉
-D RJ 根本不管，系统中有足够的其他风扇
+A rJ更换电源
+B rJ更换电源风扇
+C rJ更换螺钉
+D rJ根本不管，系统中有足够的其他风扇
 参考答案：A
  
 161、用户报告说，计算机昨天工作正常，但今天无法登录。技师应该首先询问用户？
-A RJ 最近对计算机所做的任何修改
-B RJ 最近计算机病毒扫描的结果
-C RJ 计算机使用的典型用途
-D RJ 最近访问的网络资源
+A rJ最近对计算机所做的任何修改
+B rJ最近计算机病毒扫描的结果
+C rJ计算机使用的典型用途
+D rJ最近访问的网络资源
 参考答案：D
  
 162、下列那一个是通常用在10Base LAN（局域网）8芯的连接器？
-A RJ RJ-45
-B RJ RJ-11
-C RJ DB-9
-D RJ DB-25
+A rJRJ-45
+B rJRJ-11
+C rJDB-9
+D rJDB-25
 参考答案：A
  
 163、Windows 2000系统的计算机有一个非PnP的调制解调器使用IRQ 5，技师增加了一个PCI的modem。系统重启后，设备管理器报告说两个调制解调器的IRQ号冲突。技师应该如何做？
-A RJ 用设备管理器改变非PnP调制解调器的IRQ 为9
-B RJ 用设备管理器改变非PnP调制解调器的IRQ 为11
-C RJ 进入CMOS设置将IRQ 5保留为非PnP设备使用
-D RJ 启动调制解调器的查错机制解决问题
+A rJ用设备管理器改变非PnP调制解调器的IRQ 为9
+B rJ用设备管理器改变非PnP调制解调器的IRQ 为11
+C rJ进入CMOS设置将IRQ 5保留为非PnP设备使用
+D rJ启动调制解调器的查错机制解决问题
 参考答案：C
  
 164、和用户道别时，技师应该？
-A RJ 尝试卖给用户一台新计算机
-B RJ 升级所有设备驱动程序
-C RJ 让用户测试使用计算机
-D RJ 安装最新应用程序
+A rJ尝试卖给用户一台新计算机
+B rJ升级所有设备驱动程序
+C rJ让用户测试使用计算机
+D rJ安装最新应用程序
 参考答案：C
  
 165、下列那一项技术可以即使用4芯又可以使用6芯电缆的连接口，吞吐量可达到400Mbps？
-A RJ USB2.0
-B RJ 串口
-C RJ IEEE 1394
-D RJ 并口
+A rJUSB2.0
+B rJ串口
+C rJIEEE 1394
+D rJ并口
 参考答案：C
  
 166、一个Ultra DMA 33 或者ATA ATAAPI 4的硬盘驱动器需要哪种cable线？
-A RJ 34 线的cable
-B RJ 40 线的cable
-C RJ 50 线的cable
-D RJ 80 线的cable
+A rJ34 线的cable
+B rJ40 线的cable
+C rJ50 线的cable
+D rJ80 线的cable
 参考答案：D
  
 167、当出现IRQ冲突的时候，哪些硬件最有可能发生这个问题？
-A RJ 硬盘和软驱
-B RJ  CD-ROM和硬盘
-C RJ 视频卡和硬盘
-D RJ 声卡和网卡
+A rJ硬盘和软驱
+B rJ CD-ROM和硬盘
+C rJ视频卡和硬盘
+D rJ声卡和网卡
 参考答案：D
 
 168、作为一个技术人员，当在同一个IDE控制器上面安装第二个设备的时候，必须做什么操作？
-A RJ 设置一个相同的驱动来匹配原驱动
-B RJ 停止第二个驱动
-C RJ 分别设置两个驱动为Master和Slave
-D RJ 设置boot驱动器到IDE cable的 末尾
+A rJ设置一个相同的驱动来匹配原驱动
+B rJ停止第二个驱动
+C rJ分别设置两个驱动为Master和Slave
+D rJ设置boot驱动器到IDE cable的 末尾
 参考答案：C
  
 169、当安装一个打印机，一个A+工程师发现能够通过串口和USB接口，那么他应该用那个接口？
-A RJ 选串口，因为它比USB接口的线多，传输的快
-B RJ 选串口，因为它比USB接口更可靠
-C RJ 选USB接口，虽然它也是串行连接，但是它传输数据速度更快更稳定
-D RJ 选USB接口，因为它传输慢，而且稳定比串口
+A rJ选串口，因为它比USB接口的线多，传输的快
+B rJ选串口，因为它比USB接口更可靠
+C rJ选USB接口，虽然它也是串行连接，但是它传输数据速度更快更稳定
+D rJ选USB接口，因为它传输慢，而且稳定比串口
 参考答案：C
  
 170、当一个客户通过DSL连接Internet网，DSL modem上面有4个LED灯，PWR是稳定的绿色灯，DSL是稳定的绿色，ACT没有亮，ENET没有亮，那么最有可能造成网络不同的原因是什么？
-A RJ modem 没有检测到DSL 信号
-B RJ 电话线被插到DSL 插口
-C RJ 电脑的连接信号丢失
-D RJ modem的电源信号没有开
+A rJmodem 没有检测到DSL 信号
+B rJ电话线被插到DSL 插口
+C rJ电脑的连接信号丢失
+D rJmodem的电源信号没有开
 参考答案：C
  
 171、电脑启动的时候，如果软驱的LED灯一直亮着，那么最可能什么原因？
-A RJ 硬盘坏了
-B RJ CMOS设置错误
-C RJ 软驱里面有一张软盘
-D RJ 软驱的cable线连接反了
+A rJ硬盘坏了
+B rJCMOS设置错误
+C rJ软驱里面有一张软盘
+D rJ软驱的cable线连接反了
 参考答案：D
  
 172、一个用户报告开机后，屏幕上显示"没有系统盘或者盘错误，按任何其他键继续"，那么最可能是什么错误造成的？
-A RJ 硬盘坏了，应该换一个好的
-B RJ 电源坏了
-C RJ 在软驱中没有启动盘
-D RJ 硬盘不兼容主板
+A rJ硬盘坏了，应该换一个好的
+B rJ电源坏了
+C rJ在软驱中没有启动盘
+D rJ硬盘不兼容主板
 参考答案：C
  
 173、一个用户想在一个windows 2000的系统下面听CD，但是当CD开始播放的时候，却没有声音从喇叭里面发出来，工程师确认喇叭没有问题，而且喇叭是开着的，那么最有可能什么原因造成这种情况的？
-A RJ CD-ROM和声卡的音频线没有连接好
-B RJ 电脑在放MP3音乐，不能放CD音乐
-C RJ CD插的方向反了
-D RJ Windows 2000 不支持CD播放器
+A rJCD-ROM和声卡的音频线没有连接好
+B rJ电脑在放MP3音乐，不能放CD音乐
+C rJCD插的方向反了
+D rJWindows 2000 不支持CD播放器
 参考答案：A
  
 175、当一台电脑没有UPS保护的情况下，如果断电后，电源恢复的时候，可能出现什么问题？
-A RJ ROM需要重写
-B RJ 有高电压脉冲的问题
-C RJ CMOS RAM 有电池问题
-D RJ 主板软件需要重新设置
+A rJROM需要重写
+B rJ有高电压脉冲的问题
+C rJCMOS RAM 有电池问题
+D rJ主板软件需要重新设置
 参考答案：B
  
 176、下面什么原因造成芯片的损坏？
-A RJ 温度的急剧变化
-B RJ 短路造成芯片过热
-C RJ 芯片之前连接不好
-D RJ 芯片和主板不兼容
+A rJ温度的急剧变化
+B rJ短路造成芯片过热
+C rJ芯片之前连接不好
+D rJ芯片和主板不兼容
 参考答案：A
  
 177、一个PC 133 DIMM有多少针？
-A RJ 168
-B RJ 144
-C RJ 132
-D RJ 128
+A rJ168
+B rJ144
+C rJ132
+D rJ128
 参考答案：A
  
 178、下面哪个环境是最合适的对于OPC（organic photo-conducting）drums？
-A RJ 潮湿的
-B RJ 凉快的黑暗的
-C RJ 凉快的明亮的
-D RJ 温暖的黑暗的
+A rJ潮湿的
+B rJ凉快的黑暗的
+C rJ凉快的明亮的
+D rJ温暖的黑暗的
 参考答案：B
  
 179、一个老板生产需要很多有危害的化学材料，然后要清除这些剩余的化学材料，那么他要遵守什么工业标准？
-A RJ 需要保存买化学材料的单据
-B RJ 需要保存每个月化学材料的使用清单
-C RJ MSDS（材料安全数据清单）
-D RJ 保护存放化学药品的设备
+A rJ需要保存买化学材料的单据
+B rJ需要保存每个月化学材料的使用清单
+C rJMSDS（材料安全数据清单）
+D rJ保护存放化学药品的设备
 参考答案：C
  
 180、下面哪种CPU适合Slot A Socket结构？
-A RJ AMD K7
-B RJ Intel MMX
-C RJ AMD Athlon
-D RJ Intel Pentium Coppermine
+A rJAMD K7
+B rJIntel MMX
+C rJAMD Athlon
+D rJIntel Pentium Coppermine
 参考答案：C
  
 181、RAM Bus内存模块的特点是什么？
-A RJ 268个1/8英寸的阳的连接器
-B RJ 在两侧有金属的保护层
-C RJ 4个控键的插槽
-D RJ 在两侧有红色的条
+A rJ268个1/8英寸的阳的连接器
+B rJ在两侧有金属的保护层
+C rJ4个控键的插槽
+D rJ在两侧有红色的条
 参考答案：B
  
 182、PC背后的并口使用那种连接器？
-A RJ 公型，DB-15
-B RJ 母型，DB-25
-C RJ 公型，DB-25
-D RJ 公型，Centronix 36
+A rJ公型，DB-15
+B rJ母型，DB-25
+C rJ公型，DB-25
+D rJ公型，Centronix 36
 参考答案：B
  
 183、磁盘阵列规范5（RAID 5），最少需要几个驱动器？
-A RJ 1
-B RJ 2
-C RJ 3
-D RJ 5
+A rJ1
+B rJ2
+C rJ3
+D rJ5
 参考答案：C
  
 184、点阵式打印机在打印过程中，打印纸的左侧部份打印的很好，但右侧部份的颜色则逐渐暗淡，请问最有可能引起这个问题的是？
-A RJ 色带用尽了
-B RJ 压盘有偏离
-C RJ 打印头坏了
-D RJ 打印头偏离
+A rJ色带用尽了
+B rJ压盘有偏离
+C rJ打印头坏了
+D rJ打印头偏离
 参考答案：B
  
 185、什么原因引起激光打印机打印出的文档全篇都是黑色的？
-A RJ 激光成像出错
-B RJ 墨盒没有碳粉了
-C RJ 转印辊没通电
-D RJ 充电辊没通电
+A rJ激光成像出错
+B rJ墨盒没有碳粉了
+C rJ转印辊没通电
+D rJ充电辊没通电
 参考答案：D
  
 186、什么网络技术允许NIC（网卡）可以同时接收或发送数据？
-A RJ 多态
-B RJ 半双工
-C RJ 全双工
-D RJ 对等
+A rJ多态
+B rJ半双工
+C rJ全双工
+D rJ对等
 参考答案：C
  
 187、在两台设备间约定了出错检查、数据压缩、信息结束和发送指示的规范，并以双方约定的格式传送数据，这个规范是什么？
-A RJ MAC地址
-B RJ IP地址
-C RJ 协议
-D RJ 寻址
+A rJMAC地址
+B rJIP地址
+C rJ协议
+D rJ寻址
 参考答案：C
  
 188、100M以太网布线要求的最低标准电缆是？
-A RJ CAT3
-B RJ CAT4
-C RJ CAT5
-D RJ CAT6
+A rJCAT3
+B rJCAT4
+C rJCAT5
+D rJCAT6
 参考答案：C
 
 189、哪一种互联网通讯技术采用与电话通讯相同的铜缆，而且传输速率可达到128Kbps？
-A RJ 拨号Modem
-B RJ DSL
-C RJ 宽带
-D RJ ISDN
+A rJ拨号Modem
+B rJDSL
+C rJ宽带
+D rJISDN
 参考答案：D
  
 190、使用FHSS（跳频技术）和DSSS（直接序列展频技术）的网络IEEE标准是什么？
-A RJ 802.11
-B RJ 802.3
-C RJ 802.4
-D RJ 802.6
+A rJ802.11
+B rJ802.3
+C rJ802.4
+D rJ802.6
 参考答案：A
 
 191、基于卫星的互联网接入技术被认为是"公正平等"的，该技术主要用于？
-A RJ 网络游戏
-B RJ 大批量下载
-C RJ 电话会议
-D RJ 网络电话
+A rJ网络游戏
+B rJ大批量下载
+C rJ电话会议
+D rJ网络电话
 参考答案：B
  
 192、以下什么技术易受障碍物诸如"墙"的影响？
-A RJ 无线
-B RJ DSL
-C RJ 电缆
-D RJ ISDN
+A rJ无线
+B rJDSL
+C rJ电缆
+D rJISDN
 参考答案：A
 
 196、启动Windows XP时，系统读取某些扇区有困难，应该采取什么措施？
-A RJ 格式化磁盘并重装系统
-B RJ 备份数据并更换硬盘
-C RJ 重装整个系统
-D RJ 使用FDISK工具
+A rJ格式化磁盘并重装系统
+B rJ备份数据并更换硬盘
+C rJ重装整个系统
+D rJ使用FDISK工具
 参考答案：B
 
 197、一个用户说他的PC在安装PnP声卡后经常出现短暂的停顿，除了该声卡外内部还有个非PnP的MODEM。此PC的BIOS支持PnP设备，并且安装了PnP的操作系统。那么对这个问题最合适的解释是？
-A RJ 声卡与MODEM冲突
-B RJ 需要重新安装操作系统
-C RJ BIOS需要升级
-D RJ 系统温度过高
+A rJ声卡与MODEM冲突
+B rJ需要重新安装操作系统
+C rJBIOS需要升级
+D rJ系统温度过高
 参考答案：D
  
 198、下列那一个可执行文件用于改变某一个硬件设备的驱动参数？
-A RJ DEFARG.EXE
-B RJ REGEDIT.EXE
-C RJ SCANDISK.EXE
-D RJ TASKMAN.EXE
+A rJDEFARG.EXE
+B rJREGEDIT.EXE
+C rJSCANDISK.EXE
+D rJTASKMAN.EXE
 参考答案：A
  
 199、"瘦以太网"的另一个名字是什么？
-A RJ 10Base2
-B RJ 100Base2
-C RJ 10Base5
-D RJ 10BaseT
+A rJ10Base2
+B rJ100Base2
+C rJ10Base5
+D rJ10BaseT
 参考答案：A
  
 200、在WinXP下，下列哪一种常常被保留在计算机的当前系统配置中？
-A RJ 创建垃圾文件处理的Dr Watson
-B RJ 备份所有系统文件信息的MSCONFIG
-C RJ 创建系统恢复断点的System Restore
-D RJ 穿件设置备份的文件尺寸和设置传输尺寸
+A rJ创建垃圾文件处理的Dr Watson
+B rJ备份所有系统文件信息的MSCONFIG
+C rJ创建系统恢复断点的System Restore
+D rJ穿件设置备份的文件尺寸和设置传输尺寸
 参考答案：C
  
 201、下列工具哪一个常常用于鉴定一条网线的损害断点的距离？
-A RJ 回环连接器
-B RJ 时间域反射器
-C RJ 轨迹线路软件
-D RJ 连通测试器
+A rJ回环连接器
+B rJ时间域反射器
+C rJ轨迹线路软件
+D rJ连通测试器
 参考答案：B
  
 202、下列哪一个字符允许文本可重新从屏幕命令指向文件？
-A RJ >
-B RJ |
-C RJ <<
-D RJ >idd44cb929b5ee7
+A rJ>
+B rJ|
+C rJ
+D rJidd44cb929b5ee7
 参考答案：A
  
 203、一位顾客最近购买了一台新的扫描/打印一体机，但是扫描功能一直不能使用。下列那一项最有可能是错误原因？
-A RJ 双功能没有被提供
-B RJ 打印机滚轴不工作
-C RJ 设备连接到错误的COM口
-D RJ 扫描设备驱动未按照
+A rJ双功能没有被提供
+B rJ打印机滚轴不工作
+C rJ设备连接到错误的COM口
+D rJ扫描设备驱动未按照
 参考答案：D
  
 204、一个15脚3排的PCI卡是下列那一个？
-A RJ 显示适配器（显卡）
-B RJ 串口
-C RJ 并口
-D RJ 游戏杆/MIDI口
+A rJ显示适配器（显卡）
+B rJ串口
+C rJ并口
+D rJ游戏杆/MIDI口
 参考答案：A
  
 205、下列那一种Cash是处理器芯片芯内Cash存储？
-A RJ 一级Cash
-B RJ 动态Cash
-C RJ 加速处理Cash
-D RJ RAM Cash
+A rJ一级Cash
+B rJ动态Cash
+C rJ加速处理Cash
+D rJRAM Cash
 参考答案：A
  
 206、一位A+认证专家被要求向系统安装第二个ATA硬盘，他的上级要求必须使用同一个数据线，并且保证同样的访问速度。这位专家如何设置以安装的和要添加的硬盘跳线器？
-A RJ 已装的：Cable Select。后装的：Slave
-B RJ 已装的：Master。后装的：Cable Select
-C RJ 已装的：Master。后装的：Slave
-D RJ 已装的：Slave。后装的：Master
+A rJ已装的：Cable Select。后装的：Slave
+B rJ已装的：Master。后装的：Cable Select
+C rJ已装的：Master。后装的：Slave
+D rJ已装的：Slave。后装的：Master
 参考答案：C
  
 207、一个被设为从设备的ATAPI CD-ROM,同一个超级ATA硬盘共用连接电缆线，会出现怎样结果？
-A RJ 提供CD-ROM性能
-B RJ 降低CD-ROM性能
-C RJ 提供硬盘性能
-D RJ 降低硬盘性能
+A rJ提供CD-ROM性能
+B rJ降低CD-ROM性能
+C rJ提供硬盘性能
+D rJ降低硬盘性能
 参考答案：D
  
 208、如果在SCSI总线上面有一个硬盘和一个CD-ROM，那么工程师应该停止哪些硬件？
-A RJ 仅仅停用硬盘
-B RJ 终止SCSI接口卡
-C RJ 停用硬盘和CD-ROM
-D RJ 停用SCSI 卡，硬盘和CD-ROM
+A rJ仅仅停用硬盘
+B rJ终止SCSI接口卡
+C rJ停用硬盘和CD-ROM
+D rJ停用SCSI 卡，硬盘和CD-ROM
 参考答案：C
  
 209、一个用户想在一个windows 2000的系统下面听CD，但是当CD开始播放的时候，却没有声音从喇叭里面发出来，工程师确认喇叭没有问题，而且喇叭是开着的，那么最有可能什么原因造成这种情况的？
-A RJ CD-ROM和声卡的音频线没有连接好
-B RJ 电脑在放MP3音乐，不能放CD音乐
-C RJ CD插的方向反了
-D RJ Windows 2000 不支持CD播放器
+A rJCD-ROM和声卡的音频线没有连接好
+B rJ电脑在放MP3音乐，不能放CD音乐
+C rJCD插的方向反了
+D rJWindows 2000 不支持CD播放器
 参考答案：A
  
 210、一个客户打电话报告说，电脑没有声音，在到达之前，技术人员应该怎么做？
-A RJ 确定电脑是否有电，播一首歌；如果没有声音，要客户调整声音控制栏，看是否开的太低，或者要客户修改声音控制栏的设置
-B RJ 要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
-C RJ 要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
-D RJ 解释说，电脑如果坏了会有噪声，因此电脑没有问题
+A rJ确定电脑是否有电，播一首歌；如果没有声音，要客户调整声音控制栏，看是否开的太低，或者要客户修改声音控制栏的设置
+B rJ要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
+C rJ要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
+D rJ解释说，电脑如果坏了会有噪声，因此电脑没有问题
 参考答案：D
  
 211、什么环境是最好保存彩色激光打印机的磁鼓？
-A RJ  潮湿
-B RJ 凉快，阴暗
-C RJ 凉快，明亮
-D RJ 温暖，阴暗
+A rJ 潮湿
+B rJ凉快，阴暗
+C rJ凉快，明亮
+D rJ温暖，阴暗
 参考答案：B
  
 212、让PC机从CD-ROM启动最有效的方法是？
-A RJ 将主硬盘设置为disable
-B RJ 配置CD-ROM为Primary Master
-C RJ 在CMOS中改变启动顺序
-D RJ 在CMOS中设置CD-ROM为可启动
+A rJ将主硬盘设置为disable
+B rJ配置CD-ROM为Primary Master
+C rJ在CMOS中改变启动顺序
+D rJ在CMOS中设置CD-ROM为可启动
 参考答案：C
 
 213、打印机通过网络接口连接到基于TCP/IP协议的网络时，可以用以下哪个命令来测试打印机的网络接口？
-A RJ FTP
-B RJ PING
-C RJ RECOVER
-D RJ Telnet
+A rJFTP
+B rJPING
+C rJRECOVER
+D rJTelnet
 参考答案：B
  
 214、一个A+的专业技术人员接受了使用10Base2技术连接10台计算机的任务。请问他应该使用什么类型的线缆和连接器来直接连接各计算机的网卡？
-A RJ CAT5和BNC连接器
-B RJ CAT5和RJ-45连接器
-C RJ RG-62和RJ-45连接器
-D RJ RG-58和T型连接器
+A rJCAT5和BNC连接器
+B rJCAT5和RJ-45连接器
+C rJRG-62和RJ-45连接器
+D rJRG-58和T型连接器
 参考答案：D
 
 215、使用对等网的目的是什么？
-A RJ 通过WAN（广域网）来共享数据
-B RJ 在计算机间共享数据
-C RJ 连接计算机到互联网
-D RJ 连接计算机到WAN
+A rJ通过WAN（广域网）来共享数据
+B rJ在计算机间共享数据
+C rJ连接计算机到互联网
+D rJ连接计算机到WAN
 参考答案：B
  
 216、CAT5电缆是什么类型的电缆？
-A RJ 同轴电缆
-B RJ 光纤
-C RJ RS232
-D RJ UTP
+A rJ同轴电缆
+B rJ光纤
+C rJRS232
+D rJUTP
 参考答案：D
  
 217、用户无法打印到网络打印机，打印任务在打印队列中被阻塞，应该先做以下哪一项工作？
-A RJ 从打印和传真中删除打印机，并重新安装打印机
-B RJ 在服务和管理工具中重新启动打印
-C RJ 重新启动工作站和打印机
-D RJ 在命令行输入IPCONFIG/RENEW
+A rJ从打印和传真中删除打印机，并重新安装打印机
+B rJ在服务和管理工具中重新启动打印
+C rJ重新启动工作站和打印机
+D rJ在命令行输入IPCONFIG/RENEW
 参考答案：B
  
 218、在Windows的磁盘管理器中，磁盘1指向：？
-A RJ 第二个软件驱动器
-B RJ 第二个硬盘
-C RJ 主CD-ROM驱动器
-D RJ 主硬盘
+A rJ第二个软件驱动器
+B rJ第二个硬盘
+C rJ主CD-ROM驱动器
+D rJ主硬盘
 参考答案：B
 
 219、"瘦以太网"的另一个名字是什么？
-A RJ 10Base2
-B RJ 100Base2
-C RJ 10Base5
-D RJ 10BaseT
+A rJ10Base2
+B rJ100Base2
+C rJ10Base5
+D rJ10BaseT
 参考答案：A
  
 220、先例那一个是正确处理废弃电池的方法？
-A RJ 在废弃前，清洗电池
-B RJ 查询当地的废弃电池处理程序
-C RJ 在废弃前，用铝箔包裹电池
-D RJ 短路电池，连接阳极阴极
+A rJ在废弃前，清洗电池
+B rJ查询当地的废弃电池处理程序
+C rJ在废弃前，用铝箔包裹电池
+D rJ短路电池，连接阳极阴极
 参考答案：B
  
 221、下列那一个奔腾Pro处理器的插槽接口？
-A RJ Socket 7
-B RJ Socket 8
-C RJ Slot 1
-D RJ Socket 380PGA
+A rJSocket 7
+B rJSocket 8
+C rJSlot 1
+D rJSocket 380PGA
 参考答案：B
  
 222、一个新的IDE硬盘被安装，并且以将跳线设置好，对新硬盘说下一步要做什么？
-A RJ 格式化硬盘
-B RJ 安装操作系统
-C RJ 硬盘分区
-D RJ 运行磁盘检测工具
+A rJ格式化硬盘
+B rJ安装操作系统
+C rJ硬盘分区
+D rJ运行磁盘检测工具
 参考答案：C
  
 223、Ultra 3 SCSI总线的最大传输数率是多大？
-A RJ 40Mbps
-B RJ 80Mbps
-C RJ 160Mbps
-D RJ 320Mbps
+A rJ40Mbps
+B rJ80Mbps
+C rJ160Mbps
+D rJ320Mbps
 参考答案：C
  
 224、什么是用户端连接到AP的BSS层所使用的非标准32位特征码？
-A RJ BSI
-B RJ WID
-C RJ WIP
-D RJ SSID
+A rJBSI
+B rJWID
+C rJWIP
+D rJSSID
 参考答案：D
  
 225、一个用户有一台奔腾级别的电脑，他决定升级他的电脑，买了一个10GB的ATA100的硬盘，但是他的电脑的BIOS不能识别这个硬盘，那么最可能的原因是什么？
-A RJ 系统的主板不支持这个硬盘
-B RJ 硬盘的跳线需要改成ATA33
-C RJ 装了错误的硬盘的驱动
-D RJ 硬盘没有接好地线
+A rJ系统的主板不支持这个硬盘
+B rJ硬盘的跳线需要改成ATA33
+C rJ装了错误的硬盘的驱动
+D rJ硬盘没有接好地线
 参考答案：A
  
 226、什么时候需要MSDS（材料安全数据手册）？
-A RJ 需要了解内存大小
-B RJ 需要了解化学产品的安全
-C RJ 需要安装硬盘
-D RJ 需要了解计算机工具的使用
+A rJ需要了解内存大小
+B rJ需要了解化学产品的安全
+C rJ需要安装硬盘
+D rJ需要了解计算机工具的使用
 参考答案：B
  
 227、什么是缺省的网关IP地址定义？
-A RJ 缺省的路由器地址
-B RJ 缺省的sending station 地址
-C RJ  缺省的receiving station 地址
-D RJ 缺省的浏览器地址
+A rJ缺省的路由器地址
+B rJ缺省的sending station 地址
+C rJ 缺省的receiving station 地址
+D rJ缺省的浏览器地址
 参考答案：A
  
 228、Socket A 结构有多少根pin？
-A RJ 370
-B RJ 378
-C RJ 462
-D RJ 478
+A rJ370
+B rJ378
+C rJ462
+D rJ478
 参考答案：C
  
 229、激光打印机在打印输出的每一张打印纸上相同位置上，都有完全相同重复的印记。请问最有可能引起这个问题的原因是？
-A RJ 硒鼓该换了
-B RJ 定影单元该换了
-C RJ 转印辊需要清洁
-D RJ 充电辊需要更换
+A rJ硒鼓该换了
+B rJ定影单元该换了
+C rJ转印辊需要清洁
+D rJ充电辊需要更换
 参考答案：A
 
 230、EIA/TIA（电子工业协会/电信工业协会）568B布线标准（10BaseT和100BaseT）采用哪一类线缆和连接器？
-A RJ 2对UTP双绞线，RJ-11连接器
-B RJ 4对UTP双绞线，RJ-12连接器
-C RJ 4对UTP双绞线，RJ-45连接器
-D RJ 50欧姆同轴电缆，BNC连接器
+A rJ2对UTP双绞线，RJ-11连接器
+B rJ4对UTP双绞线，RJ-12连接器
+C rJ4对UTP双绞线，RJ-45连接器
+D rJ50欧姆同轴电缆，BNC连接器
 参考答案：C
  
 231、以下哪种电缆在网络中产生最小程度的EMI（电磁干扰）？
-A RJ Cat5
-B RJ Cat5e
-C RJ 光纤
-D RJ RG-58
+A rJCat5
+B rJCat5e
+C rJ光纤
+D rJRG-58
 参考答案：C
  
 232、在Windows XP中，安装完硬件的驱动程序后，计算机不能正常工作。可以采取以下哪一种措施来解决问题？
-A RJ 控制面板 > 检查设备的本地安全策略
-B RJ 设备管理器 > 选择设备 > 卸载驱动
-C RJ 控制面板 > Windows防火墙 > 选择设备
-D RJ 重启系统并重新安装驱动程序
+A rJ控制面板 > 检查设备的本地安全策略
+B rJ设备管理器 > 选择设备 > 卸载驱动
+C rJ控制面板 > Windows防火墙 > 选择设备
+D rJ重启系统并重新安装驱动程序
 参考答案：B
  
 233、用户报告说计算机工作越来越慢了，首先应该采取以下哪种措施？
-A RJ 格式化并重装硬盘
-B RJ 备份并重新恢复硬盘
-C RJ 增加一个新硬盘，并格式化为相同的文件系统
-D RJ 使用硬盘属性下的碎片整理程序
+A rJ格式化并重装硬盘
+B rJ备份并重新恢复硬盘
+C rJ增加一个新硬盘，并格式化为相同的文件系统
+D rJ使用硬盘属性下的碎片整理程序
 参考答案：D
  
 234、在WinXP下，下列哪一种常常被保留在计算机的当前系统配置中？
-A RJ 创建垃圾文件处理的Dr Watson
-B RJ 备份所有系统文件信息的MSCONFIG
-C RJ 创建系统恢复断点的System Restore
-D RJ 穿件设置备份的文件尺寸和设置传输尺寸
+A rJ创建垃圾文件处理的Dr Watson
+B rJ备份所有系统文件信息的MSCONFIG
+C rJ创建系统恢复断点的System Restore
+D rJ穿件设置备份的文件尺寸和设置传输尺寸
 参考答案：C
 
 235、安装完Windows SP2后，计算机不能正常工作。在启动过程中，以下哪一种方法将使系统进入安全模式？
-A RJ 按下 Ctrl + Alt + Shift
-B RJ 按下 F8 键
-C RJ 按下 Ctrl 键
-D RJ 按下 Ctrl + Alt + Delete
+A rJ按下 Ctrl + Alt + Shift
+B rJ按下 F8 键
+C rJ按下 Ctrl 键
+D rJ按下 Ctrl + Alt + Delete
 参考答案：B
 
 236、下列那一个是用于RAM的错误检测或错误更正？
-A RJ RAID5
-B RJ ECC
-C RJ RAID ADG
-D RJ AGP
+A rJRAID5
+B rJECC
+C rJRAID ADG
+D rJAGP
 参考答案：B
 
 237、如果你使用的是一台只支持一个IDE控制器的老式Pentium主板的电脑，怎样能够同时安装一个大硬盘、一个CD-ROM和一个IDE磁带机：？
-A RJ 安装一个SCSI转接卡；
-B RJ 安装一个IDE转接卡；
-C RJ 这种类型主板只能使用一个IDE设备；
-D RJ 这种类型主板只能使用两个IDE设备；
+A rJ安装一个SCSI转接卡；
+B rJ安装一个IDE转接卡；
+C rJ这种类型主板只能使用一个IDE设备；
+D rJ这种类型主板只能使用两个IDE设备；
 　正确答案：B
 
 238、在一块采用了EIDE技术增加了ATA-2支持的ATX Pentium主板上，能够支持多少个IDE设备：？
-A RJ 2
-B RJ 4
-C RJ 8
-D RJ 16
+A rJ2
+B rJ4
+C rJ8
+D rJ16
 　正确答案：B
  
 239、通过模拟电话拨号上网的数据传输速率最有可能是？
-A RJ 1到56K bps
-B RJ 64到500K bps
-C RJ 500到1500K bps
-D RJ 1.5到10M bpd 
+A rJ1到56K bps
+B rJ64到500K bps
+C rJ500到1500K bps
+D rJ1.5到10M bpd 
 　正确答案：A
 
 240、和用户道别时，技师应该做完下列哪一个工作？
-A RJ 尝试卖给用户一台新计算机
-B RJ 升级所有设备驱动程序
-C RJ 让用户测试使用计算机
-D RJ 安装最新应用程序
+A rJ尝试卖给用户一台新计算机
+B rJ升级所有设备驱动程序
+C rJ让用户测试使用计算机
+D rJ安装最新应用程序
 　正确答案：C
 
 241、安装完一个新硬盘驱动器后，技师应该完成下列哪一个工作？
-A RJ 开启计算机，进入设备管理器并安装新硬件
-B RJ 检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
-C RJ 开启计算机，并只连接硬盘驱动器到IDE总线
-D RJ 进入安全模式安装新硬件 
+A rJ开启计算机，进入设备管理器并安装新硬件
+B rJ检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
+C rJ开启计算机，并只连接硬盘驱动器到IDE总线
+D rJ进入安全模式安装新硬件 
 　正确答案：B
 
 1、如果你使用的是一台只支持一个IDE控制器的老式Pentium主板的电脑，怎样能够同时安装一个大硬盘、一个CD-ROM和一个IDE磁带机：？
-A RJ 安装一个SCSI转接卡；
-B RJ 安装一个IDE转接卡；
-C RJ 这种类型主板只能使用一个IDE设备；
-D RJ 这种类型主板只能使用两个IDE设备；
+A rJ安装一个SCSI转接卡；
+B rJ安装一个IDE转接卡；
+C rJ这种类型主板只能使用一个IDE设备；
+D rJ这种类型主板只能使用两个IDE设备；
 参考答案：B
   
 2、构建一个50台计算机组成的1000BaseT网络，采用以下什么类型的电缆？
-A RJ CAT6
-B RJ 粗缆
-C RJ RG62
-D RJ CAT3 
+A rJCAT6
+B rJ粗缆
+C rJRG62
+D rJCAT3 
 参考答案：A
   
 3、一个A+的专业技术人员接受了使用10Base2技术连接10台计算机的任务。请问他应该使用什么类型的线缆和连接器来直接连接各计算机的网卡？
-A RJ CAT5和BNC连接器
-B RJ CAT5和RJ-45连接器
-C RJ RG-62和RJ-45连接器
-D RJ RG-58和T型连接器
+A rJCAT5和BNC连接器
+B rJCAT5和RJ-45连接器
+C rJRG-62和RJ-45连接器
+D rJRG-58和T型连接器
 参考答案：D
   
 4、哪一种线缆最可能使用RJ-45连接器来将计算机接入网络？
-A RJ 10Base2
-B RJ 10Base5
-C RJ 10BaseT
-D RJ 10BaseFL 
+A rJ10Base2
+B rJ10Base5
+C rJ10BaseT
+D rJ10BaseFL 
 参考答案：C
   
 5、在不使用跳线器和PnP配置ISA NICs（网卡）时，采用什么方法来设置IRQ？
-A RJ DMA
-B RJ CMOS
-C RJ 操作系统
-D RJ 配置软件
+A rJDMA
+B rJCMOS
+C rJ操作系统
+D rJ配置软件
 参考答案：C
   
 6、什么网络协议允许网络管理者在计算机启动时自动分配IP地址和其他信息？
-A RJ ARP
-B RJ BGP（边界网关协议）
-C RJ DHCP
-D RJ DNS 
+A rJARP
+B rJBGP（边界网关协议）
+C rJDHCP
+D rJDNS 
 参考答案：C
   
 7、两台采用802.11b NIC（网卡）的计算机可以在_____状态下，不需要HUB来实现连接。？
-A RJ 红外
-B RJ WiFi
-C RJ 点对点
-D RJ 无线
+A rJ红外
+B rJWiFi
+C rJ点对点
+D rJ无线
 参考答案：C
   
 8、在两台设备间约定了出错检查、数据压缩、信息结束和发送指示的规范，并以双方约定的格式传送数据，这个规范是什么？
-A RJ MAC地址
-B RJ IP地址
-C RJ 协议
-D RJ 寻址
+A rJMAC地址
+B rJIP地址
+C rJ协议
+D rJ寻址
 参考答案：C
   
 9、以下什么协议使用可变长度的名字定义每一个工作站？
-A RJ IP
-B RJ IPX
-C RJ NetBIOS
-D RJ AppleTalk 
+A rJIP
+B rJIPX
+C rJNetBIOS
+D rJAppleTalk 
 参考答案：C
   
 10、使用对等网的目的是什么？
-A RJ 通过WAN（广域网）来共享数据
-B RJ 在计算机间共享数据
-C RJ 连接计算机到互联网
-D RJ 连接计算机到WAN 
+A rJ通过WAN（广域网）来共享数据
+B rJ在计算机间共享数据
+C rJ连接计算机到互联网
+D rJ连接计算机到WAN 
 参考答案：B
   
 11、CAT5电缆是什么类型的电缆？
-A RJ 同轴电缆
-B RJ 光纤
-C RJ RS232
-D RJ UTP
+A rJ同轴电缆
+B rJ光纤
+C rJRS232
+D rJUTP
 参考答案：D
   
 12、以下哪种电缆在网络中产生最小程度的EMI（电磁干扰）？
-A RJ Cat5
-B RJ Cat5e
-C RJ 光纤
-D RJ RG-58
+A rJCat5
+B rJCat5e
+C rJ光纤
+D rJRG-58
 参考答案：C
   
 13、使用FHSS（跳频技术）和DSSS（直接序列展频技术）的网络IEEE标准是什么？
-A RJ 802.11
-B RJ 802.3
-C RJ 802.4
-D RJ 802.6 
+A rJ802.11
+B rJ802.3
+C rJ802.4
+D rJ802.6 
 参考答案：A
   
 14、在无线技术中，WAP是什么意思？
-A RJ 无线接入点
-B RJ 无线应用端口
-C RJ 无线关联点
-D RJ 无线认证点 
+A rJ无线接入点
+B rJ无线应用端口
+C rJ无线关联点
+D rJ无线认证点 
 参考答案：A
   
 15、基于卫星的互联网接入技术被认为是"公正平等"的，该技术主要用于？
-A RJ 网络游戏
-B RJ 大批量下载
-C RJ 电话会议
-D RJ 网络电话
+A rJ网络游戏
+B rJ大批量下载
+C rJ电话会议
+D rJ网络电话
 参考答案：B
  
 16、ADSL是什么意思？
-A RJ 家庭数字信号长度
-B RJ 非对称数字用户线
-C RJ 异步数字信号线
-D RJ 非缩写
+A rJ家庭数字信号长度
+B rJ非对称数字用户线
+C rJ异步数字信号线
+D rJ非缩写
 参考答案：B
   
 17、在同一条传输介质（电缆）中可同时传输多个信道的数据，这一数据传输方式称为？
-A RJ 有线电视
-B RJ ISDN
-C RJ 电话线
-D RJ 宽带
+A rJ有线电视
+B rJISDN
+C rJ电话线
+D rJ宽带
 参考答案：D
   
 28、用户想安装使用网络打印机，技师应该如何做？
-A RJ 通过控制面板安装打印机
-B RJ 通知用户他们需要购买一台独立的打印机
-C RJ 通知用户网络打印机不能共享
-D RJ 通过设备管理器安装打印机 
+A rJ通过控制面板安装打印机
+B rJ通知用户他们需要购买一台独立的打印机
+C rJ通知用户网络打印机不能共享
+D rJ通过设备管理器安装打印机 
 参考答案：A
   
 29、和用户道别时，技师应该做完下列哪一个工作？
-A RJ 尝试卖给用户一台新计算机
-B RJ 升级所有设备驱动程序
-C RJ 让用户测试使用计算机
-D RJ 安装最新应用程序
+A rJ尝试卖给用户一台新计算机
+B rJ升级所有设备驱动程序
+C rJ让用户测试使用计算机
+D rJ安装最新应用程序
 参考答案：C
   
 31、用户无法打印到网络打印机，打印任务在打印队列中被阻塞，应该先做以下哪一项工作？
-A RJ 从打印和传真中删除打印机，并重新安装打印机
-B RJ 在服务和管理工具中重新启动打印
-C RJ 重新启动工作站和打印机
-D RJ 在命令行输入IPCONFIG/RENEW 
+A rJ从打印和传真中删除打印机，并重新安装打印机
+B rJ在服务和管理工具中重新启动打印
+C rJ重新启动工作站和打印机
+D rJ在命令行输入IPCONFIG/RENEW 
 参考答案：B
   
 32、用户报告说计算机工作越来越慢了，首先应该采取以下哪种措施？
-A RJ 格式化并重装硬盘
-B RJ 备份并重新恢复硬盘
-C RJ 增加一个新硬盘，并格式化为相同的文件系统
-D RJ 使用硬盘属性下的碎片整理程序
+A rJ格式化并重装硬盘
+B rJ备份并重新恢复硬盘
+C rJ增加一个新硬盘，并格式化为相同的文件系统
+D rJ使用硬盘属性下的碎片整理程序
 参考答案：D
 
 37、以下RAID组没有提供容错功能的是哪一个？
-A RJ RAID 0
-B RJ RAID 1
-C RJ RAID 5
-D RJ RAID 1 + 0 
+A rJRAID 0
+B rJRAID 1
+C rJRAID 5
+D rJRAID 1 + 0 
 参考答案：A
   
 38、在Windows的磁盘管理器中，标识为磁盘1的是？
-A RJ 第二个软件驱动器
-B RJ 第二个硬盘
-C RJ 主CD-ROM驱动器
-D RJ 主硬盘 
+A rJ第二个软件驱动器
+B rJ第二个硬盘
+C rJ主CD-ROM驱动器
+D rJ主硬盘 
 参考答案：B
   
 40、在检查公司邮件日志时，技师发现公司某职员将全部销售资料发送给了竞争者，技师应该采取什么措施？
-A RJ 通知技师的管理者，并按照公司相关制度处理
-B RJ 在公司职员大会上宣布资料不允许发送给竞争者
-C RJ 私下通知该职员，并建议他应该小心
-D RJ 给竞争者发一封邮件并要求其销毁所有拷贝的数据
+A rJ通知技师的管理者，并按照公司相关制度处理
+B rJ在公司职员大会上宣布资料不允许发送给竞争者
+C rJ私下通知该职员，并建议他应该小心
+D rJ给竞争者发一封邮件并要求其销毁所有拷贝的数据
 参考答案：A
   
 42、一个液晶显示器，换到一个电脑上，加电没有显示。原因可能是？
-A RJ 重新加载显示器驱动程序
-B RJ 分辨率太低
-C RJ 分辨率太高
-D RJ 更新BIOS 
+A rJ重新加载显示器驱动程序
+B rJ分辨率太低
+C rJ分辨率太高
+D rJ更新BIOS 
 参考答案：C
   
 43、POP3的端口号是多少？
-A RJ 80
-B RJ 3389
-C RJ 110
-D RJ 119
+A rJ80
+B rJ3389
+C rJ110
+D rJ119
 参考答案：C
   
 44、计算机电源的风扇轴承坏了应该更换哪个部件？
-A RJ 风扇
-B RJ 风扇轴承
-C RJ 硅胶
-D RJ 整个电源部分 
+A rJ风扇
+B rJ风扇轴承
+C rJ硅胶
+D rJ整个电源部分 
 参考答案：D
   
 45、下面哪种接头用于光纤连接？
-A RJ RJ-11
-B RJ RJ-45
-C RJ MT-RJ
-D RJ CAT5 
+A rJRJ-11
+B rJRJ-45
+C rJMT-RJ
+D rJCAT5 
 参考答案：C
   
 46、并口打印机接口 LPT1所占用的中断为？
-A RJ IRQ1
-B RJ IRQ3
-C RJ IRQ5
-D RJ IRQ7 
+A rJIRQ1
+B rJIRQ3
+C rJIRQ5
+D rJIRQ7 
 参考答案：D
   
 47、一个笔记本电脑扩展槽最多可插接几块III型卡？
-A RJ 1
-B RJ 2
-C RJ 3
-D RJ 4
+A rJ1
+B rJ2
+C rJ3
+D rJ4
 参考答案：A
   
 48、在一台电脑安装IDE设备时，下列哪一个不用进行跳线设置：？
-A RJ 线缆选择（Cable Select）
-B RJ 从设置（Slave） 
-C RJ 主设置（Master） 
-D RJ 终端设置（Terminal）
+A rJ线缆选择（Cable Select）
+B rJ从设置（Slave） 
+C rJ主设置（Master） 
+D rJ终端设置（Terminal）
 参考答案：D
   
 49、通过什么特征可以迅速识别Ultra ATA-66接口线缆：？
-A RJ 线缆有40根导线
-B RJ 线缆是蓝色的
-C RJ 线缆有80根导线 
-D RJ 线缆接口是蓝色的
+A rJ线缆有40根导线
+B rJ线缆是蓝色的
+C rJ线缆有80根导线 
+D rJ线缆接口是蓝色的
 参考答案：C
   
 51、在一块采用了EIDE技术增加了ATA-2支持的ATX Pentium主板上，能够支持多少个IDE设备：？
-A RJ 2
-B RJ 4
-C RJ 8
-D RJ 16
+A rJ2
+B rJ4
+C rJ8
+D rJ16
 参考答案：B
 
 52、在采用了EDIE接口的ATX主板上，每个接口能够连接的设备数量是：？
-A RJ 2
-B RJ 1
-C RJ 3
-D RJ 4
+A rJ2
+B rJ1
+C rJ3
+D rJ4
 参考答案：B
   
 53、以下哪一种线缆在每一对电缆周围安装有金属屏蔽箔，同时在一组线缆周围装有金属屏蔽箔，并使用RJ-45连接器？
-A RJ 光缆
-B RJ 同轴电缆
-C RJ STP
-D RJ UTP 
+A rJ光缆
+B rJ同轴电缆
+C rJSTP
+D rJUTP 
 参考答案：C
   
 54、在不使用跳线器和PnP配置ISA NICs（网卡）时，采用什么方法来设置IRQ？
-A RJ DMA
-B RJ CMOS
-C RJ 操作系统
-D RJ 配置软件
+A rJDMA
+B rJCMOS
+C rJ操作系统
+D rJ配置软件
 参考答案：C
   
 55、什么网络协议允许网络管理者在计算机启动时自动分配IP地址和其他信息？
-A RJ ARP
-B RJ BGP（边界网关协议）
-C RJ DHCP
-D RJ DNS 
+A rJARP
+B rJBGP（边界网关协议）
+C rJDHCP
+D rJDNS 
 参考答案：C
   
 56、以下哪一个地址包含在NIC（网卡）中？
-A RJ IP
-B RJ IPX
-C RJ NetBIOS
-D RJ MAC 
+A rJIP
+B rJIPX
+C rJNetBIOS
+D rJMAC 
 参考答案：D
 
 57、制造商在NIC（网卡）上是如何设定MAC地址的？
-A RJ 硬件编码
-B RJ 可配置
-C RJ 通过软件
-D RJ 使用跳线器 
+A rJ硬件编码
+B rJ可配置
+C rJ通过软件
+D rJ使用跳线器 
 参考答案：A
 
 58、以下什么技术易受障碍物诸如"墙"的影响？
-A RJ 无线
-B RJ DSL
-C RJ 电缆
-D RJ ISDN 
+A rJ无线
+B rJDSL
+C rJ电缆
+D rJISDN 
 参考答案：A
   
 59、用户打印时被告知无法打印。技师首先应该检查？
-A RJ 打印机在使用哪一个进纸盘
-B RJ 打印机的网络配置是否正确
-C RJ 打印机是否通电
-D RJ 用户计算机上安装什么操作系统
+A rJ打印机在使用哪一个进纸盘
+B rJ打印机的网络配置是否正确
+C rJ打印机是否通电
+D rJ用户计算机上安装什么操作系统
 参考答案：C
   
 60、用户购买了一个无线路由器用于家庭网络，用户首先应该做以下什么工作？
-A RJ 断开所有无线连接
-B RJ 在路由器上安装防火墙
-C RJ 分配一个静态IP地址给路由器
-D RJ 改变缺省的管理员名称和密码 
+A rJ断开所有无线连接
+B rJ在路由器上安装防火墙
+C rJ分配一个静态IP地址给路由器
+D rJ改变缺省的管理员名称和密码 
 参考答案：D
   
 61、公司邮件服务器上的一款非关键软件升级时需要邮件服务器重启，应该采取以下什么措施？
-A RJ 在工作时段以后规划需要完成的服务，并在服务器重启后检查所有的邮件服务
-B RJ 通过Email通知员工，邮件服务器拟维护，然后升级软件并重启
-C RJ 在工作日开始时安装升级软件并重启
-D RJ 在公司总裁吃午饭时安装升级软件并重启 
+A rJ在工作时段以后规划需要完成的服务，并在服务器重启后检查所有的邮件服务
+B rJ通过Email通知员工，邮件服务器拟维护，然后升级软件并重启
+C rJ在工作日开始时安装升级软件并重启
+D rJ在公司总裁吃午饭时安装升级软件并重启 
 参考答案：A
 
 62、数码相机可用的接口（双选）？
-A RJ USB
-B RJ 火线
-C RJ 并口
-D RJ 串口
+A rJUSB
+B rJ火线
+C rJ并口
+D rJ串口
 参考答案：AB
   
 63、下面哪个设备长时间加载会导致UPS爆掉？
-A RJ LCD
-B RJ 激光打印机
-C RJ 微机
-D RJ 外置调制解调器 
+A rJLCD
+B rJ激光打印机
+C rJ微机
+D rJ外置调制解调器 
 参考答案：B
   
 64、一台电脑上分别在主、从IDE接口上各安装了一块硬盘，并且两块硬盘都划分了相同大小的两个分区，那么从硬盘的主分区在系统中显示的逻辑驱动器是：？
-A RJ driver C：
-B RJ driver D：
-C RJ driver E：
-D RJ driver F：
+A rJdriver C：
+B rJdriver D：
+C rJdriver E：
+D rJdriver F：
 参考答案：B
 
 65、以下哪一种线缆可用于需要高带宽、安全、长距离及可抵抗EMI（电磁干扰）的应用场合？
-A RJ RG-59
-B RJ 细缆
-C RJ CAT6
-D RJ 光缆
+A rJRG-59
+B rJ细缆
+C rJCAT6
+D rJ光缆
 　正确答案：D
  
 66、CAT5　UTP的最大分组长度为？
-A RJ 82英尺（25米）
-B RJ 164英尺（50米）
-C RJ 328英尺（100米）
-D RJ 656英尺（200米） 
+A rJ82英尺（25米）
+B rJ164英尺（50米）
+C rJ328英尺（100米）
+D rJ656英尺（200米） 
 　正确答案：C
  
 67、如果主板集成IDE控制器，怎样维护IDE设置：？
-A RJ 通过安装一个驱动程序来完成；
-B RJ 通过BIOS固件来完成；
-C RJ 通过操作系统来完成；
-D RJ 通过安装一个应用程序来完成；
+A rJ通过安装一个驱动程序来完成；
+B rJ通过BIOS固件来完成；
+C rJ通过操作系统来完成；
+D rJ通过安装一个应用程序来完成；
 　正确答案：B
   
 68、RAID0也被认为是：？
-A RJ 转接
-B RJ 镜像 
-C RJ 磁盘阵列条带化
-D RJ 奇偶校验
+A rJ转接
+B rJ镜像 
+C rJ磁盘阵列条带化
+D rJ奇偶校验
 　正确答案：C
   
 69、什么网络技术允许NIC（网卡）可以同时接收或发送数据？
-A RJ 多态
-B RJ 半双工
-C RJ 全双工
-D RJ 对等
+A rJ多态
+B rJ半双工
+C rJ全双工
+D rJ对等
 　正确答案：C
   
 70、哪一个无线网络架构可实现通过一个HUB来连接许多终端设备？
-A RJ 点到多点
-B RJ 点到点
-C RJ 蜂窝
-D RJ 网状
+A rJ点到多点
+B rJ点到点
+C rJ蜂窝
+D rJ网状
 　正确答案：A
   
 71、通过BRI（基本速率接口）ISDN上网的数据传输速率最有可能是？
-A RJ 1000到56000K bps
-B RJ 64到128K bps
-C RJ 500到1500K bps
-D RJ 1.5到10M bpd
+A rJ1000到56000K bps
+B rJ64到128K bps
+C rJ500到1500K bps
+D rJ1.5到10M bpd
 　正确答案：B
   
 72、运行Windows XP的计算机有三个主分区，一个扩展分区。现在要增加一个分区，以下哪一类分区可使用磁盘管理工具来添加？
-A RJ 主分区
-B RJ 增强分区
-C RJ 扩展分区
-D RJ 逻辑分区
+A rJ主分区
+B rJ增强分区
+C rJ扩展分区
+D rJ逻辑分区
 　正确答案：D
   
 75、用什么工具测量计算机电源的输出功率？
-A RJ 万用表
-B RJ 综合测试仪
-C RJ 示波器
-D RJ 钳形表 
+A rJ万用表
+B rJ综合测试仪
+C rJ示波器
+D rJ钳形表 
 　正确答案：A
   
 76、100M以太网布线要求的最低标准电缆是？
-A RJ CAT3
-B RJ CAT4
-C RJ CAT5
-D RJ CAT6
+A rJCAT3
+B rJCAT4
+C rJCAT5
+D rJCAT6
 　正确答案：C
  
 77、RJ-45接口的数据线有几根？
-A RJ 5
-B RJ 6
-C RJ 7
-D RJ 8
+A rJ5
+B rJ6
+C rJ7
+D rJ8
 　正确答案：D
 
 1、一个用户说他的PC在安装PnP声卡后经常出现短暂的停顿，除了该声卡外内部还有个非PnP的MODEM。此PC的BIOS支持PnP设备，
 并且安装了PnP的操作系统。那么对这个问题最合适的解释是？
-A RJ 声卡与MODEM冲突
-B RJ 需要重新安装操作系统
-C RJ BIOS需要升级
-D RJ 系统温度过高
+A rJ声卡与MODEM冲突
+B rJ需要重新安装操作系统
+C rJBIOS需要升级
+D rJ系统温度过高
 参考答案：D
 
 2、如果一名客户讲他的显示器出现许多颗粒纹理等，为解决这个问题，你首先要求客户回答下面那一个问题？
-A RJ 客户使用什么型号的显卡？
-B RJ 客户使用什么操作系统？
-C RJ 客户购买计算机的总价格
-D RJ 客户显卡分辨率设置多少？
+A rJ客户使用什么型号的显卡？
+B rJ客户使用什么操作系统？
+C rJ客户购买计算机的总价格
+D rJ客户显卡分辨率设置多少？
 参考答案：D
 
 4、下列工具哪一个常常用于鉴定一条网线的损害断点的距离？
-A RJ 回环连接器
-B RJ 时间域反射器
-C RJ 轨迹线路软件
-D RJ 连通测试器
+A rJ回环连接器
+B rJ时间域反射器
+C rJ轨迹线路软件
+D rJ连通测试器
 参考答案：B
 
 7、一台笔记本电脑在启动时，除了在某一斜角度可以看到一些影子外，整个屏幕都是黑色。调整亮度和对比度都无法解决问题。下列那一种是最有可能的原因？
-A RJ VGA显卡设备驱动错误
-B RJ 背光或变压器损坏
-C RJ ACPI电源管理设置出现错误
-D RJ CPU或VGA卡损坏
+A rJVGA显卡设备驱动错误
+B rJ背光或变压器损坏
+C rJACPI电源管理设置出现错误
+D rJCPU或VGA卡损坏
 参考答案：B
 
 8、从USB端口，退出一个已插入的硬设备，常常应该执行以下哪项操作？
-A RJ 添加或删除程序向导
-B RJ 单击鼠标右键并删除
-C RJ 直接拔出设备
-D RJ 删除硬件向导
+A rJ添加或删除程序向导
+B rJ单击鼠标右键并删除
+C rJ直接拔出设备
+D rJ删除硬件向导
 参考答案：D
 
 9、当一台笔记本电脑连接外部显示器时，连接电缆是正确插入，但没有图像显示。一名技术员首先应该检查的是？
-A RJ 在BIOS中，外部显示器被使能。
-B RJ 视频驱动被正确配置
-C RJ 外部显示器连接显示键被按下
-D RJ Windows没有被启动设置在VGA方式
+A rJ在BIOS中，外部显示器被使能。
+B rJ视频驱动被正确配置
+C rJ外部显示器连接显示键被按下
+D rJWindows没有被启动设置在VGA方式
 参考答案：C
 
 10、为了保持存储的数据，下列那一个需要电源供给？
-A RJ ROM
-B RJ RAM
-C RJ 硬盘
-D RJ 软盘
+A rJROM
+B rJRAM
+C rJ硬盘
+D rJ软盘
 参考答案：B
 
 11、下列那一种RAM，为CPU Caching使用？
-A RJ SDRAM
-B RJ SRAM
-C RJ RDRAM
-D RJ DDRSDRAM
+A rJSDRAM
+B rJSRAM
+C rJRDRAM
+D rJDDRSDRAM
 参考答案：B
 
 12、下列那一个物理组件包含计算机的基本电路和元件？
-A RJ 子板
-B RJ 逻辑板
-C RJ 背板
-D RJ 母板（主板）
+A rJ子板
+B rJ逻辑板
+C rJ背板
+D rJ母板（主板）
 参考答案：D
 
 13、如果一名用户告诉一位以获取A+认证的技术员，他想给他的奔腾2系统添加一个120G的品牌硬盘，最有可能引起什么问题？
-A RJ Windows不支持这样大的硬盘
-B RJ 主板上的板上IDE控制器不支持这样的容量
-C RJ 奔腾2的电源不能够提供设备所需要的功率
-D RJ CPU没有足够快的速度去读它
+A rJWindows不支持这样大的硬盘
+B rJ主板上的板上IDE控制器不支持这样的容量
+C rJ奔腾2的电源不能够提供设备所需要的功率
+D rJCPU没有足够快的速度去读它
 参考答案：B
 
 14、从中断9到中断15是几级叠加中断？
-A RJ 1
-B RJ 2
-C RJ 3
-D RJ 4
+A rJ1
+B rJ2
+C rJ3
+D rJ4
 参考答案：B
 
 15、当安装多个USB设备时，技术员发现所有设备都使用相同的IRQ口。如何解决这个问题？
-A RJ 对每个USB设备分配虚拟端口
-B RJ 用最新的驱动设计USB、控制器，如何重启电脑
-C RJ 按日期版本，用更多的USB设备替换现有的
-D RJ 没有问题。USB设备就是被设计分享使用同一IRQ
+A rJ对每个USB设备分配虚拟端口
+B rJ用最新的驱动设计USB、控制器，如何重启电脑
+C rJ按日期版本，用更多的USB设备替换现有的
+D rJ没有问题。USB设备就是被设计分享使用同一IRQ
 参考答案：D
 
 16、在Win98总体下安装一个Modem后，出现与COM2的一个IRQ冲突。如果配置使用COM3，这个Modem或许可以正取工作。对COM3，适合使用的I/O口和IRQ是多少？
-A RJ 2E8-2Efh；IRQ3
-B RJ 3E8-3Efh；IRQ4
-C RJ 2f8-2ffh；IRQ3
-D RJ 3f8-3ffh；IRQ4
+A rJ2E8-2Efh；IRQ3
+B rJ3E8-3Efh；IRQ4
+C rJ2f8-2ffh；IRQ3
+D rJ3f8-3ffh；IRQ4
 参考答案：D
 
 17、下列那一个是通常用在10BaseLAN（局域网）8芯的连接器？
-A RJ RJ-45
-B RJ RJ-11
-C RJ DB-9
-D RJ DB-25
+A rJRJ-45
+B rJRJ-11
+C rJDB-9
+D rJDB-25
 参考答案：A
 
 18、下列那一个标准正常传输速率到100Mbps，并且支持接63个设备？
-A RJ USB1.1
-B RJ USB2.0
-C RJ IEEE1394
-D RJ 高端SCSI2
+A rJUSB1.1
+B rJUSB2.0
+C rJIEEE1394
+D rJ高端SCSI2
 参考答案：C
 
 19、正常情况下，并口线的最大长度是多少？
-A RJ 3feet(1米)
-B RJ 10feet(3米)
-C RJ 315feet(4.5米)
-D RJ 20feet(6米)
+A rJ3feet(1米)
+B rJ10feet(3米)
+C rJ315feet(4.5米)
+D rJ20feet(6米)
 参考答案：C
 
 20、视频分辨率为800*600的视频模式是什么？
-A RJ EGA模式
-B RJ VGA模式
-C RJ CGA模式
-D RJ SVGA模式
+A rJEGA模式
+B rJVGA模式
+C rJCGA模式
+D rJSVGA模式
 参考答案：D
 
 21、下面哪个设备将有线信号转换成无线信号，以允许无线设备能够连接到传统的网络中？
-A RJ 中心点
-B RJ airbox
-C RJ 频率适配器
-D RJ accesspoint
+A rJ中心点
+B rJairbox
+C rJ频率适配器
+D rJaccesspoint
 参考答案：D
 
 22、一个工程师要在一台电脑主机上面安装两个显示器。没有另外的PCI和AGP接口了，他该怎么做？
-A RJ 加一个VGA卡
-B RJ 两个显示器不能安装到一个电脑主机上面
-C RJ 换一个有两个接口的视频卡
-D RJ 把第二个显示器插在第一个显示器上面
+A rJ加一个VGA卡
+B rJ两个显示器不能安装到一个电脑主机上面
+C rJ换一个有两个接口的视频卡
+D rJ把第二个显示器插在第一个显示器上面
 参考答案：C
 
 23、电脑的CD-ROM里面放了一张CD唱片，但是喇叭里面没有音乐的声音，工程师确定了喇叭是开着的，也确定电脑可以放出声音，CD-ROM的灯也是亮着的。
 那么这时工程师应该检测什么？
-A RJ 检测连接CD-ROM和声卡的连线
-B RJ CD-ROM和主板的数据线
-C RJ 声卡是否插对了主板的插槽
-D RJ 放CD音乐的程序是否设置正确
+A rJ检测连接CD-ROM和声卡的连线
+B rJCD-ROM和主板的数据线
+C rJ声卡是否插对了主板的插槽
+D rJ放CD音乐的程序是否设置正确
 参考答案：A
 
 24、一个用户报告开机后，屏幕上显示"没有系统盘或者盘错误，按任何其他键继续"，那么最可能是什么错误造成的？
-A RJ 硬盘坏了，应该换一个好的
-B RJ 电源坏了
-C RJ 在软驱中没有启动盘
-D RJ 硬盘不兼容主板
+A rJ硬盘坏了，应该换一个好的
+B rJ电源坏了
+C rJ在软驱中没有启动盘
+D rJ硬盘不兼容主板
 参考答案：C
 
 25、下面哪一个和发现问题解决问题不是一个阶段？
-A RJ 确认修理
-B RJ 确认问题
-C RJ 记录修理的结果
-D RJ 简单的问题
+A rJ确认修理
+B rJ确认问题
+C rJ记录修理的结果
+D rJ简单的问题
 参考答案：D
 
 27、下面哪个测试能够检测到本地modem的输入和输出？
-A RJ 数据奇偶性
-B RJ 模拟回路
-C RJ 本地数字回路
-D RJ 远程数字回路
+A rJ数据奇偶性
+B rJ模拟回路
+C rJ本地数字回路
+D rJ远程数字回路
 参考答案：B
 
 28、一个工程师有一个jumperedmodem，这个modem能够连接到COM1和COM2接口。下？
-A RJ 在CMOS里面把第二个串口关掉
-B RJ 释放掉软驱控制器的IRQ
-C RJ 手工设置COM1，把它对应IRQ5
-D RJ 确认第二个和第三个USB设备不会和modem的IRQ冲突
+A rJ在CMOS里面把第二个串口关掉
+B rJ释放掉软驱控制器的IRQ
+C rJ手工设置COM1，把它对应IRQ5
+D rJ确认第二个和第三个USB设备不会和modem的IRQ冲突
 参考答案：A
 
 29、下面什么原因造成芯片的损坏？
-A RJ 温度的急剧变化
-B RJ 短路造成芯片过热
-C RJ 芯片之前连接不好
-D RJ 芯片和主板不兼容
+A rJ温度的急剧变化
+B rJ短路造成芯片过热
+C rJ芯片之前连接不好
+D rJ芯片和主板不兼容
 参考答案：A
 
 30、下面哪一个是ESD（静电放电）最主要的原因？
-A RJ 拔个人电脑
-B RJ 连接好地线
-C RJ 开电源
-D RJ 成双的安装这个模块
+A rJ拔个人电脑
+B rJ连接好地线
+C rJ开电源
+D rJ成双的安装这个模块
 参考答案：B
 
 31、在每个memory bank需要几个168针的DIMM？
-A RJ 1
-B RJ 2
-C RJ 4
-D RJ 8
+A rJ1
+B rJ2
+C rJ4
+D rJ8
 参考答案：A
 
 32、一个PC133DIMM有多少针？
-A RJ 168
-B RJ 144
-C RJ 132
-D RJ 128
+A rJ168
+B rJ144
+C rJ132
+D rJ128
 参考答案：A
 
 33、SlotA插槽的微处理器是？
-A RJ AMDK6
-B RJ IntelPentium
-C RJ AMDAthlon
-D RJ IntelPentium3
+A rJAMDK6
+B rJIntelPentium
+C rJAMDAthlon
+D rJIntelPentium3
 参考答案：C
 
 34、Windows2000系统的计算机有一个非PnP的调制解调器使用IRQ5，技师增加了一个PCI的modem。系统重启后，设备管理器报告说两个调制解调器的IRQ号冲突。技师应该如何做？
-A RJ 用设备管理器改变非PnP调制解调器的IRQ为9
-B RJ 用设备管理器改变非PnP调制解调器的IRQ为11
-C RJ 进入CMOS设置将IRQ5保留为非PnP设备使用
-D RJ 启动调制解调器的查错机制解决问题
+A rJ用设备管理器改变非PnP调制解调器的IRQ为9
+B rJ用设备管理器改变非PnP调制解调器的IRQ为11
+C rJ进入CMOS设置将IRQ5保留为非PnP设备使用
+D rJ启动调制解调器的查错机制解决问题
 参考答案：C
 
 35、为什么墨盒的使用规则要求人不得吸入碳粉？
-A RJ 因为它有毒
-B RJ 因为它有致癌物质
-C RJ 因为它是光敏的
-D RJ 因为它可能会引起上呼吸道不适
+A rJ因为它有毒
+B rJ因为它有致癌物质
+C rJ因为它是光敏的
+D rJ因为它可能会引起上呼吸道不适
 参考答案：D
 
 36、点阵式打印机在打印过程中，打印纸的左侧部份打印的很好，但右侧部份的颜色则逐渐暗淡，请问最有可能引起这个问题的是？
-A RJ 色带用完了
-B RJ 压盘有偏离
-C RJ 打印头坏了
-D RJ 打印头偏离
+A rJ色带用完了
+B rJ压盘有偏离
+C rJ打印头坏了
+D rJ打印头偏离
 参考答案：B
 
 37、什么原因引起激光打印机打印出的文档全篇都是黑色的？
-A RJ 激光成像出错
-B RJ 墨盒没有碳粉了
-C RJ 转印辊没通电
-D RJ 充电辊没通电
+A rJ激光成像出错
+B rJ墨盒没有碳粉了
+C rJ转印辊没通电
+D rJ充电辊没通电
 参考答案：D
 
 38、10Base5采用什么类型的电缆？
-A RJ 50欧姆RG-8
-B RJ 75欧姆RG-8
-C RJ 50欧姆RG-58
-D RJ 75欧姆RG-58
+A rJ50欧姆RG-8
+B rJ75欧姆RG-8
+C rJ50欧姆RG-58
+D rJ75欧姆RG-58
 参考答案：A
 
 39、哪一种线缆最可能使用RJ-45连接器来将计算机接入网络？
-A RJ 10Base2
-B RJ 10Base5
-C RJ 10BaseT
-D RJ 10BaseFL
+A rJ10Base2
+B rJ10Base5
+C rJ10BaseT
+D rJ10BaseFL
 参考答案：C
 
 40、制造商在NIC（网卡）上是如何设定MAC地址的？
-A RJ 硬件编码
-B RJ 可配置
-C RJ 通过软件
-D RJ 使用跳线器
+A rJ硬件编码
+B rJ可配置
+C rJ通过软件
+D rJ使用跳线器
 参考答案：A
 
 41、以下什么协议使用可变长度的名字定义每一个工作站？
-A RJ IP
-B RJ IPX
-C RJ NetBIOS
-D RJ AppleTalk
+A rJIP
+B rJIPX
+C rJNetBIOS
+D rJAppleTalk
 参考答案：C
 
 42、使用对等网的目的是什么？
-A RJ 通过WAN（广域网）来共享数据
-B RJ 在计算机间共享数据
-C RJ 连接计算机到互联网
-D RJ 连接计算机到WAN
+A rJ通过WAN（广域网）来共享数据
+B rJ在计算机间共享数据
+C rJ连接计算机到互联网
+D rJ连接计算机到WAN
 参考答案：B
 
 43、在无线技术中，WAP是什么意思？
-A RJ 无线接入点
-B RJ 无线应用端口
-C RJ 无线关联点
-D RJ 无线认证点
+A rJ无线接入点
+B rJ无线应用端口
+C rJ无线关联点
+D rJ无线认证点
 参考答案：A
 
 44、CAT5　UTP的最大分组长度为？
-A RJ 82英尺（25米）
-B RJ 164英尺（50米）
-C RJ 328英尺（100米）
-D RJ 656英尺（200米）
+A rJ82英尺（25米）
+B rJ164英尺（50米）
+C rJ328英尺（100米）
+D rJ656英尺（200米）
 参考答案：C
 
 45、ADSL是什么意思？
-A RJ 家庭数字信号长度
-B RJ 非对称数字用户线
-C RJ 异步数字信号线
-D RJ 非缩写
+A rJ家庭数字信号长度
+B rJ非对称数字用户线
+C rJ异步数字信号线
+D rJ非缩写
 参考答案：B
 
 48、用户喜欢安装使用网络打印机，技师应该如何做？
-A RJ 通过控制面板安装打印机
-B RJ 通知用户他们需要购买一台独立的打印机
-C RJ 通知用户网络打印机不能共享
-D RJ 通过设备管理器安装打印机
+A rJ通过控制面板安装打印机
+B rJ通知用户他们需要购买一台独立的打印机
+C rJ通知用户网络打印机不能共享
+D rJ通过设备管理器安装打印机
 参考答案：A
 
 49、用户报告说计算机工作越来越慢了，首先应该采取以下哪种措施？
-A RJ 格式化并重装硬盘
-B RJ 备份并重新恢复硬盘
-C RJ 增加一个新硬盘，并格式化为相同的文件系统
-D RJ 使用硬盘属性下的碎片整理程序
+A rJ格式化并重装硬盘
+B rJ备份并重新恢复硬盘
+C rJ增加一个新硬盘，并格式化为相同的文件系统
+D rJ使用硬盘属性下的碎片整理程序
 参考答案：D
 
 50、用户报告说Email不能使用，但没有其他人报告该问题，邮件服务器也没有执行其他工作。以下哪一项是技师应该有的正常反应？
-A RJ 你一定是做错什么了，你可以请人指导你如何使用Email
-B RJ 你能够将你看到的出错信息做更详细的描述吗？
-C RJ 你尝试重启你的系统了吗？
-D RJ Email系统出问题了，30分钟以后再试
+A rJ你一定是做错什么了，你可以请人指导你如何使用Email
+B rJ你能够将你看到的出错信息做更详细的描述吗？
+C rJ你尝试重启你的系统了吗？
+D rJEmail系统出问题了，30分钟以后再试
 参考答案：B
 
 51、一个用户说他的PC在安装PnP声卡后经常出现短暂的停顿，除了该声卡外内部还有个非PnP的MODEM。此PC的BIOS支持PnP设备，并且安装了PnP的操作系统。那么对这个问题最合适的解释是？
-A RJ 声卡与MODEM冲突
-B RJ 需要重新安装操作系统
-C RJ BIOS需要升级
-D RJ 系统温度过高
+A rJ声卡与MODEM冲突
+B rJ需要重新安装操作系统
+C rJBIOS需要升级
+D rJ系统温度过高
 参考答案：D
 
 53、一台激光打印机打印出全黑的纸张，下列哪一个是最有可能的原因？
-A RJ 冠状电缆超负载
-B RJ 硒鼓识别单元出现故障
-C RJ 硒鼓输出口被污染
-D RJ 取纸滚棒引起纸张覆盖了过多的墨粉
+A rJ冠状电缆超负载
+B rJ硒鼓识别单元出现故障
+C rJ硒鼓输出口被污染
+D rJ取纸滚棒引起纸张覆盖了过多的墨粉
 参考答案：B
 
 54、一台笔记本电脑在启动时，除了在某一斜角度可以看到一些影子外，整个屏幕都是黑色。调整亮度和对比度都无法解决问题。下列那一种是最有可能的原因？
-A RJ VGA显卡设备驱动错误
-B RJ 背光或变压器损坏
-C RJ ACPI电源管理设置出现错误
-D RJ CPU或VGA卡损坏
+A rJVGA显卡设备驱动错误
+B rJ背光或变压器损坏
+C rJACPI电源管理设置出现错误
+D rJCPU或VGA卡损坏
 参考答案：B
 
 55、一位顾客最近购买了一台新的扫描/打印一体机，但是扫描功能一直不能使用。下列那一项最有可能是错误原因？
-A RJ 双功能没有被提供
-B RJ 打印机滚轴不工作
-C RJ 设备连接到错误的COM口
-D RJ 扫描设备驱动未按照
+A rJ双功能没有被提供
+B rJ打印机滚轴不工作
+C rJ设备连接到错误的COM口
+D rJ扫描设备驱动未按照
 参考答案：D
 
 56、从USB端口，退出一个已插入的硬设备，常常应该执行以下哪项操作？
-A RJ 添加或删除程序向导
-B RJ 单击鼠标右键并删除
-C RJ 直接拔出设备
-D RJ 删除硬件向导
+A rJ添加或删除程序向导
+B rJ单击鼠标右键并删除
+C rJ直接拔出设备
+D rJ删除硬件向导
 参考答案：D
 
 57、一个MSDS（材料物质安全数据单）可以解释为？
-A RJ 无风险安装一个计算机组件
-B RJ 例如化学试剂之类物质正确处理方法
-C RJ 防火，灭火
-D RJ 计算机主板扩张操的正确移除和操作
+A rJ无风险安装一个计算机组件
+B rJ例如化学试剂之类物质正确处理方法
+C rJ防火，灭火
+D rJ计算机主板扩张操的正确移除和操作
 参考答案：B
 
 58、在一个IDE硬件存储设备上，下列那一个是最小存储访问单元？
-A RJ trackj
-B RJ sector
-C RJ partition
-D RJ cylinder
+A rJtrackj
+B rJsector
+C rJpartition
+D rJcylinder
 参考答案：B
 
 59、在添加多个设备到一台电脑后，用户发现系统总是出现随意关机。下列那一项设备是最有可能导致这个错误？
-A RJ 内存
-B RJ CPU
-C RJ 硬盘
-D RJ 电源
+A rJ内存
+B rJCPU
+C rJ硬盘
+D rJ电源
 参考答案：D
 
 60、当在选择品牌和型号的设备升级一台PC时，A+认证技术要求考虑什么？
-A RJ 显示器的反应速率
-B RJ 现有组件的兼容性
-C RJ 电源提供的线性电压设置值
-D RJ 如何处置被替换的部件
+A rJ显示器的反应速率
+B rJ现有组件的兼容性
+C rJ电源提供的线性电压设置值
+D rJ如何处置被替换的部件
 参考答案：B
 
 61、用户现有一台电脑，具有4G硬盘。他想升级到20G硬盘，但安装新硬盘后，只识别到8G.是什么引起了这个错误？
-A RJ 计算机只能识别4G硬盘
-B RJ 计算机的BIOS设定了限制
-C RJ 对旧硬盘讲，新硬盘需设定为从设备
-D RJ 新硬盘有缺陷
+A rJ计算机只能识别4G硬盘
+B rJ计算机的BIOS设定了限制
+C rJ对旧硬盘讲，新硬盘需设定为从设备
+D rJ新硬盘有缺陷
 参考答案：B
 
 62、一位用户有一台具有2型PCMCIA插槽的笔记本电脑，他想升级内存，然后，所有可用的PCMCIA卡都是1型的，对这些可用的卡下面请那个叙述正确？
-A RJ 这些卡可以工作，因为他兼容
-B RJ 这些卡可用工作，但是需要一个转换器，已识配2型PCMCIA插槽
-C RJ 这些卡不能工作，因为1型卡和2型卡完全不相符
-D RJ 这些卡不能工作，因为，PCMCIA是为外设扩展，不支持存储器PCMCIA卡
+A rJ这些卡可以工作，因为他兼容
+B rJ这些卡可用工作，但是需要一个转换器，已识配2型PCMCIA插槽
+C rJ这些卡不能工作，因为1型卡和2型卡完全不相符
+D rJ这些卡不能工作，因为，PCMCIA是为外设扩展，不支持存储器PCMCIA卡
 参考答案：A
 
 63、对COM1，默认的IRQ是多少？
-A RJ 2
-B RJ 3
-C RJ 4
-D RJ 5
+A rJ2
+B rJ3
+C rJ4
+D rJ5
 参考答案：C
 
 64、一位用户为自己的笔记本电脑购买一个多功能PCMCIA卡。这个卡大约一厘米厚，需要2型PCMCIA插槽或更高的，他的笔记本有单一的2型插槽，但卡无法插入。这个问题是什么引起的？
-A RJ 老式奔腾类笔记本仅仅支持单一功能PCMCIA卡
-B RJ 这个卡需要卡总线插槽
-C RJ 这个卡需要一个双重2型插槽或者一个单一3型插槽
-D RJ 这个卡需要一个64位2型插槽
+A rJ老式奔腾类笔记本仅仅支持单一功能PCMCIA卡
+B rJ这个卡需要卡总线插槽
+C rJ这个卡需要一个双重2型插槽或者一个单一3型插槽
+D rJ这个卡需要一个64位2型插槽
 参考答案：C
 
 65、PC背后的并口使用那种连接器？
-A RJ 公型，DB-15
-B RJ 母型，DB-25
-C RJ 公型，DB-25
-D RJ 公型，Centronix36
+A rJ公型，DB-15
+B rJ母型，DB-25
+C rJ公型，DB-25
+D rJ公型，Centronix36
 参考答案：B
 
 66、PC技术员需要鉴别一块具有母型RJ-45连接口的PCI卡，这是什么卡？
-A RJ 一个串口卡
-B RJ 一个NIC（网卡）
-C RJ 一个TokenRing转换卡
-D RJ 一个ISDN拨号连接卡
+A rJ一个串口卡
+B rJ一个NIC（网卡）
+C rJ一个TokenRing转换卡
+D rJ一个ISDN拨号连接卡
 参考答案：B
 
 67、在主总线上面已经安装了两个EIDE硬盘，在副总线上面已经安装了一个DVD光驱和一个CD刻录机。用？
-A RJ 用户需用一个有4个接口的cable线
-B RJ 因为主板只有2条总线，所以用户需要安装一个额外的控制卡
-C RJ 把所有设备转换为SCSI接口
-D RJ 去除这两个硬盘，在主总线上面安装一个新的硬盘
+A rJ用户需用一个有4个接口的cable线
+B rJ因为主板只有2条总线，所以用户需要安装一个额外的控制卡
+C rJ把所有设备转换为SCSI接口
+D rJ去除这两个硬盘，在主总线上面安装一个新的硬盘
 参考答案：B
 
 68、磁盘阵列规范5（RAID5），最少需要几个驱动器？
-A RJ 1
-B RJ 2
-C RJ 3
-D RJ 5
+A rJ1
+B rJ2
+C rJ3
+D rJ5
 参考答案：C
 
 69、作为一个技术人员，当在同一个IDE控制器上面安装第二个设备的时候，必须做什么操作？
-A RJ 设置一个相同的驱动来匹配原驱动
-B RJ 停止第二个驱动
-C RJ 分别设置两个驱动为Master和Slave
-D RJ 设置boot驱动器到IDEcable的末尾
+A rJ设置一个相同的驱动来匹配原驱动
+B rJ停止第二个驱动
+C rJ分别设置两个驱动为Master和Slave
+D rJ设置boot驱动器到IDEcable的末尾
 参考答案：C
 
 70、Ultra3SCSI总线的最大传输数率是多大？
-A RJ 40Mbps
-B RJ 80Mbps
-C RJ 160Mbps
-D RJ 320Mbps
+A rJ40Mbps
+B rJ80Mbps
+C rJ160Mbps
+D rJ320Mbps
 参考答案：C
 
 71、当安装一个打印机，一个A+工程师发现能够通过串口和USB接口，那么他应该用那个接口？
-A RJ 选串口，因为它比USB接口的线多，传输的快
-B RJ 选串口，因为它比USB接口更可靠
-C RJ 选USB接口，虽然它也是串行连接，但是它传输数据速度更快更稳定
-D RJ 选USB接口，因为它传输慢，而且稳定比串口
+A rJ选串口，因为它比USB接口的线多，传输的快
+B rJ选串口，因为它比USB接口更可靠
+C rJ选USB接口，虽然它也是串行连接，但是它传输数据速度更快更稳定
+D rJ选USB接口，因为它传输慢，而且稳定比串口
 参考答案：C
 
 72、当一个客户通过DSL连接Internet网，DSLmodem上面有4个LED灯，PWR是稳定的绿色灯，DSL是稳定的绿色，ACT没有亮，ENET没有亮，那么最有可能造成网络不同的原因是什么？
-A RJ modem没有检测到DSL信号
-B RJ 电话线被插到DSL插口
-C RJ 电脑的连接信号丢失
-D RJ modem的电源信号没有开
+A rJmodem没有检测到DSL信号
+B rJ电话线被插到DSL插口
+C rJ电脑的连接信号丢失
+D rJmodem的电源信号没有开
 参考答案：C
 
 73、从新布置了无线IrDA（红外数据连接）打印机，一个用户报告说，他的笔记本不能连接到打印机打印文件了，那么最有可能出现什么问题？
-A RJ 打印机离笔记本的距离超过了一米。
-B RJ 打印机驱动坏了
-C RJ 笔记本需要重启
-D RJ 打印机需要重新设置
+A rJ打印机离笔记本的距离超过了一米。
+B rJ打印机驱动坏了
+C rJ笔记本需要重启
+D rJ打印机需要重新设置
 参考答案：A
 
 74、一个工程师重启电脑，电脑上面显示键盘没有连接，但是键盘是连接在电脑上面，重启后仍然发现这个问题，一个工程师重启电脑，电脑上面显示键盘没有连接，但是键盘是连接在电脑上面，重启后仍然发现这个问题，那么这个工程师应该如何做？
-A RJ 拆开电脑，检测硬盘是否连接好
-B RJ 重新找新的接口插键盘
-C RJ 重启BIOS，检查启动顺序
-D RJ 换一个主板
+A rJ拆开电脑，检测硬盘是否连接好
+B rJ重新找新的接口插键盘
+C rJ重启BIOS，检查启动顺序
+D rJ换一个主板
 参考答案：B
 
 75、一个用户抱怨鼠标运动急促而且很不稳定，那么很可能是什么原因造成的？
-A RJ 装了错误的鼠标驱动
-B RJ 鼠标坏了
-C RJ 一个程序占用了所有的系统资源
-D RJ 电源坏了
+A rJ装了错误的鼠标驱动
+B rJ鼠标坏了
+C rJ一个程序占用了所有的系统资源
+D rJ电源坏了
 参考答案：B
 
 76、一个用户想在一个windows2000的系统下面听CD，但是当CD开始播放的时候，却没有声音从喇叭里面发出来，工程师确认喇叭没有问题，而且喇叭是开着的，那么最有可能什么原因造成这种情况的？
-A RJ CD-ROM和声卡的音频线没有连接好
-B RJ 电脑在放MP3音乐，不能放CD音乐
-C RJ CD插的方向反了
-D RJ Windows2000不支持CD播放器
+A rJCD-ROM和声卡的音频线没有连接好
+B rJ电脑在放MP3音乐，不能放CD音乐
+C rJCD插的方向反了
+D rJWindows2000不支持CD播放器
 参考答案：A
 
 77、电脑启动的时候，如果软驱的LED灯一直亮着，那么最可能什么原因？
-A RJ 硬盘坏了
-B RJ CMOS设置错误
-C RJ 软驱里面有一张软盘
-D RJ 软驱的cable线连接反了
+A rJ硬盘坏了
+B rJCMOS设置错误
+C rJ软驱里面有一张软盘
+D rJ软驱的cable线连接反了
 参考答案：D
 
 78、一个客户报告说他的电脑屏幕中显示的应用程序丢失线条，细节和其他的图形，那么设置如何该，能够解决这个问题？
-A RJ 降低硬件图形加速度
-B RJ 增加硬件图形加速度
-C RJ 增加显示器的水平频率
-D RJ 降低显示器的垂直频率
+A rJ降低硬件图形加速度
+B rJ增加硬件图形加速度
+C rJ增加显示器的水平频率
+D rJ降低显示器的垂直频率
 参考答案：A
 
 79、下面哪个办法能够安全的清洁LCD电脑显示器？
-A RJ 把洗玻璃的清洁剂喷到软布上面，然后轻轻的擦拭屏幕
-B RJ 用干净的水喷到软布上，然后轻轻的擦拭屏幕
-C RJ 用一个反静电的吸尘器不接触屏幕
-D RJ 用压缩空气来吹屏幕
+A rJ把洗玻璃的清洁剂喷到软布上面，然后轻轻的擦拭屏幕
+B rJ用干净的水喷到软布上，然后轻轻的擦拭屏幕
+C rJ用一个反静电的吸尘器不接触屏幕
+D rJ用压缩空气来吹屏幕
 参考答案：B
 
 80、什么时候需要MSDS（材料安全数据手册）？
-A RJ 需要了解内存大小
-B RJ 需要了解化学产品的安全
-C RJ 需要安装硬盘
-D RJ 需要了解计算机工具的使用
+A rJ需要了解内存大小
+B rJ需要了解化学产品的安全
+C rJ需要安装硬盘
+D rJ需要了解计算机工具的使用
 参考答案：B
 
 81、一个老板生产需要很多有危害的化学材料，然后要清除这些剩余的化学材料，那么他要遵守什么工业标准？
-A RJ 需要保存买化学材料的单据
-B RJ 需要保存每个月化学材料的使用清单
-C RJ MSDS（材料安全数据清单）
-D RJ 保护存放化学药品的设备
+A rJ需要保存买化学材料的单据
+B rJ需要保存每个月化学材料的使用清单
+C rJMSDS（材料安全数据清单）
+D rJ保护存放化学药品的设备
 参考答案：C
 
 82、什么是缺省的网关IP地址定义？
-A RJ 缺省的路由器地址
-B RJ 缺省的sendingstation地址
-C RJ 缺省的receivingstation地址
-D RJ 缺省的浏览器地址
+A rJ缺省的路由器地址
+B rJ缺省的sendingstation地址
+C rJ缺省的receivingstation地址
+D rJ缺省的浏览器地址
 参考答案：A
 
 83、SocketA结构有多少根pin？
-A RJ 370
-B RJ 378
-C RJ 462
-D RJ 478
+A rJ370
+B rJ378
+C rJ462
+D rJ478
 参考答案：C
 
 84、RAMBus内存模块的特点是什么？
-A RJ 268个1/8英寸的阳的连接器
-B RJ 在两侧有金属的保护层
-C RJ 4个控键的插槽
-D RJ 在两侧有红色的条
+A rJ268个1/8英寸的阳的连接器
+B rJ在两侧有金属的保护层
+C rJ4个控键的插槽
+D rJ在两侧有红色的条
 参考答案：B
 
 85、一个PC133DIMM有多少针？
-A RJ 168
-B RJ 144
-C RJ 132
-D RJ 128
+A rJ168
+B rJ144
+C rJ132
+D rJ128
 参考答案：A
 
 86、ATX电源能够提供多少电压？
-A RJ 1.2伏
-B RJ 3.3伏
-C RJ 5.7伏
-D RJ 7.3伏
+A rJ1.2伏
+B rJ3.3伏
+C rJ5.7伏
+D rJ7.3伏
 参考答案：B
 
 87、Windows2000系统的计算机有一个非PnP的调制解调器使用IRQ5，技师增加了一个PCI的modem。系统重启后，设备管理器报告说两个调制解调器的IRQ号冲突。技师应该如何做？
-A RJ 用设备管理器改变非PnP调制解调器的IRQ为9
-B RJ 用设备管理器改变非PnP调制解调器的IRQ为11
-C RJ 进入CMOS设置将IRQ5保留为非PnP设备使用
-D RJ 启动调制解调器的查错机制解决问题
+A rJ用设备管理器改变非PnP调制解调器的IRQ为9
+B rJ用设备管理器改变非PnP调制解调器的IRQ为11
+C rJ进入CMOS设置将IRQ5保留为非PnP设备使用
+D rJ启动调制解调器的查错机制解决问题
 参考答案：C
 
 88、IEEE1284标准与以下什么接口有关？
-A RJ 防火墙
-B RJ USB
-C RJ 并口
-D RJ 串口
+A rJ防火墙
+B rJUSB
+C rJ并口
+D rJ串口
 参考答案：C
 
 89、激光打印中采用以下哪种方法在打印纸上成像？
-A RJ 热
-B RJ 激光烧录
-C RJ 电子成像
-D RJ 静电
+A rJ热
+B rJ激光烧录
+C rJ电子成像
+D rJ静电
 参考答案：D
 
 90、构建一个50台计算机组成的1000BaseT网络，采用以下什么类型的电缆？
-A RJ CAT6
-B RJ 粗缆
-C RJ RG62
-D RJ CAT3
+A rJCAT6
+B rJ粗缆
+C rJRG62
+D rJCAT3
 参考答案：A
 
 91、以下哪一种线缆在每一对电缆周围安装有金属屏蔽箔，同时在一组线缆周围装有金属屏蔽箔，并使用RJ-45连接器？
-A RJ 光缆
-B RJ 同轴电缆
-C RJ STP
-D RJ UTP
+A rJ光缆
+B rJ同轴电缆
+C rJSTP
+D rJUTP
 参考答案：C
 
 
 94、基于V.92协议的家用模拟调制解调器的理论速率是多少？
-A RJ 56Kbps
-B RJ 128Kbps
-C RJ 384Kbps
-D RJ 512Kbps
+A rJ56Kbps
+B rJ128Kbps
+C rJ384Kbps
+D rJ512Kbps
 参考答案：A
 
 98、和用户道别时，技师应该？
-A RJ 尝试卖给用户一台新计算机
-B RJ 升级所有设备驱动程序
-C RJ 让用户测试使用计算机
-D RJ 安装最新应用程序
+A rJ尝试卖给用户一台新计算机
+B rJ升级所有设备驱动程序
+C rJ让用户测试使用计算机
+D rJ安装最新应用程序
 参考答案：C
 
 99、用户报告说，计算机昨天工作正常，但今天无法登录。技师应该首先询问用户？
-A RJ 最近对计算机所做的任何修改
-B RJ 最近计算机病毒扫描的结果
-C RJ 计算机使用的典型用途
-D RJ 最近访问的网络资源
+A rJ最近对计算机所做的任何修改
+B rJ最近计算机病毒扫描的结果
+C rJ计算机使用的典型用途
+D rJ最近访问的网络资源
 参考答案：D
 
 101、技术人员必须在一个SCSI控制卡上使能INT31H，只有这样才能使用下列那个设备？
-A RJ 扫描仪
-B RJ Bernoulli
-C RJ 磁带设备
-D RJ 可启动的CD-ROM
+A rJ扫描仪
+B rJBernoulli
+C rJ磁带设备
+D rJ可启动的CD-ROM
 参考答案：D
 
 104、对AMDAthlon CPU，对应插入下列那一个插口？
-A RJ Slot1
-B RJ SlotA
-C RJ Socket7
-D RJ Socket8
+A rJSlot1
+B rJSlotA
+C rJSocket7
+D rJSocket8
 参考答案：B
 
 105、"瘦以太网"的另一个名字是什么？
-A RJ 10Base2
-B RJ 100Base2
-C RJ 10Base5
-D RJ 10BaseT
+A rJ10Base2
+B rJ100Base2
+C rJ10Base5
+D rJ10BaseT
 参考答案：A
 
 109、一位不是专门处理收银工作的技术员被指派临时收银，有几位顾客在排队，突然一位顾客走上来要求提前立即先买单，技术员应该怎样做？
-A RJ 向其他顾客转动眼神，意识自己十分无奈，然后先处理这位着急的顾客
-B RJ 向这位顾客说明，自己十分愿意帮助他，但是必须按先后次序买单
-C RJ 向其他排队的顾客道歉，首先帮助这位顾客，然后再处理其他顾客
-D RJ 忽略这位顾客，继续按排队顺序处理顾客
+A rJ向其他顾客转动眼神，意识自己十分无奈，然后先处理这位着急的顾客
+B rJ向这位顾客说明，自己十分愿意帮助他，但是必须按先后次序买单
+C rJ向其他排队的顾客道歉，首先帮助这位顾客，然后再处理其他顾客
+D rJ忽略这位顾客，继续按排队顺序处理顾客
 参考答案：B
 
 111、哪一个PC元件常常使用PGA、SEC和SEP封装形式？
-A RJ 网络适配器
-B RJ 主板
-C RJ 内存
-D RJ 处理器
+A rJ网络适配器
+B rJ主板
+C rJ内存
+D rJ处理器
 参考答案：D
 
 112、一个15脚3排的PCI卡是下列那一个？
-A RJ 显示适配器（显卡）
-B RJ 串口
-C RJ 并口
-D RJ 游戏杆/MIDI口
+A rJ显示适配器（显卡）
+B rJ串口
+C rJ并口
+D rJ游戏杆/MIDI口
 参考答案：A
 
 113、下列那一种Cach是处理器芯片芯内Cach存储？
-A RJ 一级Cash
-B RJ 动态Cash
-C RJ 加速处理Cash
-D RJ RAMCash
+A rJ一级Cash
+B rJ动态Cash
+C rJ加速处理Cash
+D rJRAMCash
 参考答案：A
 
 114、一台PC的电源风扇不转，一位A认证工程师应该作什么处理？
-A RJ 更换电源
-B RJ 更换电源风扇
-C RJ 更换螺钉
-D RJ 根本不管，系统中有足够的其他风扇
+A rJ更换电源
+B rJ更换电源风扇
+C rJ更换螺钉
+D rJ根本不管，系统中有足够的其他风扇
 参考答案：A
 
 115、一位A+认证专家被要求向系统安装第二个ATA硬盘，他的上级要求必须使用同一个数据线，并且保证同样的访问速度。这位专家如何设置以安装的和要添加的硬盘跳线器？
-A RJ 已装的：CableSelect。后装的：Slave
-B RJ 已装的：Master。后装的：CableSelect
-C RJ 已装的：Master。后装的：Slave
-D RJ 已装的：Slave。后装的：Master
+A rJ已装的：CableSelect。后装的：Slave
+B rJ已装的：Master。后装的：CableSelect
+C rJ已装的：Master。后装的：Slave
+D rJ已装的：Slave。后装的：Master
 参考答案：C
 
 116、一个新显卡被插入系统中，系统原先使用主板上集成的视频控制器，对板上视频控制器应该作什么？
-A RJ 应该在Windows控制面板中关闭
-B RJ 应该在BIOS中关闭
-C RJ 应该焊接硬移除
-D RJ 应该使用新显卡的跳线器关闭
+A rJ应该在Windows控制面板中关闭
+B rJ应该在BIOS中关闭
+C rJ应该焊接硬移除
+D rJ应该使用新显卡的跳线器关闭
 参考答案：B
 
 117、那一个设备允许一台laptop/notebook笔记本电脑十分容易的连接断开外部显示器；键盘；鼠标和其他外设？
-A RJ 扩展卡
-B RJ 端口复制器
-C RJ 光纤通道
-D RJ 键盘插座
+A rJ扩展卡
+B rJ端口复制器
+C rJ光纤通道
+D rJ键盘插座
 参考答案：B
 
 119、一个被设为从设备的ATAPICD-ROM,同一个超级ATA硬盘共用连接电缆线，会出现怎样结果？
-A RJ 提供CD-ROM性能
-B RJ 降低CD-ROM性能
-C RJ 提供硬盘性能
-D RJ 降低硬盘性能
+A rJ提供CD-ROM性能
+B rJ降低CD-ROM性能
+C rJ提供硬盘性能
+D rJ降低硬盘性能
 参考答案：D
 
 120、一个UltraDMA33或者ATA100的硬盘驱动器需要哪种cable线？
-A RJ 34线的cable
-B RJ 40线的cable
-C RJ 50线的cable
-D RJ 80线的cable
+A rJ34线的cable
+B rJ40线的cable
+C rJ50线的cable
+D rJ80线的cable
 参考答案：D
 
 121、如果在SCSI总线上面有一个硬盘和一个CD-ROM，那么工程师应该停止哪些硬件？
-A RJ 仅仅停用硬盘
-B RJ 终止SCSI接口卡
-C RJ 停用硬盘和CD-ROM
-D RJ 停用SCSI卡，硬盘和CD-ROM
+A rJ仅仅停用硬盘
+B rJ终止SCSI接口卡
+C rJ停用硬盘和CD-ROM
+D rJ停用SCSI卡，硬盘和CD-ROM
 参考答案：C
 
 124、一个顾客打电话来报告说，他的电脑自动关机和重启，那么可能什么原因造成的？
-A RJ BIOS被设置成了自动重启每天。
-B RJ 外置SCSICD-RW使用太多了电力
-C RJ CMOS被设置为周期性的
-D RJ 系统的电源不足
+A rJBIOS被设置成了自动重启每天。
+B rJ外置SCSICD-RW使用太多了电力
+C rJCMOS被设置为周期性的
+D rJ系统的电源不足
 参考答案：D
 
 125、在POST的时候，"201"错误是什么意义？
-A RJ CPU错误
-B RJ 内存错误
-C RJ 视频问题
-D RJ 软驱错误
+A rJCPU错误
+B rJ内存错误
+C rJ视频问题
+D rJ软驱错误
 参考答案：B
 
 127、一个客户打电话报告说，电脑没有声音，在到达之前，技术人员应该怎么做？
-A RJ 确定电脑是否有电，播一首歌；如果没有声音，要客户调整声音控制栏，看是否开的太低，或者要客户修改声音控制栏的设置
-B RJ 要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
-C RJ 要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
-D RJ 解释说，电脑如果坏了会有噪声，因此电脑没有问题
+A rJ确定电脑是否有电，播一首歌；如果没有声音，要客户调整声音控制栏，看是否开的太低，或者要客户修改声音控制栏的设置
+B rJ要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
+C rJ要客户放一张音乐CD试着播放，如果没有声音，看是否装有声卡，要客户买声卡，然后安装
+D rJ解释说，电脑如果坏了会有噪声，因此电脑没有问题
 参考答案：D
 
 128、对于普通的电脑，在POST过程完了以后，有一声短暂的蜂鸣声出现，说明什么？
-A RJ 系统主板错误
-B RJ 内存错误
-C RJ 显卡错误
-D RJ 没有错误
+A rJ系统主板错误
+B rJ内存错误
+C rJ显卡错误
+D rJ没有错误
 参考答案：D
 
 129、当一台电脑没有UPS保护的情况下，如果断电后，电源恢复的时候，可能出现什么问题？
-A RJ ROM需要重写
-B RJ 有高电压脉冲的问题
-C RJ CMOSRAM有电池问题
-D RJ 主板软件需要重新设置
+A rJROM需要重写
+B rJ有高电压脉冲的问题
+C rJCMOSRAM有电池问题
+D rJ主板软件需要重新设置
 参考答案：B
 
 130、怎么消灭计算机的火灾？
-A RJ 消防队
-B RJ A级灭火器
-C RJ C级灭火器
-D RJ 银色的泡沫水状灭火器
+A rJ消防队
+B rJA级灭火器
+C rJC级灭火器
+D rJ银色的泡沫水状灭火器
 参考答案：C
 
 131、报废CRT显示器是一个棘手的问题，因为显示器中含有大量的哪种金属？
-A RJ 铅
-B RJ 铜
-C RJ 锡
-D RJ 铝
+A rJ铅
+B rJ铜
+C rJ锡
+D rJ铝
 参考答案：A
 
 132、什么环境是最好保存彩色激光打印机的磁鼓？
-A RJ 潮湿
-B RJ 凉快，阴暗
-C RJ 凉快，明亮
-D RJ 温暖，阴暗
+A rJ潮湿
+B rJ凉快，阴暗
+C rJ凉快，明亮
+D rJ温暖，阴暗
 参考答案：B
 
 133、Windows9x系统未能成功检测到新添加的设备，应该首先检查？
-A RJ 设备管理器分配的DMA号
-B RJ 控制面板中的PnP设置
-C RJ BIOS中有关PnP的CMOS设置
-D RJ CMOS中有关PnP的BIOS设置
+A rJ设备管理器分配的DMA号
+B rJ控制面板中的PnP设置
+C rJBIOS中有关PnP的CMOS设置
+D rJCMOS中有关PnP的BIOS设置
 参考答案：D
 
 134、让PC机从CD-ROM启动最有效的方法是？
-A RJ 将主硬盘设置为disable
-B RJ 配置CD-ROM为PrimaryMaster
-C RJ 在CMOS中改变启动顺序
-D RJ 在CMOS中设置CD-ROM为可启动
+A rJ将主硬盘设置为disable
+B rJ配置CD-ROM为PrimaryMaster
+C rJ在CMOS中改变启动顺序
+D rJ在CMOS中设置CD-ROM为可启动
 参考答案：C
 
 136、打印机通过网络接口连接到基于TCP/IP协议的网络时，可以用以下哪个命令来测试打印机的网络接口？
-A RJ FTP
-B RJ PING
-C RJ RECOVER
-D RJ Telnet
+A rJFTP
+B rJPING
+C rJRECOVER
+D rJTelnet
 参考答案：B
 
 137、为什么墨盒的使用规则要求人不得吸入碳粉？
-A RJ 因为它有毒
-B RJ 因为它有致癌物质
-C RJ 因为它是光敏的
-D RJ 因为它可能会引起上呼吸道不适
+A rJ因为它有毒
+B rJ因为它有致癌物质
+C rJ因为它是光敏的
+D rJ因为它可能会引起上呼吸道不适
 参考答案：D
 
 139、一个A+的专业技术人员接受了使用10Base2技术连接10台计算机的任务。请问他应该使用什么类型的线缆和连接器来直接连接各计算机的网卡？
-A RJ CAT5和BNC连接器
-B RJ CAT5和RJ-45连接器
-C RJ RG-62和RJ-45连接器
-D RJ RG-58和T型连接器
+A rJCAT5和BNC连接器
+B rJCAT5和RJ-45连接器
+C rJRG-62和RJ-45连接器
+D rJRG-58和T型连接器
 参考答案：D
 
 143、CAT5电缆是什么类型的电缆？
-A RJ 同轴电缆
-B RJ 光纤
-C RJ RS232
-D RJ UTP
+A rJ同轴电缆
+B rJ光纤
+C rJRS232
+D rJUTP
 参考答案：D
 
 145、在同一条传输介质（电缆）中可同时传输多个信道的数据，这一数据传输方式称为？
-A RJ 有些电视
-B RJ 基带
-C RJ 电话线
-D RJ 宽带
+A rJ有些电视
+B rJ基带
+C rJ电话线
+D rJ宽带
 参考答案：D
 
 149、启动WindowsXP时，系统读取某些扇区有困难，应该采取什么措施？
-A RJ 格式化磁盘并重装系统
-B RJ 备份数据并更换硬盘
-C RJ 重装整个系统
-D RJ 使用FDISK工具
+A rJ格式化磁盘并重装系统
+B rJ备份数据并更换硬盘
+C rJ重装整个系统
+D rJ使用FDISK工具
 参考答案：B
 
 150、在Windows的磁盘管理器中，磁盘1指向：？
-A RJ 第二个软件驱动器
-B RJ 第二个硬盘
-C RJ 主CD-ROM驱动器
-D RJ 主硬盘
+A rJ第二个软件驱动器
+B rJ第二个硬盘
+C rJ主CD-ROM驱动器
+D rJ主硬盘
 参考答案：B
 
 151、在更换主板后，需要做的事情是？
-A RJ 配置BIOS
-B RJ 运行安装工具
-C RJ 即插即用
-D RJ 刷新BIOS芯片
+A rJ配置BIOS
+B rJ运行安装工具
+C rJ即插即用
+D rJ刷新BIOS芯片
 参考答案：A
 
 154、从理论上讲，下列那一种连接最快？
-A RJ IrDA
-B RJ CAT5e电缆上，全双向以太网
-C RJ 单模态光纤
-D RJ 无线Wireless
+A rJIrDA
+B rJCAT5e电缆上，全双向以太网
+C rJ单模态光纤
+D rJ无线Wireless
 参考答案：D
 
 156、对于有效的与顾客交流，以下哪项是最重要的？
-A RJ 写有效的EMAIL总结
-B RJ 正常谈话
-C RJ 积极的倾听
-D RJ 凭直觉解决问题
+A rJ写有效的EMAIL总结
+B rJ正常谈话
+C rJ积极的倾听
+D rJ凭直觉解决问题
 参考答案：C
 
 157、先例那一个是正确处理废弃电池的方法？
-A RJ 在废弃前，清洗电池
-B RJ 查询当地的废弃电池处理程序
-C RJ 在废弃前，用铝箔包裹电池
-D RJ 短路电池，连接阳极阴极
+A rJ在废弃前，清洗电池
+B rJ查询当地的废弃电池处理程序
+C rJ在废弃前，用铝箔包裹电池
+D rJ短路电池，连接阳极阴极
 参考答案：B
 
 163、一台新的奔腾4PC总是启动后在不提示任何警告情况下自动关机，那一项是引起错误的原因？
-A RJ 键盘故障
-B RJ CPU风扇没有连接
-C RJ 内存不够
-D RJ 无显卡
+A rJ键盘故障
+B rJCPU风扇没有连接
+C rJ内存不够
+D rJ无显卡
 参考答案：B
 
 164、一位用户有一台具有2型PCMCIA插槽的笔记本电脑，他想升级内存，然后，所有可用的PCMCIA卡都是1型的，对这些可用的卡下面请那个叙述正确？
-A RJ 这些卡可以工作，因为他兼容
-B RJ 这些卡可用工作，但是需要一个转换器，已识配2型PCMCIA插槽
-C RJ 这些卡不能工作，因为1型卡和2型卡完全不相符
-D RJ 这些卡不能工作，因为，PCMCIA是为外设扩展，不支持存储器PCMCIA卡
+A rJ这些卡可以工作，因为他兼容
+B rJ这些卡可用工作，但是需要一个转换器，已识配2型PCMCIA插槽
+C rJ这些卡不能工作，因为1型卡和2型卡完全不相符
+D rJ这些卡不能工作，因为，PCMCIA是为外设扩展，不支持存储器PCMCIA卡
 参考答案：A
 
 165、一位用户为自己的笔记本电脑购买一个多功能PCMCIA卡。这个卡大约一厘米厚，需要2型PCMCIA插槽或更高的，他的笔记本有单一的2型插槽，但卡无法插入。这个问题是什么引起的？
-A RJ 老式奔腾类笔记本仅仅支持单一功能PCMCIA卡
-B RJ 这个卡需要卡总线插槽
-C RJ 这个卡需要一个双重2型插槽或者一个单一3型插槽
-D RJ 这个卡需要一个64位2型插槽
+A rJ老式奔腾类笔记本仅仅支持单一功能PCMCIA卡
+B rJ这个卡需要卡总线插槽
+C rJ这个卡需要一个双重2型插槽或者一个单一3型插槽
+D rJ这个卡需要一个64位2型插槽
 参考答案：C
 
 166、USB设备与串口或PS/2口设备的区别是什么？
-A RJ 所有USB单设备使用相同的设备驱动程序
-B RJ USB单设备不能热插拔
-C RJ 在WinXP下，PS/2和串口设备不工作
-D RJ USB单设备可以热插拔
+A rJ所有USB单设备使用相同的设备驱动程序
+B rJUSB单设备不能热插拔
+C rJ在WinXP下，PS/2和串口设备不工作
+D rJUSB单设备可以热插拔
 参考答案：D
 
 167、下列那一个I/O口，传输速率可设从一个时钟周期一位数据到115.2Kbps？
-A RJ 串口
-B RJ 并口
-C RJ USB口
-D RJ PS/2口
+A rJ串口
+B rJ并口
+C rJUSB口
+D rJPS/2口
 参考答案：A
 
 168、"火线"被定义那一个IEEE标准？
-A RJ 802.11b
-B RJ 807.2
-C RJ 1394
-D RJ 1284
+A rJ802.11b
+B rJ807.2
+C rJ1394
+D rJ1284
 参考答案：C
 
 169、下列那一项技术可以即使用4芯又可以使用6芯电缆的连接口，吞吐量可达到400Mbps？63
-A RJ USB2.0
-B RJ 串口
-C RJ IEEE1394
-D RJ 并口
+A rJUSB2.0
+B rJ串口
+C rJIEEE1394
+D rJ并口
 参考答案：C
 
 171、一个A+认证工程师要在一个控制器上面安装三个SCSI设备，那么将会出现什么结果？
-A RJ 停用第一个设备
-B RJ 停用最后一个设备
-C RJ 停用每个设备
-D RJ 不需要停用任何设备
+A rJ停用第一个设备
+B rJ停用最后一个设备
+C rJ停用每个设备
+D rJ不需要停用任何设备
 参考答案：B
 
 172、什么是用户端连接到AP的BSS层所使用的非标准32位特征码？
 
-A RJ BSI
-B RJ WID
-C RJ WIP
-D RJ SSID
+A rJBSI
+B rJWID
+C rJWIP
+D rJSSID
 参考答案：D
 
 175、电脑启动的时候，报告一个奇偶错误，那么最可能什么原因造成的？
-A RJ 主板问题
-B RJ 内存芯片错误
-C RJ CPU问题
-D RJ 硬盘问题
+A rJ主板问题
+B rJ内存芯片错误
+C rJCPU问题
+D rJ硬盘问题
 参考答案：B
 
 176、当出现IRQ冲突的时候，哪些硬件最有可能发生这个问题？
-A RJ 硬盘和软驱
-B RJ CD-ROM和硬盘
-C RJ 视频卡和硬盘
-D RJ 声卡和网卡
+A rJ硬盘和软驱
+B rJCD-ROM和硬盘
+C rJ视频卡和硬盘
+D rJ声卡和网卡
 参考答案：D
 
 178、用户报告说，当从网上下载一个程序后，电脑不能启动到windows，下面哪一个是最有可能造成这个的原因？
-A RJ modem错误
-B RJ 网络连接开着
-C RJ 文件有病毒
-D RJ 软件和系统不兼容
+A rJmodem错误
+B rJ网络连接开着
+C rJ文件有病毒
+D rJ软件和系统不兼容
 参考答案：D
 
 179、如果一个顾客抱怨应用程序在屏幕上面显示界面太小以至于很难看清楚，工程师该如何设置视频？
-A RJ 降低屏幕的像素个数
-B RJ 增加硬件的图形处理速度
-C RJ 增加显示器的水平分辨率
-D RJ 降低显示器的垂直分辨率
+A rJ降低屏幕的像素个数
+B rJ增加硬件的图形处理速度
+C rJ增加显示器的水平分辨率
+D rJ降低显示器的垂直分辨率
 参考答案：A
 
 182、如何清洁CD-ROM碟面？
-A RJ 圆形的擦磁盘
-B RJ 擦磁盘从中心到边缘
-C RJ 蘸一些清洁器擦，再等它干
-D RJ 在CD的属性菜单里面选择清洁模式
+A rJ圆形的擦磁盘
+B rJ擦磁盘从中心到边缘
+C rJ蘸一些清洁器擦，再等它干
+D rJ在CD的属性菜单里面选择清洁模式
 参考答案：B
 
 183、下面哪个环境是最合适的对于OPC（organicphoto-conducting）drums？
-A RJ 潮湿的
-B RJ 凉快的黑暗的
-C RJ 凉快的明亮的
-D RJ 温暖的黑暗的
+A rJ潮湿的
+B rJ凉快的黑暗的
+C rJ凉快的明亮的
+D rJ温暖的黑暗的
 参考答案：B
 
 187、技师在CMOS设置中可以完成？
-A RJ 设置日期和时间
-B RJ 为Windows程序选择颜色
-C RJ 为硬盘分区
-D RJ 设定网络协议
+A rJ设置日期和时间
+B rJ为Windows程序选择颜色
+C rJ为硬盘分区
+D rJ设定网络协议
 参考答案：A
 
 191、哪一种线缆最可能使用RJ-45连接器来将计算机接入网络？
-A RJ 10Base2
-B RJ 10Base5
-C RJ 10BaseT
-D RJ 10BaseFL
+A rJ10Base2
+B rJ10Base5
+C rJ10BaseT
+D rJ10BaseFL
 参考答案：C
 
 194、在两台设备间约定了出错检查、数据压缩、信息结束和发送指示的规范，并以双方约定的格式传送数据，这个规范是什么？
-A RJ MAC地址
-B RJ IP地址
-C RJ 协议
-D RJ 寻址
+A rJMAC地址
+B rJIP地址
+C rJ协议
+D rJ寻址
 参考答案：C
 
 198、安装完一个新硬盘驱动器后，技师应该？
-A RJ 开启计算机，进入设备管理器并安装新硬件
-B RJ 检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
-C RJ 开启计算机，并只连接硬盘驱动器到IDE总线
-D RJ 进入安全模式安装新硬件
+A rJ开启计算机，进入设备管理器并安装新硬件
+B rJ检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
+C rJ开启计算机，并只连接硬盘驱动器到IDE总线
+D rJ进入安全模式安装新硬件
 参考答案：B
 
 204、在多功能一体机使用时，所有扫描纸张都出现一个污点，下列那一项是解决这个问题的第一步？
-A RJ 清洁激光透镜
-B RJ 清洁成像硒鼓
-C RJ 清洁扫描曝光玻璃板
-D RJ 更换打印头
+A rJ清洁激光透镜
+B rJ清洁成像硒鼓
+C rJ清洁扫描曝光玻璃板
+D rJ更换打印头
 参考答案：C
 
 205、一位不是专门处理收银工作的技术员被指派临时收银，有几位顾客在排队，突然一位顾客走上来要求提前立即先买单，技术员应该怎样做？
 
-A RJ 向其他顾客转动眼神，意识自己十分无奈，然后先处理这位着急的顾客
-B RJ 向这位顾客说明，自己十分愿意帮助他，但是必须按先后次序买单
-C RJ 向其他排队的顾客道歉，首先帮助这位顾客，然后再处理其他顾客
-D RJ 忽略这位顾客，继续按排队顺序处理顾客
+A rJ向其他顾客转动眼神，意识自己十分无奈，然后先处理这位着急的顾客
+B rJ向这位顾客说明，自己十分愿意帮助他，但是必须按先后次序买单
+C rJ向其他排队的顾客道歉，首先帮助这位顾客，然后再处理其他顾客
+D rJ忽略这位顾客，继续按排队顺序处理顾客
 参考答案：B
 
 206、一位不太熟悉设置程序的新技术员，将一位用户的新电脑设置错误。在改正设置后，下列那一项是他要采取的行动？
-A RJ 向周围的其他技术员抱怨顾客
-B RJ 问其他技术员，是否技术员要学习这些设置
-C RJ 对问题保持沉默，希望它不要再出现
-D RJ 向上级管理报告，自己不得不从事其他技术工作
+A rJ向周围的其他技术员抱怨顾客
+B rJ问其他技术员，是否技术员要学习这些设置
+C rJ对问题保持沉默，希望它不要再出现
+D rJ向上级管理报告，自己不得不从事其他技术工作
 参考答案：B
 
 207、下列那一个是用于RAM的错误检测或错误更正？
-A RJ RAID5
-B RJ ECC
-C RJ RAIDADG
-D RJ AGP
+A rJRAID5
+B rJECC
+C rJRAIDADG
+D rJAGP
 参考答案：B
 
 208、对一台运行Win98的标准PC，键盘用那个IRQ？
-A RJ IRQ0
-B RJ IRQ1
-C RJ IRQ2
-D RJ IRQ4
+A rJIRQ0
+B rJIRQ1
+C rJIRQ2
+D rJIRQ4
 参考答案：B
 
 209、一位顾客拥有这样一台电脑：WinXP；128MB内存；2.4GHzCPU；80G硬盘和一台使用USB口的扫描仪。
 这位顾客投诉说在扫描图像时似乎需要太长的时间。下列那一项最有可能改善提高？
-A RJ 添加内存
-B RJ 更换硬盘
-C RJ 升级BIOS
-D RJ 更换电源
+A rJ添加内存
+B rJ更换硬盘
+C rJ升级BIOS
+D rJ更换电源
 参考答案：A
 
 210、在添加多个设备到一台电脑后，用户发现系统总是出现随意关机。下列那一项设备是最有可能导致这个错误？
-A RJ 内存
-B RJ CPU
-C RJ 硬盘
-D RJ 电源
+A rJ内存
+B rJCPU
+C rJ硬盘
+D rJ电源
 参考答案：D
 
 211、当在选择品牌和型号的设备升级一台PC时，A+认证技术要求考虑什么？
-A RJ 显示器的反应速率
-B RJ 现有组件的兼容性
-C RJ 电源提供的线性电压设置值
-D RJ 如何处置被替换的部件
+A rJ显示器的反应速率
+B rJ现有组件的兼容性
+C rJ电源提供的线性电压设置值
+D rJ如何处置被替换的部件
 参考答案：B
 
 212、用户现有一台电脑，具有4G硬盘。他想升级到20G硬盘，但安装新硬盘后，只识别到8G.是什么引起了这个错误？
-A RJ 计算机只能识别4G硬盘
-B RJ 计算机的BIOS设定了限制
-C RJ 对旧硬盘讲，新硬盘需设定为从设备
-D RJ 新硬盘有缺陷
+A rJ计算机只能识别4G硬盘
+B rJ计算机的BIOS设定了限制
+C rJ对旧硬盘讲，新硬盘需设定为从设备
+D rJ新硬盘有缺陷
 参考答案：B
 
 213、对COM1，默认的IRQ是多少？
-A RJ 2
-B RJ 3
-C RJ 4
-D RJ 5
+A rJ2
+B rJ3
+C rJ4
+D rJ5
 参考答案：C
 
 214、USB设备与串口或PS/2口设备的区别是什么？
-A RJ 所有USB单设备使用相同的设备驱动程序
-B RJ USB单设备不能热插拔
-C RJ 在WinXP下，PS/2和串口设备不工作
-D RJ USB单设备可以热插拔
+A rJ所有USB单设备使用相同的设备驱动程序
+B rJUSB单设备不能热插拔
+C rJ在WinXP下，PS/2和串口设备不工作
+D rJUSB单设备可以热插拔
 参考答案：D
 
 215、下列那一个I/O口，传输速率可设从一个时钟周期一位数据到115.2Kbps？
-A RJ 串口
-B RJ 并口
-C RJ USB口
-D RJ PS/2口
+A rJ串口
+B rJ并口
+C rJUSB口
+D rJPS/2口
 参考答案：A
 
 216、磁盘阵列规范1（RAID1），最少需要几个驱动器？
-A RJ 1
-B RJ 2
-C RJ 3
-D RJ 4
+A rJ1
+B rJ2
+C rJ3
+D rJ4
 参考答案：B
 
 217、Ultra3SCSI总线的最大传输数率是多大？
-A RJ 40Mbps
-B RJ 80Mbps
-C RJ 160Mbps
-D RJ 320Mbps
+A rJ40Mbps
+B rJ80Mbps
+C rJ160Mbps
+D rJ320Mbps
 参考答案：C
 
 218、一个工程师去恢复一台硬件有问题的数据，工程师想通过RAID控制器来解决这个问题。如果一个硬盘坏了，
 还有另外三个可以用，而且必须所有的数据都恢复，那么他需要用到哪种RAID规范？
-A RJ 降低硬盘的运行时的温度
-B RJ 加快硬盘的转速
-C RJ 增加硬盘的容量
-D RJ 更小的记号
+A rJ降低硬盘的运行时的温度
+B rJ加快硬盘的转速
+C rJ增加硬盘的容量
+D rJ更小的记号
 参考答案：B
 
 220、一个硬盘在BIOS里面显示是Primaryslave，原来是PrimaryMaster，那么主要的原因可能是什么？
-A RJ 插在硬盘上面的线错了
-B RJ 硬盘上面的跳线没有设置对
-C RJ 硬盘插在错误的接口
-D RJ 硬盘坏了
+A rJ插在硬盘上面的线错了
+B rJ硬盘上面的跳线没有设置对
+C rJ硬盘插在错误的接口
+D rJ硬盘坏了
 参考答案：B
 
 221、从新布置了无线IrDA（红外数据连接）打印机，一个用户报告说，他的笔记本不能连接到打印机打印文件了，
 那么最有可能出现什么问题？
-A RJ 打印机离笔记本的距离超过了一米。
-B RJ 打印机驱动坏了
-C RJ 笔记本需要重启
-D RJ 打印机需要重新设置
+A rJ打印机离笔记本的距离超过了一米。
+B rJ打印机驱动坏了
+C rJ笔记本需要重启
+D rJ打印机需要重新设置
 参考答案：A
 222、在一台主通道上面有一个硬盘和一个CD-ROM的个人电脑上面，再安装一个新的CD-RW，但是这个CD-RW不能被识别出来。
 那么最有可能造成这个的原因是什么？
-A RJ CD-RW可能坏了
-B RJ 把CD-RW设置为PrimaryMaster
-C RJ 有IRQ冲突
-D RJ 检测第二通道是否为自动监测状态
+A rJCD-RW可能坏了
+B rJ把CD-RW设置为PrimaryMaster
+C rJ有IRQ冲突
+D rJ检测第二通道是否为自动监测状态
 参考答案：D
 
 224、对于普通的电脑，在POST过程完了以后，有一声短暂的蜂鸣声出现，说明什么？
-A RJ 系统主板错误
-B RJ 内存错误
-C RJ 显卡错误
-D RJ 没有错误
+A rJ系统主板错误
+B rJ内存错误
+C rJ显卡错误
+D rJ没有错误
 参考答案：D
 
 225、当一台电脑没有UPS保护的情况下，如果断电后，电源恢复的时候，可能出现什么问题？
-A RJ ROM需要重写
-B RJ 有高电压脉冲的问题
-C RJ CMOSRAM有电池问题
-D RJ 主板软件需要重新设置
+A rJROM需要重写
+B rJ有高电压脉冲的问题
+C rJCMOSRAM有电池问题
+D rJ主板软件需要重新设置
 参考答案：B
 
 226、下面哪个测试能够检测到本地modem的输入和输出？
-A RJ 数据奇偶性
-B RJ 模拟回路
-C RJ 本地数字回路
-D RJ 远程数字回路
+A rJ数据奇偶性
+B rJ模拟回路
+C rJ本地数字回路
+D rJ远程数字回路
 参考答案：B
 
 229、什么是缺省的网关IP地址定义？
-A RJ 缺省的路由器地址
-B RJ 缺省的sendingstation地址
-C RJ 缺省的receivingstation地址
-D RJ 缺省的浏览器地址
+A rJ缺省的路由器地址
+B rJ缺省的sendingstation地址
+C rJ缺省的receivingstation地址
+D rJ缺省的浏览器地址
 参考答案：A
 
 230、RAMBus内存模块的特点是什么？
-A RJ 268个1/8英寸的阳的连接器
-B RJ 在两侧有金属的保护层
-C RJ 4个控键的插槽
-D RJ 在两侧有红色的条
+A rJ268个1/8英寸的阳的连接器
+B rJ在两侧有金属的保护层
+C rJ4个控键的插槽
+D rJ在两侧有红色的条
 参考答案：B
 
 231、ATX电源能够提供多少电压？
-A RJ 1.2伏
-B RJ 3.3伏
-C RJ 5.7伏
-D RJ 7.3伏
+A rJ1.2伏
+B rJ3.3伏
+C rJ5.7伏
+D rJ7.3伏
 参考答案：B
 
 232、以下哪种喷墨技术在喷墨时使用微电阻来加热？
-A RJ 热泡技术
-B RJ 静电
-C RJ 固态墨水
-D RJ 热升华
+A rJ热泡技术
+B rJ静电
+C rJ固态墨水
+D rJ热升华
 参考答案：A
 
 233、激光打印中采用以下哪种方法在打印纸上成像？
-A RJ 热
-B RJ 激光烧录
-C RJ 电子成像
-D RJ 静电
+A rJ热
+B rJ激光烧录
+C rJ电子成像
+D rJ静电
 参考答案：D
 
 234、打印机通过网络接口连接到基于TCP/IP协议的网络时，可以用以下哪个命令来测试打印机的网络接口？
-A RJ FTP
-B RJ PING
-C RJ RECOVER
-D RJ Telnet
+A rJFTP
+B rJPING
+C rJRECOVER
+D rJTelnet
 参考答案：B
 
 235、什么原因引起激光打印机打印出的文档全篇都是黑色的？
-A RJ 激光成像出错
-B RJ 墨盒没有碳粉了
-C RJ 转印辊没通电
-D RJ 充电辊没通电
+A rJ激光成像出错
+B rJ墨盒没有碳粉了
+C rJ转印辊没通电
+D rJ充电辊没通电
 参考答案：D
 
 236、10Base5采用什么类型的电缆？
-A RJ 50欧姆RG-8
-B RJ 75欧姆RG-8
-C RJ 50欧姆RG-58
-D RJ 75欧姆RG-58
+A rJ50欧姆RG-8
+B rJ75欧姆RG-8
+C rJ50欧姆RG-58
+D rJ75欧姆RG-58
 参考答案：A
 
 237、构建一个50台计算机组成的1000BaseT网络，采用以下什么类型的电缆？
-A RJ CAT6
-B RJ 粗缆
-C RJ RG62
-D RJ CAT3
+A rJCAT6
+B rJ粗缆
+C rJRG62
+D rJCAT3
 参考答案：A
 
 238、两台采用802.11bNIC（网卡）的计算机可以在_____状态下，不需要HUB来实现连接？
-A RJ 红外
-B RJ WiFi
-C RJ 点对点
-D RJ 无线
+A rJ红外
+B rJWiFi
+C rJ点对点
+D rJ无线
 参考答案：C
 
 239、制造商在NIC（网卡）上是如何设定MAC地址的？
-A RJ 硬件编码
-B RJ 可配置
-C RJ 通过软件
-D RJ 使用跳线器
+A rJ硬件编码
+B rJ可配置
+C rJ通过软件
+D rJ使用跳线器
 参考答案：A
 
 240、以下哪种电缆在网络中产生最小程度的EMI（电磁干扰）？
-A RJ Cat5
-B RJ Cat5e
-C RJ 光纤
-D RJ RG-58
+A rJCat5
+B rJCat5e
+C rJ光纤
+D rJRG-58
 参考答案：C
 
 241、基于V.92协议的家用模拟调制解调器的理论速率是多少？
-A RJ 56Kbps
-B RJ 128Kbps
-C RJ 384Kbps
-D RJ 512Kbps
+A rJ56Kbps
+B rJ128Kbps
+C rJ384Kbps
+D rJ512Kbps
 参考答案：A
 
 242、运行WindowsXP的计算机有三个主分区，一个扩展分区。现在要增加一个分区，以下哪一类分区可使用磁盘管理工具来添加？
-A RJ 主分区
-B RJ 增强分区
-C RJ 扩展分区
-D RJ 逻辑分区
+A rJ主分区
+B rJ增强分区
+C rJ扩展分区
+D rJ逻辑分区
 参考答案：D
 
 246、用户无法打印到网络打印机，打印任务在打印队列中被阻塞，应该先做以下哪一项工作？
-A RJ 从打印和传真中删除打印机，并重新安装打印机
-B RJ 在服务和管理工具中重新启动打印
-C RJ 重新启动工作站和打印机
-D RJ 在命令行输入IPCONFIG/RENEW
+A rJ从打印和传真中删除打印机，并重新安装打印机
+B rJ在服务和管理工具中重新启动打印
+C rJ重新启动工作站和打印机
+D rJ在命令行输入IPCONFIG/RENEW
 参考答案：B
 
 250、用户报告说Email不能使用，但没有其他人报告该问题，邮件服务器也没有执行其他工作。
 以下哪一项是技师应该有的正常反应？
-A RJ 你一定是做错什么了，你可以请人指导你如何使用Email
-B RJ 你能够将你看到的出错信息做更详细的描述吗？
-C RJ 你尝试重启你的系统了吗？
-D RJ Email系统出问题了，30分钟以后再试
+A rJ你一定是做错什么了，你可以请人指导你如何使用Email
+B rJ你能够将你看到的出错信息做更详细的描述吗？
+C rJ你尝试重启你的系统了吗？
+D rJEmail系统出问题了，30分钟以后再试
 参考答案：B
 
 251、对CAT5e电缆线，使用下列那一种连接器？
-A RJ BNC
-B RJ SC
-C RJ RJ-11
-D RJ RJ-45
+A rJBNC
+B rJSC
+C rJRJ-11
+D rJRJ-45
 参考答案：D
 
 253、从USB端口，退出一个已插入的硬设备，常常应该执行以下哪项操作？
-A RJ 添加或删除程序向导
-B RJ 单击鼠标右键并删除
-C RJ 直接拔出设备
-D RJ 删除硬件向导
+A rJ添加或删除程序向导
+B rJ单击鼠标右键并删除
+C rJ直接拔出设备
+D rJ删除硬件向导
 参考答案：D
 
 254、当一台笔记本电脑连接外部显示器时，连接电缆是正确插入，但没有图像显示。一名技术员首先应该检查的是？
-A RJ 在BIOS中，外部显示器被使能。
-B RJ 视频驱动被正确配置
-C RJ 外部显示器连接显示键被按下
-D RJ Windows没有被启动设置在VGA方式
+A rJ在BIOS中，外部显示器被使能。
+B rJ视频驱动被正确配置
+C rJ外部显示器连接显示键被按下
+D rJWindows没有被启动设置在VGA方式
 参考答案：C
 
 255、下列那一个是典型的存储固件？
-A RJ RAM
-B RJ CPU
-C RJ 硬盘
-D RJ ROM
+A rJRAM
+B rJCPU
+C rJ硬盘
+D rJROM
 参考答案：D
 
 256、为了保持存储的数据，下列那一个需要电源供给？
-A RJ ROM
-B RJ RAM
-C RJ 硬盘
-D RJ 软盘
+A rJROM
+B rJRAM
+C rJ硬盘
+D rJ软盘
 参考答案：B
 
 257、哪一个PC元件常常使用PGA、SEC和SEP封装形式？
-A RJ 网络适配器
-B RJ 主板
-C RJ 内存
-D RJ 处理器
+A rJ网络适配器
+B rJ主板
+C rJ内存
+D rJ处理器
 参考答案：D
 
 258、AGP是什么意思？
-A RJ 图像高级端口
-B RJ 异步游戏端口
-C RJ 图像加速端口
-D RJ 图像高级打印机
+A rJ图像高级端口
+B rJ异步游戏端口
+C rJ图像加速端口
+D rJ图像高级打印机
 参考答案：C
 
 259、在升级BIOS之前，最重要的要完成的步骤是什么？
-A RJ 关闭UBS（不间断电源）
-B RJ 对当前所有设置进行记录
-C RJ 拔去连接器
-D RJ 谢BIOS升级文件到软盘
+A rJ关闭UBS（不间断电源）
+B rJ对当前所有设置进行记录
+C rJ拔去连接器
+D rJ谢BIOS升级文件到软盘
 参考答案：B
 
 260、当对CPU安置一个散热风扇时，两者之间应该添加什么？
-A RJ 散热油脂
-B RJ 橡胶粘合剂
-C RJ 塑料板
-D RJ 塑料板
+A rJ散热油脂
+B rJ橡胶粘合剂
+C rJ塑料板
+D rJ塑料板
 参考答案：A
 
 261、需要多少DDRSDRAMDIMM必须被安装在奔腾4系统中才能创建一个"存储体"（bank）？
-A RJ 1DIMM
-B RJ 2DIMMs
-C RJ 4DIMMs
-D RJ 奔腾4系统主板不支持DDRSDRAM
+A rJ1DIMM
+B rJ2DIMMs
+C rJ4DIMMs
+D rJ奔腾4系统主板不支持DDRSDRAM
 参考答案：A
 
 262、下列那一个是通常用在10BaseLAN（局域网）8芯的连接器？
-A RJ RJ-45
-B RJ RJ-11
-C RJ DB-9
-D RJ DB-25
+A rJRJ-45
+B rJRJ-11
+C rJDB-9
+D rJDB-25
 参考答案：A
 
 263、下列那一个标准正常传输速率到100Mbps，并且支持打63个设备？
-A RJ USB1.1
-B RJ USB2.0
-C RJ IEEE1394
-D RJ 高端SCSI2
+A rJUSB1.1
+B rJUSB2.0
+C rJIEEE1394
+D rJ高端SCSI2
 参考答案：C
 
 265、"火线"被定义那一个IEEE标准？
-A RJ 802.11b
-B RJ 807.2
-C RJ 1394
-D RJ 1284
+A rJ802.11b
+B rJ807.2
+C rJ1394
+D rJ1284
 参考答案：C
 
 266、在主总线上面已经安装了两个EIDE硬盘，在副总线上面已经安装了一个DVD光驱和一个CD刻录机。用？
-A RJ 用户需用一个有4个接口的cable线
-B RJ 因为主板只有2条总线，所以用户需要安装一个额外的控制卡
-C RJ 把所有设备转换为SCSI接口
-D RJ 去除这两个硬盘，在主总线上面安装一个新的硬盘
+A rJ用户需用一个有4个接口的cable线
+B rJ因为主板只有2条总线，所以用户需要安装一个额外的控制卡
+C rJ把所有设备转换为SCSI接口
+D rJ去除这两个硬盘，在主总线上面安装一个新的硬盘
 参考答案：B
 
 267、一个A+认证工程师要在一个控制器上面安装三个SCSI设备，那么将会出现什么结果？
-A RJ 停用第一个设备
-B RJ 停用最后一个设备
-C RJ 停用每个设备
-D RJ 不需要停用任何设备
+A rJ停用第一个设备
+B rJ停用最后一个设备
+C rJ停用每个设备
+D rJ不需要停用任何设备
 参考答案：B
 
 268、不包括适配器本身，Ultra2WideSCSI总线能够安装多少个设备？
-A RJ 7
-B RJ 15
-C RJ 16
-D RJ 128
+A rJ7
+B rJ15
+C rJ16
+D rJ128
 参考答案：B
 
 270、一个工程师要在一台电脑主机上面安装两个显示器。没有另外的PCI和AGP接口了，他该怎么做？
-A RJ 加一个VGA卡
-B RJ 两个显示器不能安装到一个电脑主机上面
-C RJ 换一个有两个接口的视频卡
-D RJ 把第二个显示器插在第一个显示器上面
+A rJ加一个VGA卡
+B rJ两个显示器不能安装到一个电脑主机上面
+C rJ换一个有两个接口的视频卡
+D rJ把第二个显示器插在第一个显示器上面
 参考答案：C
 
 271、一一个工程师换了一个软驱，当系统启动的时候，工程师发现软驱的灯是亮的，但是系统不能读软驱中的数据，那么最有可能出什么问题？
-A RJ 驱动器坏了
-B RJ 电源没有连接好
-C RJ 驱动控制器坏了
-D RJ 数据线连接错误
+A rJ驱动器坏了
+B rJ电源没有连接好
+C rJ驱动控制器坏了
+D rJ数据线连接错误
 参考答案：D
 
 273、一个用户抱怨鼠标运动急促而且很不稳定，那么很可能是什么原因造成的？
-A RJ 装了错误的鼠标驱动
-B RJ 鼠标坏了
-C RJ 一个程序占用了所有的系统资源
-D RJ 电源坏了
+A rJ装了错误的鼠标驱动
+B rJ鼠标坏了
+C rJ一个程序占用了所有的系统资源
+D rJ电源坏了
 参考答案：B
 
 274、在POST的时候，"201"错误是什么意义？
-A RJ CPU错误
-B RJ 内存错误
-C RJ 视频问题
-D RJ 软驱错误
+A rJCPU错误
+B rJ内存错误
+C rJ视频问题
+D rJ软驱错误
 参考答案：B
 
 275、一个用户抱怨没有网络连接，NIC（网络接口卡）测试没有问题，NIC显示没有指示灯亮，
 下面哪种工具可以确认网线或者接口是否是好的？
-A RJ 反射计
-B RJ 数字万用表
-C RJ 网线测量仪
-D RJ 示波器
+A rJ反射计
+B rJ数字万用表
+C rJ网线测量仪
+D rJ示波器
 参考答案：C
 
 276、用户报告说，当从网上下载一个程序后，电脑不能启动到windows，下面哪一个是最有可能造成这个的原因？
-A RJ modem错误
-B RJ 网络连接开着
-C RJ 文件有病毒
-D RJ 软件和系统不兼容
+A rJmodem错误
+B rJ网络连接开着
+C rJ文件有病毒
+D rJ软件和系统不兼容
 参考答案：D
 
 277、如何清洁CD-ROM碟面？
-A RJ 圆形的擦磁盘
-B RJ 擦磁盘从中心到边缘
-C RJ 蘸一些清洁器擦，再等它干
-D RJ 在CD的属性菜单里面选择清洁模式
+A rJ圆形的擦磁盘
+B rJ擦磁盘从中心到边缘
+C rJ蘸一些清洁器擦，再等它干
+D rJ在CD的属性菜单里面选择清洁模式
 参考答案：B
 
 278、下面哪个设备不需要插入UPS电源？
-A RJ 显示器
-B RJ 激光打印机
-C RJ 喷墨打印机
-D RJ 外置modem
+A rJ显示器
+B rJ激光打印机
+C rJ喷墨打印机
+D rJ外置modem
 参考答案：B
 
 279、报废CRT显示器是一个棘手的问题，因为显示器中含有大量的哪种金属？
-A RJ 铅
-B RJ 铜
-C RJ 锡
-D RJ 铝
+A rJ铅
+B rJ铜
+C rJ锡
+D rJ铝
 参考答案：A
 
 280、有多少个pin连接到RIMM模块？
-A RJ 144
-B RJ 168
-C RJ 184
-D RJ 256
+A rJ144
+B rJ168
+C rJ184
+D rJ256
 参考答案：C
 
 281、在每个memorybank需要几个168针的DIMM？
-A RJ 1
-B RJ 2
-C RJ 4
-D RJ 8
+A rJ1
+B rJ2
+C rJ4
+D rJ8
 参考答案：A
 
 282、在每个bank，需要装多少个RIMM模块？
-A RJ 4
-B RJ 3
-C RJ 2
-D RJ 1
+A rJ4
+B rJ3
+C rJ2
+D rJ1
 参考答案：C
 
 284、SlotA插槽的微处理器是？
-A RJ AMDK6
-B RJ IntelPentium
-C RJ AMDAthlon
-D RJ IntelPentium3
+A rJAMDK6
+B rJIntelPentium
+C rJAMDAthlon
+D rJIntelPentium3
 参考答案：C
 
 285、Windows9x系统未能成功检测到新添加的设备，应该首先检查？
-A RJ 设备管理器分配的DMA号
-B RJ 控制面板中的PnP设置
-C RJ BIOS中有关PnP的CMOS设置
-D RJ CMOS中有关PnP的BIOS设置
+A rJ设备管理器分配的DMA号
+B rJ控制面板中的PnP设置
+C rJBIOS中有关PnP的CMOS设置
+D rJCMOS中有关PnP的BIOS设置
 参考答案：D
 
 287、在打印过程中遇到了一个问题，打印纸从激光打印机出来后，纸上的颜色很容易被擦除掉
 ，请问技师应该检查激光打印机的什么部件来解决问题？
-A RJ 硒鼓
-B RJ 定影单元
-C RJ 激光组件
-D RJ 传送带
+A rJ硒鼓
+B rJ定影单元
+C rJ激光组件
+D rJ传送带
 参考答案：B
 
 288、在激光打印机打印过程中，打印纸通过定影单元加热时，会出现以下什么固有的现象？
-A RJ 打印纸粘连
-B RJ 打印机卷曲
-C RJ 打印纸收缩
-D RJ 打印机起皱
+A rJ打印纸粘连
+B rJ打印机卷曲
+C rJ打印纸收缩
+D rJ打印机起皱
 参考答案：B
 
 289、为什么墨盒的使用规则要求人不得吸入碳粉？
-A RJ 因为它有毒
-B RJ 因为它有致癌物质
-C RJ 因为它是光敏的
-D RJ 因为它可能会引起上呼吸道不适
+A rJ因为它有毒
+B rJ因为它有致癌物质
+C rJ因为它是光敏的
+D rJ因为它可能会引起上呼吸道不适
 参考答案：D
 
 290、什么网络协议允许网络管理者在计算机启动时自动分配IP地址和其他信息？
-A RJ ARP
-B RJ BGP（边界网关协议）
-C RJ DHCP
-D RJ DNS
+A rJARP
+B rJBGP（边界网关协议）
+C rJDHCP
+D rJDNS
 参考答案：C
 
 291、以下哪一个地址包含在NIC（网卡）中？
-A RJ IP
-B RJ IPX
-C RJ NetBIOS
-D RJ MAC
+A rJIP
+B rJIPX
+C rJNetBIOS
+D rJMAC
 参考答案：D
 
 293、在无线技术中，WAP是什么意思？
-A RJ 无线接入点
-B RJ 无线应用端口
-C RJ 无线关联点
-D RJ 无线认证点
+A rJ无线接入点
+B rJ无线应用端口
+C rJ无线关联点
+D rJ无线认证点
 参考答案：A
 
 297、在WindowsXP中，以下哪一个方法可用于检查和增加虚拟存储器的数量？
-A RJ 开始>控制面板>系统　>高级>性能设置>高级
-B RJ 开始>设置>任务栏和开始菜单
-C RJ 开始>我的网络位置>属性>本地域>本地连接>属性
-D RJ 开始>程序>附件　>系统工具>磁盘整理
+A rJ开始>控制面板>系统　>高级>性能设置>高级
+B rJ开始>设置>任务栏和开始菜单
+C rJ开始>我的网络位置>属性>本地域>本地连接>属性
+D rJ开始>程序>附件　>系统工具>磁盘整理
 参考答案：A
 
 300、以下RAID组提供了容错功能，除了：？
-A RJ RAID0
-B RJ RAID1
-C RJ RAID5
-D RJ RAID1+0
+A rJRAID0
+B rJRAID1
+C rJRAID5
+D rJRAID1+0
 参考答案：A
 
 301、下列那一种RAM，为CPU Caching使用？
@@ -3567,394 +3567,394 @@ D：图像高级打印机
 参考答案：C
 
 305、下列那一个奔腾Pro处理器的插槽接口？
-A RJ Socket 7
-B RJ Socket 8
-C RJ Slot 1
-D RJ Socket 380PGA
+A rJSocket 7
+B rJSocket 8
+C rJSlot 1
+D rJSocket 380PGA
 参考答案：B
 
 306、需要多少DDR SDRAM DIMM必须被安装在奔腾4系统中才能创建一个"存储体"（bank）？
-A RJ 1 DIMM
-B RJ 2 DIMMs
-C RJ 4 DIMMs
-D RJ 奔腾4系统主板不支持DDR SDRAM
+A rJ1 DIMM
+B rJ2 DIMMs
+C rJ4 DIMMs
+D rJ奔腾4系统主板不支持DDR SDRAM
 参考答案：A
 
 307、一位A+认证专家被要求向系统安装第二个ATA硬盘，他的上级要求必须使用同一个数据线，并且保证同样的访问速度。
 这位专家如何设置以安装的和要添加的硬盘跳线器？
-A RJ 已装的：Cable Select。后装的：Slave
-B RJ 已装的：Master。后装的：Cable Select
-C RJ 已装的：Master。后装的：Slave
-D RJ 已装的：Slave。后装的：Master
+A rJ已装的：Cable Select。后装的：Slave
+B rJ已装的：Master。后装的：Cable Select
+C rJ已装的：Master。后装的：Slave
+D rJ已装的：Slave。后装的：Master
 参考答案：C
 
 308、对COM1，默认的IRQ是多少？
-A RJ 2
-B RJ 3
-C RJ 4
-D RJ 5
+A rJ2
+B rJ3
+C rJ4
+D rJ5
 参考答案：C
 
 311、视频分辨率为800*600的视频模式是什么？
-A RJ EGA模式
-B RJ VGA模式
-C RJ CGA模式
-D RJ SVGA模式
+A rJEGA模式
+B rJVGA模式
+C rJCGA模式
+D rJSVGA模式
 参考答案：D
 
 312、当安装一个打印机，一个A+工程师发现能够通过串口和USB接口，那么他应该用那个接口？
-A RJ 选串口，因为它比USB接口的线多，传输的快
-B RJ 选串口，因为它比USB接口更可靠
-C RJ 选USB接口，虽然它也是串行连接，但是它传输数据速度更快更稳定
-D RJ 选USB接口，因为它传输慢，而且稳定比串口
+A rJ选串口，因为它比USB接口的线多，传输的快
+B rJ选串口，因为它比USB接口更可靠
+C rJ选USB接口，虽然它也是串行连接，但是它传输数据速度更快更稳定
+D rJ选USB接口，因为它传输慢，而且稳定比串口
 参考答案：C
 
 313、一个客户要工程师安装了一个DVD刻录机，安装好后能够正常工作，三个星期后，客户反映刻录机不能刻录了，
 工程师去了解到这个DVD刻录机还可以读CD和DVD，这个时候工程师第一步应该怎么检测这个刻录机？
-A RJ 检测IDE线
-B RJ 先要对刻录机格式化
-C RJ 检查刻录盘的格式
-D RJ 重装刻录软件
+A rJ检测IDE线
+B rJ先要对刻录机格式化
+C rJ检查刻录盘的格式
+D rJ重装刻录软件
 参考答案：C
 
 315、当客户的打印机不能打印的时候，你问客户第一个问题是什么？
-A RJ 是否看到打印机的面板上面的灯亮着
-B RJ 打印机是否正确的连接到电脑上面
-C RJ 打印机是否没有墨水了
-D RJ 打印机软件是否安装好了
+A rJ是否看到打印机的面板上面的灯亮着
+B rJ打印机是否正确的连接到电脑上面
+C rJ打印机是否没有墨水了
+D rJ打印机软件是否安装好了
 参考答案：A
 
 316、下面哪一个是ESD（静电放电）最主要的原因？
 
-A RJ 拔个人电脑
-B RJ 连接好地线
-C RJ 开电源
-D RJ 成双的安装这个模块
+A rJ拔个人电脑
+B rJ连接好地线
+C rJ开电源
+D rJ成双的安装这个模块
 参考答案：B
 
 320、Windows 2000系统的计算机有一个非PnP的调制解调器使用IRQ 5，技师增加了一个PCI的modem。系统重启后，
 设备管理器报告说两个调制解调器的IRQ号冲突。技师应该如何做？
-A RJ 用设备管理器改变非PnP调制解调器的IRQ 为9
-B RJ 用设备管理器改变非PnP调制解调器的IRQ 为11
-C RJ 进入CMOS设置将IRQ 5保留为非PnP设备使用
-D RJ 启动调制解调器的查错机制解决问题
+A rJ用设备管理器改变非PnP调制解调器的IRQ 为9
+B rJ用设备管理器改变非PnP调制解调器的IRQ 为11
+C rJ进入CMOS设置将IRQ 5保留为非PnP设备使用
+D rJ启动调制解调器的查错机制解决问题
 参考答案：C
 
 323、使用对等网的目的是什么？
-A RJ 通过WAN（广域网）来共享数据
-B RJ 在计算机间共享数据
-C RJ 连接计算机到互联网
-D RJ 连接计算机到WAN
+A rJ通过WAN（广域网）来共享数据
+B rJ在计算机间共享数据
+C rJ连接计算机到互联网
+D rJ连接计算机到WAN
 参考答案：B
 
 324、在Windows 2000/XP下，可用以下哪一个命令来显示NIC（网卡）的网络配置信息，诸如IP地址、子网掩码及网关等？
-A RJ IPCONFIG
-B RJ WINIPCFG
-C RJ TRACERT
-D RJ MSCONFIG
+A rJIPCONFIG
+B rJWINIPCFG
+C rJTRACERT
+D rJMSCONFIG
 参考答案：A
 
 327、用户喜欢安装使用网络打印机，技师应该如何做？
-A RJ 通过控制面板安装打印机
-B RJ 通知用户他们需要购买一台独立的打印机
-C RJ 通知用户网络打印机不能共享
-D RJ 通过设备管理器安装打印机
+A rJ通过控制面板安装打印机
+B rJ通知用户他们需要购买一台独立的打印机
+C rJ通知用户网络打印机不能共享
+D rJ通过设备管理器安装打印机
 参考答案：A
 
 328、安装完一个新硬盘驱动器后，技师应该？
-A RJ 开启计算机，进入设备管理器并安装新硬件
-B RJ 检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
-C RJ 开启计算机，并只连接硬盘驱动器到IDE总线
-D RJ 进入安全模式安装新硬件
+A rJ开启计算机，进入设备管理器并安装新硬件
+B rJ检查电缆、接口卡和连接器，并确认连接都准确地插入和固定
+C rJ开启计算机，并只连接硬盘驱动器到IDE总线
+D rJ进入安全模式安装新硬件
 参考答案：B
 
 330、安装完 XP SP2后，技师发现有一个设备没有正常工作。在设备管理器中，设备前面有一个红色的X，技师应该如何做？
-A RJ 退回到安装SP2前的Windows XP
-B RJ 使用设备管理器升级驱动程序
-C RJ 重新安装SP2
-D RJ 从计算机中去除该设备
+A rJ退回到安装SP2前的Windows XP
+B rJ使用设备管理器升级驱动程序
+C rJ重新安装SP2
+D rJ从计算机中去除该设备
 参考答案：B
 
 331、公司邮件服务器上的一款非关键软件升级时需要邮件服务器重启，应该采取以下什么措施？
-A RJ 在工作时段以后规划需要完成的服务，并在服务器重启后检查所有的邮件服务
-B RJ 通过Email通知员工，邮件服务器拟维护，然后升级软件并重启
-C RJ 在工作日开始时安装升级软件并重启
-D RJ 在公司总裁吃午饭时安装升级软件并重启
+A rJ在工作时段以后规划需要完成的服务，并在服务器重启后检查所有的邮件服务
+B rJ通过Email通知员工，邮件服务器拟维护，然后升级软件并重启
+C rJ在工作日开始时安装升级软件并重启
+D rJ在公司总裁吃午饭时安装升级软件并重启
 参考答案：A
 
 333、技术人员必须在一个SCSI控制卡上使能INT31H，只有这样才能使用下列那个设备？
-A RJ 扫描仪
-B RJ Bernoulli
-C RJ 磁带设备
-D RJ 可启动的CD-ROM
+A rJ扫描仪
+B rJBernoulli
+C rJ磁带设备
+D rJ可启动的CD-ROM
 　正确答案：D
  
 334、具有以太网接口的一台激光打印机，常规使用以下那一种连接器接口？
-A RJ RJ-11
-B RJ 并口
-C RJ USB
-D RJ RJ-45
+A rJRJ-11
+B rJ并口
+C rJUSB
+D rJRJ-45
 　正确答案：D
  
 335、下列工具哪一个常常用于鉴定一条网线的损害断点的距离？
-A RJ 回环连接器
-B RJ 时间域反射器
-C RJ 轨迹线路软件
-D RJ 连通测试器
+A rJ回环连接器
+B rJ时间域反射器
+C rJ轨迹线路软件
+D rJ连通测试器
 　正确答案：B
  
 336、一位技术员插入RAM内存条。显而易见，在他插内存条时，没有佩戴防静电手带。插入后，内存条不工作。下列那一项最有可能导致这个错误？
-A RJ 在插入内存时，由于技术员没有佩戴防静电手带，呆滞内存遭受毁灭性静电冲击
-B RJ 开能是内存条随即的以损坏，一个有经验的技术员不需要带防静电手带
-C RJ 内存需要在计算机重新设置
-D RJ 内存需要在BIOS中添加
+A rJ在插入内存时，由于技术员没有佩戴防静电手带，呆滞内存遭受毁灭性静电冲击
+B rJ开能是内存条随即的以损坏，一个有经验的技术员不需要带防静电手带
+C rJ内存需要在计算机重新设置
+D rJ内存需要在BIOS中添加
 　正确答案：A
  
 337、一个MSDS（材料物质安全数据单）可以解释为？
-A RJ 无风险安装一个计算机组件
-B RJ 例如化学试剂之类物质正确处理方法
-C RJ 防火，灭火
-D RJ 计算机主板扩张操的正确移除和操作
+A rJ无风险安装一个计算机组件
+B rJ例如化学试剂之类物质正确处理方法
+C rJ防火，灭火
+D rJ计算机主板扩张操的正确移除和操作
 　正确答案：B
  
 338、在一个IDE硬件存储设备上，下列那一个是最小存储访问单元？
-A RJ trackj
-B RJ sector
-C RJ partition
-D RJ cylinder
+A rJtrackj
+B rJsector
+C rJpartition
+D rJcylinder
 　正确答案：B
  
 339、连接的内部CD-ROM 的SCSI2连接头有多收针？
-A RJ 25
-B RJ 30
-C RJ 50
-D RJ 68
+A rJ25
+B rJ30
+C rJ50
+D rJ68
 　正确答案：C
  
 340、AGP是什么意思？
-A RJ 图像高级端口
-B RJ 异步游戏端口
-C RJ 图像加速端口
-D RJ 图像高级打印机
+A rJ图像高级端口
+B rJ异步游戏端口
+C rJ图像加速端口
+D rJ图像高级打印机
 　正确答案：C
  
 341、APG 4X 插槽是多少主频？
-A RJ 33MHz
-B RJ 66MHz
-C RJ 256MHz
-D RJ 266MHz
+A rJ33MHz
+B rJ66MHz
+C rJ256MHz
+D rJ266MHz
 　正确答案：D
  
 342、对一台运行Win98的标准PC，键盘用那个IRQ？
-A RJ IRQ0
-B RJ IRQ1
-C RJ IRQ2
-D RJ IRQ4
+A rJIRQ0
+B rJIRQ1
+C rJIRQ2
+D rJIRQ4
 　正确答案：B
  
 343、一位顾客拥有这样一台电脑：WinXP；128MB内存；2.4GHz CPU；80G硬盘和一台使用USB口的扫描仪。
 这位顾客投诉说在扫描图像时似乎需要太长的时间。下列那一项最有可能改善提高？
-A RJ 添加内存
-B RJ 更换硬盘
-C RJ 升级BIOS
-D RJ 更换电源
+A rJ添加内存
+B rJ更换硬盘
+C rJ升级BIOS
+D rJ更换电源
 　正确答案：A
  
 344、在添加多个设备到一台电脑后，用户发现系统总是出现随意关机。下列那一项设备是最有可能导致这个错误？
-A RJ 内存
-B RJ CPU
-C RJ 硬盘
-D RJ 电源
+A rJ内存
+B rJCPU
+C rJ硬盘
+D rJ电源
 　正确答案：D
  
 345、如果一名用户告诉一位以获取A+认证的技术员，他想给他的奔腾2系统添加一个120G的品牌硬盘，最有可能引起什么问题？
-A RJ Windows不支持这样大的硬盘
-B RJ 主板上的板上IDE控制器不支持这样的容量
-C RJ 奔腾2的电源不能够提供设备所需要的功率
-D RJ CPU没有足够快的速度去读它
+A rJWindows不支持这样大的硬盘
+B rJ主板上的板上IDE控制器不支持这样的容量
+C rJ奔腾2的电源不能够提供设备所需要的功率
+D rJCPU没有足够快的速度去读它
 　正确答案：B
  
 346、用户现有一台电脑，具有4G硬盘。他想升级到20G硬盘，但安装新硬盘后，只识别到8G.是什么引起了这个错误？
-A RJ 计算机只能识别4G硬盘
-B RJ 计算机的BIOS设定了限制
-C RJ 对旧硬盘讲，新硬盘需设定为从设备
-D RJ 新硬盘有缺陷
+A rJ计算机只能识别4G硬盘
+B rJ计算机的BIOS设定了限制
+C rJ对旧硬盘讲，新硬盘需设定为从设备
+D rJ新硬盘有缺陷
 　正确答案：B
 
 347、一个新的IDE硬盘被安装，并且以将跳线设置好，对新硬盘说下一步要做什么？
-A RJ 格式化硬盘
-B RJ 安装操作系统
-C RJ 硬盘分区
-D RJ 运行磁盘检测工具
+A rJ格式化硬盘
+B rJ安装操作系统
+C rJ硬盘分区
+D rJ运行磁盘检测工具
 　正确答案：C
 
 348、需要多少DDR SDRAM DIMM必须被安装在奔腾4系统中才能创建一个"存储体"（bank）？
-A RJ 1 DIMM
-B RJ 2 DIMMs
-C RJ 4 DIMMs
-D RJ 奔腾4系统主板不支持DDR SDRAM
+A rJ1 DIMM
+B rJ2 DIMMs
+C rJ4 DIMMs
+D rJ奔腾4系统主板不支持DDR SDRAM
 　正确答案：A
 
 351、下列那一个标准正常传输速率到100Mbps，并且支持打63个设备？
-A RJ USB1.1
-B RJ USB2.0
-C RJ IEEE 1394
-D RJ 高端 SCSI2
+A rJUSB1.1
+B rJUSB2.0
+C rJIEEE 1394
+D rJ高端 SCSI2
 　正确答案：C
 
 352、如何称呼组成硬盘盘片的基本单位？
-A RJ 扇区
-B RJ 柱面
-C RJ 磁轨
-D RJ 磁头
+A rJ扇区
+B rJ柱面
+C rJ磁轨
+D rJ磁头
 　正确答案：A
 
 353、下面哪个设备将有线信号转换成无线信号，以允许无线设备能够连接到传统的网络中？
-A RJ 中心点
-B RJ airbox
-C RJ 频率适配器
-D RJ access point 
+A rJ中心点
+B rJairbox
+C rJ频率适配器
+D rJaccess point 
 　正确答案：D
 
 354、什么是用户端连接到AP的BSS层所使用的非标准32位特征码？
-A RJ BSI
-B RJ WID
-C RJ WIP
-D RJ SSID
+A rJBSI
+B rJWID
+C rJWIP
+D rJSSID
 　正确答案：D
 
 355、当一个客户通过DSL连接Internet网，DSL modem上面有4个LED灯，PWR是稳定的绿色灯，DSL是稳定的绿色，
 ACT没有亮，ENET没有亮，那么最有可能造成网络不同的原因是什么？
-A RJ modem 没有检测到DSL 信号
-B RJ 电话线被插到DSL 插口
-C RJ 电脑的连接信号丢失
-D RJ modem的电源信号没有开
+A rJmodem 没有检测到DSL 信号
+B rJ电话线被插到DSL 插口
+C rJ电脑的连接信号丢失
+D rJmodem的电源信号没有开
 　正确答案：C
 
 358、电脑启动的时候，报告一个奇偶错误，那么最可能什么原因造成的？
-A RJ 主板问题
-B RJ 内存芯片错误
-C RJ CPU问题
-D RJ 硬盘问题
+A rJ主板问题
+B rJ内存芯片错误
+C rJCPU问题
+D rJ硬盘问题
 　正确答案：B
 
 359、一个用户报告开机后，屏幕上显示"没有系统盘或者盘错误，按任何其他键继续"，那么最可能是什么错误造成的？
-A RJ 硬盘坏了，应该换一个好的
-B RJ 电源坏了
-C RJ 在软驱中没有启动盘
-D RJ 硬盘不兼容主板
+A rJ硬盘坏了，应该换一个好的
+B rJ电源坏了
+C rJ在软驱中没有启动盘
+D rJ硬盘不兼容主板
 　正确答案：C
 
 360、下面哪一个和发现问题解决问题不是一个阶段？
-A RJ 确认修理
-B RJ 确认问题
-C RJ 记录修理的结果
-D RJ 简单的问题
+A rJ确认修理
+B rJ确认问题
+C rJ记录修理的结果
+D rJ简单的问题
 　正确答案：D
 
 361、下面哪个办法能够安全的清洁LCD电脑显示器？
-A RJ 把洗玻璃的清洁剂喷到软布上面，然后轻轻的擦拭屏幕
-B RJ 用干净的水喷到软布上，然后轻轻的擦拭屏幕
-C RJ 用一个反静电的吸尘器不接触屏幕
-D RJ  用压缩空气来吹屏幕
+A rJ把洗玻璃的清洁剂喷到软布上面，然后轻轻的擦拭屏幕
+B rJ用干净的水喷到软布上，然后轻轻的擦拭屏幕
+C rJ用一个反静电的吸尘器不接触屏幕
+D rJ 用压缩空气来吹屏幕
 　正确答案：B
 
 362、什么时候需要MSDS（材料安全数据手册）？
-A RJ 需要了解内存大小
-B RJ 需要了解化学产品的安全
-C RJ 需要安装硬盘
-D RJ 需要了解计算机工具的使用
+A rJ需要了解内存大小
+B rJ需要了解化学产品的安全
+C rJ需要安装硬盘
+D rJ需要了解计算机工具的使用
 　正确答案：B
 
 363、RAM Bus内存模块的特点是什么？
-A RJ 268个1/8英寸的阳的连接器
-B RJ 在两侧有金属的保护层
-C RJ 4个控键的插槽
-D RJ 在两侧有红色的条
+A rJ268个1/8英寸的阳的连接器
+B rJ在两侧有金属的保护层
+C rJ4个控键的插槽
+D rJ在两侧有红色的条
 　正确答案：B
 
 364、有多少个pin连接到RIMM模块？
-A RJ 144
-B RJ 168
-C RJ 184
-D RJ 256
+A rJ144
+B rJ168
+C rJ184
+D rJ256
 　正确答案：C
 
 366、下面哪个传输协议是以脉冲模式并以33.3Mbps的速度？
-A RJ ATAPI
-B RJ Ultra DMA
-C RJ EIDE
-D RJ IDE
+A rJATAPI
+B rJUltra DMA
+C rJEIDE
+D rJIDE
 　正确答案：B
 
 367、让PC机从CD-ROM启动最有效的方法是？
-A RJ 将主硬盘设置为disable
-B RJ 配置CD-ROM为Primary Master
-C RJ 在CMOS中改变启动顺序
-D RJ 在CMOS中设置CD-ROM为可启动
+A rJ将主硬盘设置为disable
+B rJ配置CD-ROM为Primary Master
+C rJ在CMOS中改变启动顺序
+D rJ在CMOS中设置CD-ROM为可启动
 　正确答案：C
 
 369、构建一个50台计算机组成的1000BaseT网络，采用以下什么类型的电缆？
-A RJ CAT6
-B RJ 粗缆
-C RJ RG62
-D RJ CAT3
+A rJCAT6
+B rJ粗缆
+C rJRG62
+D rJCAT3
 　正确答案：A
 
 370、以下哪一种线缆在每一对电缆周围安装有金属屏蔽箔，同时在一组线缆周围装有金属屏蔽箔，并使用RJ-45连接器？
-A RJ 光缆
-B RJ 同轴电缆
-C RJ STP
-D RJ UTP
+A rJ光缆
+B rJ同轴电缆
+C rJSTP
+D rJUTP
 　正确答案：C
 
 371、在不使用跳线器和PnP配置ISA NICs（网卡）时，采用什么方法来设置IRQ？
-A RJ DMA
-B RJ CMOS
-C RJ 操作系统
-D RJ 配置软件
+A rJDMA
+B rJCMOS
+C rJ操作系统
+D rJ配置软件
 　正确答案：D
 
 372、通过BRI（基本速率接口）ISDN上网的数据传输速率最有可能是？
-A RJ 1000到56000K bps
-B RJ 64到128K bps
-C RJ 500到1500K bps
-D RJ 1.5到10M bpd
+A rJ1000到56000K bps
+B rJ64到128K bps
+C rJ500到1500K bps
+D rJ1.5到10M bpd
 　正确答案：B
 
 373、哪一种互联网通讯技术采用与电话通讯相同的铜缆，而且传输速率可达到128Kbps？
-A RJ 拨号Modem
-B RJ DSL
-C RJ 宽带
-D RJ ISDN
+A rJ拨号Modem
+B rJDSL
+C rJ宽带
+D rJISDN
 　正确答案：D
 
 374、使用FHSS（跳频技术）和DSSS（直接序列展频技术）的网络IEEE标准是什么？
-A RJ 802.11
-B RJ 802.3
-C RJ 802.4
-D RJ 802.6
-　正确答案：A
+A rJ802.11
+B rJ802.3
+C rJ802.4
+D rJ802.6
+　正确答案:A
 
 375、基于卫星的互联网接入技术被认为是"公正平等"的，该技术主要用于？
-A RJ 网络游戏
-B RJ 大批量下载
-C RJ 电话会议
-D RJ 网络电话
+A rJ网络游戏
+B rJ大批量下载
+C rJ电话会议
+D rJ网络电话
 　正确答案：B
 
 380、用户报告说，计算机昨天工作正常，但今天无法登录。技师应该首先询问用户？
-A RJ 最近对计算机所做的任何修改
-B RJ 最近计算机病毒扫描的结果
-C RJ 计算机使用的典型用途
-D RJ 最近访问的网络资源
+A rJ最近对计算机所做的任何修改
+B rJ最近计算机病毒扫描的结果
+C rJ计算机使用的典型用途
+D rJ最近访问的网络资源
 　正确答案：D
 
 381、安装完 XP SP2后，技师发现有一个设备没有正常工作。在设备管理器中，设备前面有一个红色的X，技师应该如何做？
-A RJ 退回到安装SP2前的Windows XP
-B RJ 使用设备管理器升级驱动程序
-C RJ 重新安装SP2
-D RJ 从计算机中去除该设备
+A rJ退回到安装SP2前的Windows XP
+B rJ使用设备管理器升级驱动程序
+C rJ重新安装SP2
+D rJ从计算机中去除该设备
 　正确答案：B
 
 </Documents>

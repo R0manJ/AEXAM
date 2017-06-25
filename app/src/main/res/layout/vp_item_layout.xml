@@ -1,0 +1,80 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3300ff00"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/subject"
+        android:scrollbars="none">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_subject"
+            android:text="Title"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+    </ScrollView>
+
+
+    <RadioGroup
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/rg_itemAnswer"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            style="@style/itemCheck"
+            android:id="@+id/rb_1"
+           />
+        <RadioButton
+            style="@style/itemCheck"
+            android:id="@+id/rb_2"
+            />
+        <RadioButton
+            style="@style/itemCheck"
+            android:id="@+id/rb_3"
+            />
+        <RadioButton
+            style="@style/itemCheck"
+            android:id="@+id/rb_4"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="40sp"
+        android:text="Answer"
+        android:gravity="center"
+        android:id="@+id/tv_answer"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/correctNormal"
+            android:id="@+id/v_correct"/>
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/incorrectNormal"
+            android:id="@+id/v_incorrect"/>
+    </LinearLayout>
+
+    </LinearLayout>
