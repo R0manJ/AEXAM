@@ -46,8 +46,15 @@ public class MyPagerAdapter extends PagerAdapter {
         private RadioButton rb_3;
         private RadioButton rb_4;
 
+    public MyPagerAdapter(List<Subject> dataList, Context context, SQLiteDatabase db, String usrname ,int showMode) {
+        this.dataList = dataList;
+        this.context = context;
+        this.db = db;
+        this.usrName = usrname;
+        viewList = initializationViewMode(dataList);
+    }
 
-    public MyPagerAdapter(List<Subject> dataList, Context context, SQLiteDatabase db,String usrname) {
+    public MyPagerAdapter(List<Subject> dataList, Context context, SQLiteDatabase db, String usrname) {
             this.dataList = dataList;
             this.context = context;
             this.db = db;
@@ -57,6 +64,56 @@ public class MyPagerAdapter extends PagerAdapter {
             viewList = initializationView(dataList);
 
 
+        }
+
+    public List<View> initializationViewMode(List<Subject> dataList)
+    {
+        List<View> mViewList =  new ArrayList<View>();
+        View view =  null;
+        for (int i = 0; i < dataList.size() ; i++)
+        {
+
+            view =  LayoutInflater.from(context).inflate(R.layout.vp_item_layout,null);
+            TextView tv_title = (TextView) view.findViewById(R.id.tv_subject);
+            //RadioGroup rg_item = (RadioGroup)view.findViewById(R.id.rg_itemAnswer);
+            rb_1 = (RadioButton)view.findViewById(R.id.rb_1);
+            rb_2 = (RadioButton)view.findViewById(R.id.rb_2);
+            rb_3 = (RadioButton)view.findViewById(R.id.rb_3);
+            rb_4 = (RadioButton)view.findViewById(R.id.rb_4);
+
+
+            final TextView tv_answer = (TextView)view.findViewById(R.id.tv_answer);
+            final Subject subject = dataList.get(i);
+            tv_title.setText(subject.getSubjectNumber()+"-"+subject.getSubjectContent());
+            rb_1.setText("A.  "+subject.getA());
+            rb_2.setText("B.  "+subject.getB());
+            rb_3.setText("C.  "+subject.getC());
+            rb_4.setText("D.  "+subject.getD());
+
+            String uAnswer = subject.getAnswer();
+            String content[] = uAnswer.split("：");
+            switch (content[0])
+            {
+                case "A":
+                    rb_1.setChecked(true);
+                    break;
+                case "B":
+                    rb_2.setChecked(true);
+                    break;
+                case "C":
+                    rb_3.setChecked(true);
+                    break;
+                case "D":
+                    rb_4.setChecked(true);
+                    break;
+
+            }
+
+            tv_answer.setText("正确答案"+subject.getAnswer());
+            mViewList.add(view);
+        }
+
+            return mViewList;
         }
 
         public List<View> initializationView(List<Subject> dataList)

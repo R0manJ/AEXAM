@@ -45,7 +45,8 @@
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="20dp"
-            android:id="@+id/sb_progress"/>
+            android:id="@+id/sb_progress"
+            android:visibility="invisible"/>
 
         <TextView
             android:layout_marginTop="80dp"

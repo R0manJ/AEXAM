@@ -24,9 +24,10 @@ import com.rjstudio.aexam.ParserFileClass.PaserToXml;
 import com.rjstudio.aexam.ParserFileClass.Subject;
 import com.rjstudio.aexam.UsrInfo.UsrDBOpenHelper;
 
+import java.io.File;
 import java.util.List;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     private Intent intent;
     private String usrName;
     private SQLiteDatabase db;
@@ -68,17 +69,21 @@ public class MainActivity extends Activity {
         db = dbOpenHelper.getWritableDatabase();
         vp_content = (ViewPager)findViewById(R.id.vp_content);
         sp = this.getSharedPreferences("usrData",MODE_PRIVATE);
+        File file = new File("OutputXml.xml");
+        if (!file.exists())
+        {
+            //读取文件并解析文件
+            try
+            {
+                PaserToXml px = new PaserToXml(getAssets().open("a.txt"),this);
+                subjectList = px.CreateAndSaveObject();
+            }
+            catch (Exception e)
+            {
+                Log.d(TAG, "Can not open file.");
+            }
+        }
 
-        //读取文件并解析文件
-        try
-        {
-            PaserToXml px = new PaserToXml(getAssets().open("a.txt"),this);
-            subjectList = px.CreateAndSaveObject();
-        }
-        catch (Exception e)
-        {
-            Log.d(TAG, "Can not open file.");
-        }
 
         MyPagerAdapter myPagerAdapter = new MyPagerAdapter(subjectList,this,db,usrName);
         vp_content.setAdapter(myPagerAdapter);
@@ -95,8 +100,8 @@ public class MainActivity extends Activity {
         String item[] = {
                 "首页",
                 "跳转到",
-                "清除数据",
-                "错题本"
+                "做题模式",
+                "背题模式"
         };
         lv_item.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,item));
         lv_item.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -109,14 +114,14 @@ public class MainActivity extends Activity {
                         break;
                     case 1:
                         final EditText et_pager = new EditText(getApplication());
-                        AlertDialog.Builder ad = new AlertDialog.Builder(getApplication(),R.style.Theme_AppCompat_DayNight_Dialog_Alert);
-
-                        ad.setTitle("要跳转到?");
-                       ad.setView(et_pager);
+                        AlertDialog.Builder ad = new AlertDialog.Builder(MainActivity.this,R.style.Theme_AppCompat_Dialog_Alert);
+                        //这里有疑问??AlertDialog
+                        ad.setTitle("要跳转到第几题?");
+                        ad.setView(et_pager);
                         ad.setPositiveButton("确定", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                int pager = Integer.valueOf(et_pager.getText().toString());
+                                int pager = Integer.valueOf(et_pager.getText().toString())-1;
                                 vp_content.setCurrentItem(pager);
                             }
                         });
@@ -126,11 +131,15 @@ public class MainActivity extends Activity {
                                 finish();
                             }
                         });
-                        ad.show();
+                        ad.create().show();
                         break;
                     case 2:
+                        MyPagerAdapter myPagerAdapterZ = new MyPagerAdapter(subjectList,getApplicationContext(),db,usrName);
+                        vp_content.setAdapter(myPagerAdapterZ);
                         break;
                     case 3:
+                        MyPagerAdapter myPagerAdapterX = new MyPagerAdapter(subjectList,getApplicationContext(),db,usrName,1);
+                        vp_content.setAdapter(myPagerAdapterX);
                         break;
                 }
             }

@@ -50,7 +50,7 @@ public class PaserToXml {
         //输出文件部分
         BufferedWriter bw;
 
-        File outputFile = new File(context.getCacheDir()+"\\data\\OutputXml.xml");
+        File outputFile = new File(context.getCacheDir()+"OutputXml.xml");
         try
         {
 
@@ -160,7 +160,7 @@ public class PaserToXml {
             int recordeNumber = 1;
 
             String TAG  = "XML解析";
-            File xmlFile = new File(context.getCacheDir()+"\\data\\OutputXml.xml");
+            File xmlFile = new File(context.getCacheDir()+"OutputXml.xml");
             InputStream in = new FileInputStream(xmlFile);
 
             //Log.d(TAG, "读取完毕");
