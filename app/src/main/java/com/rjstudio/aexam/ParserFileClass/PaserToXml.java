@@ -157,7 +157,7 @@ public class PaserToXml {
         //这个函数用于解析xml并保存对象
         try
         {
-            int recordeNumber = 1;
+            int recordeNumber = 0;
 
             String TAG  = "XML解析";
             File xmlFile = new File(context.getCacheDir()+"OutputXml.xml");

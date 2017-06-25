@@ -13,6 +13,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.ScaleAnimation;
+import android.view.animation.TranslateAnimation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -85,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        MyPagerAdapter myPagerAdapter = new MyPagerAdapter(subjectList,this,db,usrName);
+        MyPagerAdapter myPagerAdapter = new MyPagerAdapter(subjectList,this,db,usrName,0);
         vp_content.setAdapter(myPagerAdapter);
         //设置当前界面
         if (sp.getInt("LastFinish",99) !=99 )
@@ -100,13 +102,18 @@ public class MainActivity extends AppCompatActivity {
         String item[] = {
                 "首页",
                 "跳转到",
+                "错题本",
                 "做题模式",
-                "背题模式"
+                "背题模式",
+                "关于我们"
         };
+
         lv_item.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,item));
         lv_item.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                TranslateAnimation translateAnimation = new TranslateAnimation(0,10,0,0);
+                translateAnimation.setDuration(1000);
                 switch (position)
                 {
                     case 0:
@@ -128,18 +135,32 @@ public class MainActivity extends AppCompatActivity {
                         ad.setNegativeButton("取消", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                finish();
+
                             }
                         });
                         ad.create().show();
                         break;
                     case 2:
-                        MyPagerAdapter myPagerAdapterZ = new MyPagerAdapter(subjectList,getApplicationContext(),db,usrName);
+                        vp_content.setAnimation(translateAnimation);
+                        translateAnimation.start();
+                        MyPagerAdapter myPagerAdapterZ = new MyPagerAdapter(subjectList,getApplicationContext(),db,usrName,2);
                         vp_content.setAdapter(myPagerAdapterZ);
                         break;
                     case 3:
-                        MyPagerAdapter myPagerAdapterX = new MyPagerAdapter(subjectList,getApplicationContext(),db,usrName,1);
+                        vp_content.setAnimation(translateAnimation);
+                        translateAnimation.start();
+                        MyPagerAdapter myPagerAdapterX = new MyPagerAdapter(subjectList,getApplicationContext(),db,usrName,0);
                         vp_content.setAdapter(myPagerAdapterX);
+                        break;
+                    case 4:
+                        vp_content.setAnimation(translateAnimation);
+                        translateAnimation.start();
+                        MyPagerAdapter myPagerAdapterY = new MyPagerAdapter(subjectList,getApplicationContext(),db,usrName,1);
+                        vp_content.setAdapter(myPagerAdapterY);
+                        break;
+                    case 5:
+                        Intent toAboutUs = new Intent(getApplicationContext(),AboutUs.class);
+                        startActivity(toAboutUs);
                         break;
                 }
             }
