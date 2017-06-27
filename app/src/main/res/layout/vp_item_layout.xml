@@ -59,6 +59,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="40sp"
+        android:visibility="invisible"
         android:text="Answer"
         android:gravity="center"
         android:id="@+id/tv_answer"/>
@@ -86,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="添加到错题集"
-            android:id="@+id/bu_main_check"
+            android:id="@+id/bu_item_check"
             android:background="@drawable/bu_check"/>
     </LinearLayout>
 

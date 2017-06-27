@@ -3,6 +3,8 @@ package com.rjstudio.aexam.ParserFileClass;
 import android.content.Context;
 import android.util.Log;
 
+import com.rjstudio.aexam.ContentActivity.Content;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
@@ -28,13 +30,28 @@ public class PaserToXml {
     private BufferedReader br ;
     private Context context;
     private List<Subject> subjectList;
+    private File outputFile ;
+    private String TAG = "paserToXml";
+
+    public PaserToXml(Context context) {
+        this.context = context;
+        Log.d(TAG, "创建PaserXml类,但没有初始化");
+    }
 
     public PaserToXml(InputStream in, Context context) {
         this.in = in;
         this.context = context;
         InputStreamReader isr = new InputStreamReader(in);
-
-        paserToXml(in);
+        outputFile = new File(context.getCacheDir(),"OutputXml.xml");
+        if (outputFile.exists())
+        {
+            Log.d(TAG, "解析文件已经存在,退出解析");
+            return;
+        }
+        else
+        {
+            paserToXml(in);
+        }
 
 
     }
@@ -42,7 +59,6 @@ public class PaserToXml {
     //InputStream ->  xml编码
     public void paserToXml  (InputStream in)
     {
-        String TAG = "paserToXml";
         InputStreamReader isr = new InputStreamReader(in);
         BufferedReader br = new BufferedReader(isr);
         String content;
@@ -50,18 +66,10 @@ public class PaserToXml {
         //输出文件部分
         BufferedWriter bw;
 
-        File outputFile = new File(context.getCacheDir()+"OutputXml.xml");
         try
         {
-
-            if (outputFile.exists())
-            {
-
-                Log.d(TAG, "paserToXml: 删除原文件");
-                outputFile.delete();
-            }
             outputFile.createNewFile();
-           // Log.d(TAG, "创建文件放在: "+outputFile.getPath());
+            Log.d(TAG, "创建文件放在: "+outputFile.getPath());
             OutputStream op = new FileOutputStream(outputFile);
             OutputStreamWriter osw = new OutputStreamWriter(op);
             bw = new BufferedWriter(osw);
@@ -151,19 +159,18 @@ public class PaserToXml {
 
 
     //解析XML -> List
-    public List<Subject> CreateAndSaveObject()
+    public List<Subject> CreateAndSaveObject(File xmlFile)
     {
         List<Subject> subjectList = new ArrayList<Subject>();
         //这个函数用于解析xml并保存对象
         try
         {
             int recordeNumber = 0;
-
             String TAG  = "XML解析";
-            File xmlFile = new File(context.getCacheDir()+"OutputXml.xml");
+            //File xmlFile = new File(context.getCacheDir(),"OutputXml.xml");
             InputStream in = new FileInputStream(xmlFile);
 
-            //Log.d(TAG, "读取完毕");
+            Log.d(TAG, "读取XML文件完毕");
 
             XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
             XmlPullParser xmlPullPaser = factory.newPullParser();
@@ -199,24 +206,25 @@ public class PaserToXml {
                         } else if ("item_A_Content".equals(nodeName)) {
                             A = xmlPullPaser.nextText();
                             subject.setA(A);
-                            Log.d(TAG, A);
+                            //Log.d(TAG, A);
                         } else if ("item_B_Content".equals(nodeName)) {
                             B = xmlPullPaser.nextText();
                             subject.setB(B);
-                            Log.d(TAG, B);
+                           // Log.d(TAG, B);
                         } else if ("item_C_Content".equals(nodeName)) {
                             C = xmlPullPaser.nextText();
                             subject.setC(C);
-                            Log.d(TAG, C);
+                       //     Log.d(TAG, C);
                         } else if ("item_D_Content".equals(nodeName)) {
                             D = xmlPullPaser.nextText();
                             subject.setD(D);
-                            Log.d(TAG, D);
+                          //  Log.d(TAG, D);
 
                         } else if ("answer".equals(nodeName)) {
                             answer = xmlPullPaser.nextText();
-                            subject.setAnswer(answer);
-                            Log.d(TAG, answer);
+                            String content[] = answer.split("：");
+                            subject.setAnswer(content[1]);
+                         //   Log.d(TAG, answer);
                         }
                         break;
                         //完成解析某一个节点
@@ -249,7 +257,7 @@ public class PaserToXml {
         }
         catch (Exception e)
         {
-            //Log.d("Test subject", subjectList.get(0).getSubjectNumber()+"--"+subjectList.get(0).getSubjectContent()+"--"+subjectList.get(0).getA()+subjectList.get(0).getB()+subjectList.get(0).getC()+subjectList.get(0).getD());
+            Log.d("Test subject", subjectList.get(0).getSubjectNumber()+"--"+subjectList.get(0).getSubjectContent()+"--"+subjectList.get(0).getA()+subjectList.get(0).getB()+subjectList.get(0).getC()+subjectList.get(0).getD());
             //Toast.makeText(this,"这个题目集合的长度为:"+ subjectList.size(), Toast.LENGTH_SHORT).show();
             return subjectList;
 //            Log.d("出错题",subjectList.get(subjectList.size()-1).getSubjectNumber()

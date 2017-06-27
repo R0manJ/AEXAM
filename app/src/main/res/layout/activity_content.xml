@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    style="@style/match_parent_view"
+    android:orientation="vertical"
+    android:id="@+id/dw_content"
+    android:background="#33000000"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:background="@drawable/bu_login"
+        style="@style/match_parent_view">
+        <android.support.v4.view.ViewPager
+            android:padding="20dp"
+            android:id="@+id/vp_content_fragment"
+            style="@style/match_parent_view">
+
+        </android.support.v4.view.ViewPager>
+
+        <ImageView
+            android:visibility="visible"
+            android:background="@drawable/menu"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/im_content_operateButton"/>
+
+
+        <CheckBox
+            android:visibility="visible"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="添加到错题集"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/cb_content_check"
+            android:background="@drawable/bu_check"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/et_back"
+        android:id="@+id/ll_content_left"
+        android:layout_height="match_parent"
+        android:layout_width="180dp"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:id="@+id/tv_content_userName"
+            android:text="UserName"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:divider="#fff"
+            android:dividerHeight="1dp"
+            android:id="@+id/lv_content_menu">
+
+        </ListView>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

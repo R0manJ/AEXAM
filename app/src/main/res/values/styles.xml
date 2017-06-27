@@ -16,4 +16,10 @@
         <item name = "android:textSize">20sp</item>
         <item name = "android:text">item</item>
     </style>
+
+    <style name="match_parent_view">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
 </resources>

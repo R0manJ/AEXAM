@@ -12,7 +12,6 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity" />
         <activity android:name=".FirstIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AboutUs" />
+        <activity android:name=".ContentActivity.Content"></activity>
     </application>
 
 </manifest>

@@ -142,7 +142,7 @@ public class MyPagerAdapter extends PagerAdapter {
 
                 //两个按钮用于操作本题目
                 Button bu_question = (Button)view.findViewById(R.id.bu_main_question);
-                Button bu_check = (Button)view.findViewById(R.id.bu_main_check);
+                Button bu_check = (Button)view.findViewById(R.id.bu_item_check);
                 bu_check.setVisibility(View.VISIBLE);
                 //如果之前存有数据,这一段逻辑时这样的
                 //读取之前的数据
