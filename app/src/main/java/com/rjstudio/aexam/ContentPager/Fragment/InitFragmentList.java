@@ -3,6 +3,7 @@ package com.rjstudio.aexam.ContentPager.Fragment;
 import android.content.SharedPreferences;
 import android.support.v4.app.Fragment;
 
+import com.rjstudio.aexam.ContentActivity.Content;
 import com.rjstudio.aexam.ParserFileClass.Subject;
 
 import java.util.ArrayList;
@@ -17,10 +18,45 @@ public class InitFragmentList {
     private List<ContentFragment> fragmentList;
     private SharedPreferences sp;
 
-    public InitFragmentList(List<Subject> subjectList,SharedPreferences sp) {
+    public InitFragmentList(SharedPreferences sp) {
+        this.sp = sp;
+    }
+
+    public InitFragmentList(List<Subject> subjectList, SharedPreferences sp) {
         this.subjectList = subjectList;
         this.fragmentList = getFragmentList(subjectList,0);
         this.sp = sp;
+    }
+
+    public ContentFragment getContentFragment(List<Subject> subjectList,int position)
+    {
+        ContentFragment contentFragment = new ContentFragment();
+        Subject subject = subjectList.get(position);
+        int Number = subject.getSubjectNumber();
+        String Title = subject.getSubjectContent();
+        String A = subject.getA();
+        String B = subject.getB();
+        String C = subject.getC();
+        String D = subject.getD();
+        String Answer = subject.getAnswer();
+        contentFragment.setEditSP(sp);
+        contentFragment.setSubjectData(Number,Title,A,B,C,D,Answer);
+        return contentFragment;
+    }
+    public ContentFragment getContentFragment(int position)
+    {
+        ContentFragment contentFragment = new ContentFragment();
+        Subject subject = subjectList.get(position);
+        int Number = subject.getSubjectNumber();
+        String Title = subject.getSubjectContent();
+        String A = subject.getA();
+        String B = subject.getB();
+        String C = subject.getC();
+        String D = subject.getD();
+        String Answer = subject.getAnswer();
+        contentFragment.setEditSP(sp);
+        contentFragment.setSubjectData(Number,Title,A,B,C,D,Answer);
+        return contentFragment;
     }
 
     public List<ContentFragment> getFragmentList(List<Subject> subjectList,int Mode) {

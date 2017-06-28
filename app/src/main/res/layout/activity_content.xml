@@ -3,17 +3,21 @@
     style="@style/match_parent_view"
     android:orientation="vertical"
     android:id="@+id/dw_content"
-    android:background="#33000000"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <RelativeLayout
-        android:background="@drawable/bu_login"
         style="@style/match_parent_view">
         <android.support.v4.view.ViewPager
             android:padding="20dp"
             android:id="@+id/vp_content_fragment"
             style="@style/match_parent_view">
+        </android.support.v4.view.ViewPager>
 
+        <android.support.v4.view.ViewPager
+            android:visibility="invisible"
+            android:padding="20dp"
+            android:id="@+id/vp_content_incorrectFragment"
+            style="@style/match_parent_view">
         </android.support.v4.view.ViewPager>
 
         <ImageView
@@ -25,7 +29,18 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:id="@+id/im_content_operateButton"/>
+        <Button
+            android:visibility="invisible"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/bu_content_delete"
+            android:background="@drawable/bu_question"
+            android:text="X"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:layout_alignParentBottom="true"
 
+            />
 
         <CheckBox
             android:visibility="visible"
@@ -35,11 +50,16 @@
             android:text="添加到错题集"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="40dp"
             android:id="@+id/cb_content_check"
             android:background="@drawable/bu_check"/>
-
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="页码 c/t"
+            android:id="@+id/tv_content_pager"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
     </RelativeLayout>
 
 

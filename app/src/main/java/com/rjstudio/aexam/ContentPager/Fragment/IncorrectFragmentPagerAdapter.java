@@ -3,7 +3,9 @@ package com.rjstudio.aexam.ContentPager.Fragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
+import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.List;
@@ -12,18 +14,24 @@ import java.util.List;
  * Created by r0man on 2017/6/27.
  */
 
-public class IncorrectFragmentPagerAdapter extends FragmentPagerAdapter {
-    private FragmentManager fm;
+public class IncorrectFragmentPagerAdapter extends FragmentStatePagerAdapter {
     private List<ContentFragment> list;
     private int AnswerIsShow = 1 ;
-    private int ButtonIsShow = 0;
-    public IncorrectFragmentPagerAdapter(FragmentManager fm,List list) {
+    private FragmentManager fm;
+    public IncorrectFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
         this.fm = fm;
-        this.list = list;
     }
 
+    public FragmentManager getFm()
+    {
+        return fm;
+    }
 
+    public void setList(List list)
+    {
+        this.list = list;
+    }
     public List getList()
     {
         return list;
@@ -34,7 +42,6 @@ public class IncorrectFragmentPagerAdapter extends FragmentPagerAdapter {
         //1.表示显示答案
         //2.表示隐藏答案
         AnswerIsShow = AnswerMode;
-        ButtonIsShow = ButtonMode;
     }
 
     public int getMode()
@@ -42,12 +49,12 @@ public class IncorrectFragmentPagerAdapter extends FragmentPagerAdapter {
         return AnswerIsShow;
     }
 
-    @Override
-    public Object instantiateItem(ViewGroup container, int position) {
-        ContentFragment fragment = (ContentFragment)super.instantiateItem(container, position);
-        fragment.setVisible(AnswerIsShow);
-        return fragment;
-    }
+//    @Override
+//    public Object instantiateItem(ViewGroup container, int position) {
+//        ContentFragment fragment = (ContentFragment)super.instantiateItem(container, position);
+//        fragment.setVisible(AnswerIsShow);
+//        return fragment;
+//    }
 
     @Override
     public int getItemPosition(Object object) {
@@ -59,6 +66,11 @@ public class IncorrectFragmentPagerAdapter extends FragmentPagerAdapter {
         return list.get(position);
     }
 
+
+    @Override
+    public boolean isViewFromObject(View view, Object object) {
+        return view != object;
+    }
 
     @Override
     public int getCount() {

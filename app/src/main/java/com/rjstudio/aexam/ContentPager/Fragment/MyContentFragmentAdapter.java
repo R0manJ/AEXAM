@@ -4,6 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
+import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.List;
@@ -24,13 +25,24 @@ public class MyContentFragmentAdapter extends FragmentPagerAdapter {
     {
         isOpen = values;
     }
+
     public Boolean getAdapterOpen()
     {
         return isOpen;
     }
-    public MyContentFragmentAdapter(FragmentManager fm,List list) {
+
+    public MyContentFragmentAdapter(FragmentManager fm) {
+        super(fm);
+    }
+
+    public MyContentFragmentAdapter(FragmentManager fm, List list) {
         super(fm);
         this.fm = fm;
+        this.list = list;
+    }
+
+    public void setList(List list)
+    {
         this.list = list;
     }
 
@@ -78,12 +90,10 @@ public class MyContentFragmentAdapter extends FragmentPagerAdapter {
         return list.get(position);
     }
 
-
-
-
-
     @Override
     public int getCount() {
         return list.size();
     }
+
+
 }

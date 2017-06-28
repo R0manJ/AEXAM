@@ -70,7 +70,7 @@ public class ContentFragment extends Fragment {
         operateLogic();
         setViewData();
         setAnswerMode(isShow);
-        Log.d(TAG, "onCreateView: ");
+        Log.d(TAG, "onCreateView: "+number+subjectTitle);
         return view;
     }
 
@@ -197,7 +197,10 @@ public class ContentFragment extends Fragment {
 
 
     }
-
+    public String getSubjectTitle()
+    {
+        return subjectTitle;
+    }
 
     public void setSubjectData(int number,String subjectTitle,String contentA,String contentB,String contentC,String contentD,String answer)
     {
@@ -214,6 +217,7 @@ public class ContentFragment extends Fragment {
     {
         this.sp = sp;
     }
+
     public SharedPreferences getEditSP()
     {
         return sp;

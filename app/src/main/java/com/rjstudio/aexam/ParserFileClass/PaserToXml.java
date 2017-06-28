@@ -101,25 +101,29 @@ public class PaserToXml {
                         {
                             splitContent[0] = "<item_A>"+splitContent[0]+"</item_A>";
                             splitContent[1] = "<item_A_Content>"+splitContent[1]+"</item_A_Content>";
-                            //Log.d(TAG, splitContent[0]);
+                             Log.d(TAG, splitContent[0]);
                         }
                         else if (splitContent[0].equals("B "))
                         {
                             splitContent[0] = "<item_B>"+splitContent[0]+"</item_B>";
                             splitContent[1] = "<item_B_Content>"+splitContent[1]+"</item_B_Content>";
-                            //Log.d(TAG, splitContent[0]);
+                            Log.d(TAG, splitContent[0]);
+                            Log.d(TAG, splitContent[1]);
                         }
                         else if (splitContent[0].equals("C "))
                         {
                             splitContent[0] = "<item_C>"+splitContent[0]+"</item_C>";
                             splitContent[1] = "<item_C_Content>"+splitContent[1]+"</item_C_Content>";
-                            //Log.d(TAG, splitContent[0]);
+                            Log.d(TAG, splitContent[1]);
+//                            Log.d(TAG, splitContent[0]);
                         }
                         else if (splitContent[0].equals("D "))
                         {
                             splitContent[0] = "<item_D>"+splitContent[0]+"</item_D>";
                             splitContent[1] = "<item_D_Content>"+splitContent[1]+"</item_D_Content>";
-                            //Log.d(TAG, splitContent[0]);
+                            Log.d(TAG, splitContent[1]);
+
+//                            Log.d(TAG, splitContent[0]);
                         }
                         bw.write(splitContent[0]);
                         bw.newLine();
@@ -240,7 +244,7 @@ public class PaserToXml {
                             //创建一个题目类
                             //将其添加到集合中
                             subjectList.add(subject);
-                            Log.d(TAG, "添加了"+subjectList.size()+"个记录");
+                            //Log.d(TAG, "添加了"+subjectList.size()+"个记录");
                         }
                         else
                             break;
